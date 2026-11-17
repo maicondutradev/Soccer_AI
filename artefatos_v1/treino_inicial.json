@@ -1,0 +1,62 @@
+{
+  "metricas_treino": {
+    "acuracia": 0.5945289818800681,
+    "f1_macro": 0.465552195152656,
+    "relatorio": {
+      "empate": {
+        "precision": 0.41188524590163933,
+        "recall": 0.06646092802821559,
+        "f1-score": 0.11445382936319635,
+        "support": 9073.0
+      },
+      "vitoria_mandante": {
+        "precision": 0.6185757598166087,
+        "recall": 0.8545305955664522,
+        "f1-score": 0.7176561427590941,
+        "support": 19578.0
+      },
+      "vitoria_visitante": {
+        "precision": 0.5610693692119517,
+        "recall": 0.5680672268907563,
+        "f1-score": 0.5645466133356776,
+        "support": 11305.0
+      },
+      "accuracy": 0.5945289818800681,
+      "macro avg": {
+        "precision": 0.5305101249767332,
+        "recall": 0.49635291682847466,
+        "f1-score": 0.465552195152656,
+        "support": 39956.0
+      },
+      "weighted avg": {
+        "precision": 0.5553709150239327,
+        "recall": 0.5945289818800681,
+        "f1-score": 0.5373638757760951,
+        "support": 39956.0
+      }
+    },
+    "classes": [
+      "empate",
+      "vitoria_mandante",
+      "vitoria_visitante"
+    ],
+    "matriz": [
+      [
+        603,
+        5851,
+        2619
+      ],
+      [
+        443,
+        16730,
+        2405
+      ],
+      [
+        418,
+        4465,
+        6422
+      ]
+    ]
+  },
+  "limite": "Treino é diagnóstico; avaliação de generalização vem nas próximas aulas."
+}

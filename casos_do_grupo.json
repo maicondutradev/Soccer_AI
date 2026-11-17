@@ -1,0 +1,109 @@
+[
+  {
+    "id": "brasil_vs_argentina_copa_america",
+    "fase": "desenvolvimento",
+    "entrada": {
+      "mandante": "Brazil",
+      "visitante": "Argentina",
+      "torneio": "Copa América",
+      "campo_neutro": "Nao"
+    },
+    "regra": {
+      "tipo": "nao_vazio"
+    }
+  },
+  {
+    "id": "franca_vs_alemanha_amigavel",
+    "fase": "desenvolvimento",
+    "entrada": {
+      "mandante": "France",
+      "visitante": "Germany",
+      "torneio": "Friendly",
+      "campo_neutro": "Sim"
+    },
+    "regra": {
+      "tipo": "nao_vazio"
+    }
+  },
+  {
+    "id": "inglaterra_vs_escocia_eliminatorias",
+    "fase": "desenvolvimento",
+    "entrada": {
+      "mandante": "England",
+      "visitante": "Scotland",
+      "torneio": "FIFA World Cup qualification",
+      "campo_neutro": "Nao"
+    },
+    "regra": {
+      "tipo": "nao_vazio"
+    }
+  },
+  {
+    "id": "japao_vs_espanha_copa_do_mundo",
+    "fase": "desenvolvimento",
+    "entrada": {
+      "mandante": "Japan",
+      "visitante": "Spain",
+      "torneio": "FIFA World Cup",
+      "campo_neutro": "Sim"
+    },
+    "regra": {
+      "tipo": "nao_vazio"
+    }
+  },
+  {
+    "id": "caso_recusa_falta_mandante",
+    "fase": "desenvolvimento",
+    "entrada": {
+      "visitante": "Argentina",
+      "torneio": "Friendly",
+      "campo_neutro": "Nao"
+    },
+    "regra": {
+      "tipo": "nao_vazio"
+    },
+    "espera_erro": true,
+    "erro_tipo": "ValueError"
+  },
+  {
+    "id": "caso_recusa_campo_neutro_invalido",
+    "fase": "desenvolvimento",
+    "entrada": {
+      "mandante": "Brazil",
+      "visitante": "Argentina",
+      "torneio": "Friendly",
+      "campo_neutro": "Talvez"
+    },
+    "regra": {
+      "tipo": "nao_vazio"
+    },
+    "espera_erro": true,
+    "erro_tipo": "ValueError"
+  },
+  {
+    "id": "argentina_vs_franca_final",
+    "fase": "final",
+    "entrada": {
+      "mandante": "Argentina",
+      "visitante": "France",
+      "torneio": "FIFA World Cup",
+      "campo_neutro": "Sim"
+    },
+    "regra": {
+      "tipo": "nao_vazio"
+    }
+  },
+  {
+    "id": "portugal_vs_espanha_nations_league",
+    "fase": "final",
+    "entrada": {
+      "mandante": "Portugal",
+      "visitante": "Spain",
+      "torneio": "UEFA Nations League",
+      "campo_neutro": "Nao"
+    },
+    "regra": {
+      "tipo": "nao_vazio"
+    }
+  }
+]

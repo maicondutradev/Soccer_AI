@@ -1,0 +1,300 @@
+{
+  "por_fold": [
+    {
+      "acuracia": 0.48998998998999,
+      "f1_macro": 0.2192363677079834,
+      "relatorio": {
+        "empate": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1815.0
+        },
+        "vitoria_mandante": {
+          "precision": 0.48998998998999,
+          "recall": 1.0,
+          "f1-score": 0.6577091031239503,
+          "support": 3916.0
+        },
+        "vitoria_visitante": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 2261.0
+        },
+        "accuracy": 0.48998998998999,
+        "macro avg": {
+          "precision": 0.16332999666333,
+          "recall": 0.3333333333333333,
+          "f1-score": 0.2192363677079834,
+          "support": 7992.0
+        },
+        "weighted avg": {
+          "precision": 0.24009019029039047,
+          "recall": 0.48998998998999,
+          "f1-score": 0.3222708768560297,
+          "support": 7992.0
+        }
+      },
+      "classes": [
+        "empate",
+        "vitoria_mandante",
+        "vitoria_visitante"
+      ],
+      "matriz": [
+        [
+          0,
+          1815,
+          0
+        ],
+        [
+          0,
+          3916,
+          0
+        ],
+        [
+          0,
+          2261,
+          0
+        ]
+      ]
+    },
+    {
+      "acuracia": 0.4900513077211863,
+      "f1_macro": 0.21925478010134095,
+      "relatorio": {
+        "empate": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1814.0
+        },
+        "vitoria_mandante": {
+          "precision": 0.4900513077211863,
+          "recall": 1.0,
+          "f1-score": 0.6577643403040229,
+          "support": 3916.0
+        },
+        "vitoria_visitante": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 2261.0
+        },
+        "accuracy": 0.4900513077211863,
+        "macro avg": {
+          "precision": 0.1633504359070621,
+          "recall": 0.3333333333333333,
+          "f1-score": 0.21925478010134095,
+          "support": 7991.0
+        },
+        "weighted avg": {
+          "precision": 0.24015028419924486,
+          "recall": 0.4900513077211863,
+          "f1-score": 0.32233827513834984,
+          "support": 7991.0
+        }
+      },
+      "classes": [
+        "empate",
+        "vitoria_mandante",
+        "vitoria_visitante"
+      ],
+      "matriz": [
+        [
+          0,
+          1814,
+          0
+        ],
+        [
+          0,
+          3916,
+          0
+        ],
+        [
+          0,
+          2261,
+          0
+        ]
+      ]
+    },
+    {
+      "acuracia": 0.4900513077211863,
+      "f1_macro": 0.21925478010134095,
+      "relatorio": {
+        "empate": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1814.0
+        },
+        "vitoria_mandante": {
+          "precision": 0.4900513077211863,
+          "recall": 1.0,
+          "f1-score": 0.6577643403040229,
+          "support": 3916.0
+        },
+        "vitoria_visitante": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 2261.0
+        },
+        "accuracy": 0.4900513077211863,
+        "macro avg": {
+          "precision": 0.1633504359070621,
+          "recall": 0.3333333333333333,
+          "f1-score": 0.21925478010134095,
+          "support": 7991.0
+        },
+        "weighted avg": {
+          "precision": 0.24015028419924486,
+          "recall": 0.4900513077211863,
+          "f1-score": 0.32233827513834984,
+          "support": 7991.0
+        }
+      },
+      "classes": [
+        "empate",
+        "vitoria_mandante",
+        "vitoria_visitante"
+      ],
+      "matriz": [
+        [
+          0,
+          1814,
+          0
+        ],
+        [
+          0,
+          3916,
+          0
+        ],
+        [
+          0,
+          2261,
+          0
+        ]
+      ]
+    },
+    {
+      "acuracia": 0.48992616693780505,
+      "f1_macro": 0.21921720141105325,
+      "relatorio": {
+        "empate": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1815.0
+        },
+        "vitoria_mandante": {
+          "precision": 0.48992616693780505,
+          "recall": 1.0,
+          "f1-score": 0.6576516042331597,
+          "support": 3915.0
+        },
+        "vitoria_visitante": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 2261.0
+        },
+        "accuracy": 0.48992616693780505,
+        "macro avg": {
+          "precision": 0.16330872231260168,
+          "recall": 0.3333333333333333,
+          "f1-score": 0.21921720141105325,
+          "support": 7991.0
+        },
+        "weighted avg": {
+          "precision": 0.24002764905037002,
+          "recall": 0.48992616693780505,
+          "f1-score": 0.32220072964245033,
+          "support": 7991.0
+        }
+      },
+      "classes": [
+        "empate",
+        "vitoria_mandante",
+        "vitoria_visitante"
+      ],
+      "matriz": [
+        [
+          0,
+          1815,
+          0
+        ],
+        [
+          0,
+          3915,
+          0
+        ],
+        [
+          0,
+          2261,
+          0
+        ]
+      ]
+    },
+    {
+      "acuracia": 0.48992616693780505,
+      "f1_macro": 0.21921720141105325,
+      "relatorio": {
+        "empate": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1815.0
+        },
+        "vitoria_mandante": {
+          "precision": 0.48992616693780505,
+          "recall": 1.0,
+          "f1-score": 0.6576516042331597,
+          "support": 3915.0
+        },
+        "vitoria_visitante": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 2261.0
+        },
+        "accuracy": 0.48992616693780505,
+        "macro avg": {
+          "precision": 0.16330872231260168,
+          "recall": 0.3333333333333333,
+          "f1-score": 0.21921720141105325,
+          "support": 7991.0
+        },
+        "weighted avg": {
+          "precision": 0.24002764905037002,
+          "recall": 0.48992616693780505,
+          "f1-score": 0.32220072964245033,
+          "support": 7991.0
+        }
+      },
+      "classes": [
+        "empate",
+        "vitoria_mandante",
+        "vitoria_visitante"
+      ],
+      "matriz": [
+        [
+          0,
+          1815,
+          0
+        ],
+        [
+          0,
+          3915,
+          0
+        ],
+        [
+          0,
+          2261,
+          0
+        ]
+      ]
+    }
+  ],
+  "aviso": "Em divisão temporal, primeiros exemplos podem não ter previsão de validação."
+}

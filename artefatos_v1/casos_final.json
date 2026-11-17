@@ -1,0 +1,26 @@
+{
+  "fase": "final",
+  "quantidade": 2,
+  "taxa_sucesso": 1.0,
+  "casos": [
+    {
+      "id": "argentina_vs_franca_final",
+      "passou": true,
+      "resposta": {
+        "resultado": "vitoria_mandante",
+        "versao": "1.0.0"
+      },
+      "segundos": 0.005540799999835144
+    },
+    {
+      "id": "portugal_vs_espanha_nations_league",
+      "passou": true,
+      "resposta": {
+        "resultado": "vitoria_visitante",
+        "versao": "1.0.0"
+      },
+      "segundos": 0.005194100000153412
+    }
+  ],
+  "limite": "Taxa relativa aos oráculos definidos; não comprova correção semântica."
+}

@@ -1,0 +1,3962 @@
+{
+  "Abkhazia": {
+    "elo": 1590.5,
+    "pontos_ultimos_5": 9,
+    "aproveitamento_ultimos_5_pct": 60.0,
+    "ultimos_5_jogos": [
+      "V",
+      "V",
+      "E",
+      "E",
+      "E"
+    ]
+  },
+  "Afghanistan": {
+    "elo": 1231.9,
+    "pontos_ultimos_5": 5,
+    "aproveitamento_ultimos_5_pct": 33.3,
+    "ultimos_5_jogos": [
+      "E",
+      "E",
+      "V",
+      "D",
+      "D"
+    ]
+  },
+  "Albania": {
+    "elo": 1601.5,
+    "pontos_ultimos_5": 9,
+    "aproveitamento_ultimos_5_pct": 60.0,
+    "ultimos_5_jogos": [
+      "D",
+      "V",
+      "V",
+      "D",
+      "V"
+    ]
+  },
+  "Alderney": {
+    "elo": 1144.8,
+    "pontos_ultimos_5": 3,
+    "aproveitamento_ultimos_5_pct": 20.0,
+    "ultimos_5_jogos": [
+      "D",
+      "D",
+      "V",
+      "D",
+      "D"
+    ]
+  },
+  "Algeria": {
+    "elo": 1820.4,
+    "pontos_ultimos_5": 8,
+    "aproveitamento_ultimos_5_pct": 53.3,
+    "ultimos_5_jogos": [
+      "E",
+      "D",
+      "V",
+      "E",
+      "V"
+    ]
+  },
+  "Ambazonia": {
+    "elo": 1423.2,
+    "pontos_ultimos_5": 0,
+    "aproveitamento_ultimos_5_pct": 0.0,
+    "ultimos_5_jogos": [
+      "D",
+      "D",
+      "D",
+      "D",
+      "D"
+    ]
+  },
+  "American Samoa": {
+    "elo": 1120.5,
+    "pontos_ultimos_5": 0,
+    "aproveitamento_ultimos_5_pct": 0.0,
+    "ultimos_5_jogos": [
+      "D",
+      "D",
+      "D",
+      "D",
+      "D"
+    ]
+  },
+  "Andalusia": {
+    "elo": 1608.6,
+    "pontos_ultimos_5": 13,
+    "aproveitamento_ultimos_5_pct": 86.7,
+    "ultimos_5_jogos": [
+      "V",
+      "E",
+      "V",
+      "V",
+      "V"
+    ]
+  },
+  "Andorra": {
+    "elo": 1184.2,
+    "pontos_ultimos_5": 1,
+    "aproveitamento_ultimos_5_pct": 6.7,
+    "ultimos_5_jogos": [
+      "D",
+      "D",
+      "E",
+      "D",
+      "D"
+    ]
+  },
+  "Angola": {
+    "elo": 1579.8,
+    "pontos_ultimos_5": 9,
+    "aproveitamento_ultimos_5_pct": 60.0,
+    "ultimos_5_jogos": [
+      "E",
+      "E",
+      "V",
+      "E",
+      "V"
+    ]
+  },
+  "Anguilla": {
+    "elo": 1027.3,
+    "pontos_ultimos_5": 0,
+    "aproveitamento_ultimos_5_pct": 0.0,
+    "ultimos_5_jogos": [
+      "D",
+      "D",
+      "D",
+      "D",
+      "D"
+    ]
+  },
+  "Antigua and Barbuda": {
+    "elo": 1225.6,
+    "pontos_ultimos_5": 9,
+    "aproveitamento_ultimos_5_pct": 60.0,
+    "ultimos_5_jogos": [
+      "D",
+      "D",
+      "V",
+      "V",
+      "V"
+    ]
+  },
+  "Arameans Suryoye": {
+    "elo": 1538.2,
+    "pontos_ultimos_5": 10,
+    "aproveitamento_ultimos_5_pct": 66.7,
+    "ultimos_5_jogos": [
+      "V",
+      "V",
+      "E",
+      "D",
+      "V"
+    ]
+  },
+  "Argentina": {
+    "elo": 2099.1,
+    "pontos_ultimos_5": 12,
+    "aproveitamento_ultimos_5_pct": 80.0,
+    "ultimos_5_jogos": [
+      "D",
+      "V",
+      "V",
+      "V",
+      "V"
+    ]
+  },
+  "Armenia": {
+    "elo": 1428.7,
+    "pontos_ultimos_5": 5,
+    "aproveitamento_ultimos_5_pct": 33.3,
+    "ultimos_5_jogos": [
+      "E",
+      "V",
+      "D",
+      "D",
+      "E"
+    ]
+  },
+  "Artsakh": {
+    "elo": 1536.1,
+    "pontos_ultimos_5": 10,
+    "aproveitamento_ultimos_5_pct": 66.7,
+    "ultimos_5_jogos": [
+      "V",
+      "D",
+      "E",
+      "V",
+      "V"
+    ]
+  },
+  "Aruba": {
+    "elo": 1271.2,
+    "pontos_ultimos_5": 9,
+    "aproveitamento_ultimos_5_pct": 60.0,
+    "ultimos_5_jogos": [
+      "D",
+      "V",
+      "V",
+      "V",
+      "D"
+    ]
+  },
+  "Asturias": {
+    "elo": 1520.5,
+    "pontos_ultimos_5": 3,
+    "aproveitamento_ultimos_5_pct": 20.0,
+    "ultimos_5_jogos": [
+      "V"
+    ]
+  },
+  "Australia": {
+    "elo": 1793.6,
+    "pontos_ultimos_5": 3,
+    "aproveitamento_ultimos_5_pct": 20.0,
+    "ultimos_5_jogos": [
+      "D",
+      "E",
+      "E",
+      "E",
+      "D"
+    ]
+  },
+  "Austria": {
+    "elo": 1835.4,
+    "pontos_ultimos_5": 8,
+    "aproveitamento_ultimos_5_pct": 53.3,
+    "ultimos_5_jogos": [
+      "D",
+      "V",
+      "V",
+      "E",
+      "E"
+    ]
+  },
+  "Aymara": {
+    "elo": 1468.8,
+    "pontos_ultimos_5": 0,
+    "aproveitamento_ultimos_5_pct": 0.0,
+    "ultimos_5_jogos": [
+      "D",
+      "D"
+    ]
+  },
+  "Azerbaijan": {
+    "elo": 1426.7,
+    "pontos_ultimos_5": 11,
+    "aproveitamento_ultimos_5_pct": 73.3,
+    "ultimos_5_jogos": [
+      "V",
+      "V",
+      "E",
+      "E",
+      "V"
+    ]
+  },
+  "Bahamas": {
+    "elo": 1089.8,
+    "pontos_ultimos_5": 0,
+    "aproveitamento_ultimos_5_pct": 0.0,
+    "ultimos_5_jogos": [
+      "D",
+      "D",
+      "D",
+      "D",
+      "D"
+    ]
+  },
+  "Bahrain": {
+    "elo": 1463.0,
+    "pontos_ultimos_5": 3,
+    "aproveitamento_ultimos_5_pct": 20.0,
+    "ultimos_5_jogos": [
+      "V",
+      "D",
+      "D",
+      "D",
+      "D"
+    ]
+  },
+  "Bangladesh": {
+    "elo": 1188.1,
+    "pontos_ultimos_5": 3,
+    "aproveitamento_ultimos_5_pct": 20.0,
+    "ultimos_5_jogos": [
+      "D",
+      "V",
+      "D",
+      "D",
+      "D"
+    ]
+  },
+  "Barawa": {
+    "elo": 1404.0,
+    "pontos_ultimos_5": 3,
+    "aproveitamento_ultimos_5_pct": 20.0,
+    "ultimos_5_jogos": [
+      "V",
+      "D",
+      "D",
+      "D",
+      "D"
+    ]
+  },
+  "Barbados": {
+    "elo": 1279.1,
+    "pontos_ultimos_5": 10,
+    "aproveitamento_ultimos_5_pct": 66.7,
+    "ultimos_5_jogos": [
+      "D",
+      "V",
+      "E",
+      "V",
+      "V"
+    ]
+  },
+  "Basque Country": {
+    "elo": 1772.5,
+    "pontos_ultimos_5": 11,
+    "aproveitamento_ultimos_5_pct": 73.3,
+    "ultimos_5_jogos": [
+      "V",
+      "E",
+      "V",
+      "E",
+      "V"
+    ]
+  },
+  "Belarus": {
+    "elo": 1590.4,
+    "pontos_ultimos_5": 8,
+    "aproveitamento_ultimos_5_pct": 53.3,
+    "ultimos_5_jogos": [
+      "E",
+      "D",
+      "E",
+      "V",
+      "V"
+    ]
+  },
+  "Belgium": {
+    "elo": 1906.4,
+    "pontos_ultimos_5": 6,
+    "aproveitamento_ultimos_5_pct": 40.0,
+    "ultimos_5_jogos": [
+      "D",
+      "V",
+      "D",
+      "V",
+      "D"
+    ]
+  },
+  "Belize": {
+    "elo": 1292.6,
+    "pontos_ultimos_5": 3,
+    "aproveitamento_ultimos_5_pct": 20.0,
+    "ultimos_5_jogos": [
+      "D",
+      "V",
+      "D",
+      "D",
+      "D"
+    ]
+  },
+  "Benin": {
+    "elo": 1543.2,
+    "pontos_ultimos_5": 5,
+    "aproveitamento_ultimos_5_pct": 33.3,
+    "ultimos_5_jogos": [
+      "E",
+      "D",
+      "E",
+      "V",
+      "D"
+    ]
+  },
+  "Bermuda": {
+    "elo": 1318.4,
+    "pontos_ultimos_5": 3,
+    "aproveitamento_ultimos_5_pct": 20.0,
+    "ultimos_5_jogos": [
+      "V",
+      "D",
+      "D",
+      "D",
+      "D"
+    ]
+  },
+  "Bhutan": {
+    "elo": 975.3,
+    "pontos_ultimos_5": 0,
+    "aproveitamento_ultimos_5_pct": 0.0,
+    "ultimos_5_jogos": [
+      "D",
+      "D",
+      "D",
+      "D",
+      "D"
+    ]
+  },
+  "Biafra": {
+    "elo": 1517.5,
+    "pontos_ultimos_5": 6,
+    "aproveitamento_ultimos_5_pct": 40.0,
+    "ultimos_5_jogos": [
+      "D",
+      "V",
+      "V"
+    ]
+  },
+  "Bolivia": {
+    "elo": 1622.0,
+    "pontos_ultimos_5": 0,
+    "aproveitamento_ultimos_5_pct": 0.0,
+    "ultimos_5_jogos": [
+      "D",
+      "D",
+      "D",
+      "D",
+      "D"
+    ]
+  },
+  "Bonaire": {
+    "elo": 1225.1,
+    "pontos_ultimos_5": 3,
+    "aproveitamento_ultimos_5_pct": 20.0,
+    "ultimos_5_jogos": [
+      "D",
+      "D",
+      "D",
+      "D",
+      "V"
+    ]
+  },
+  "Bosnia and Herzegovina": {
+    "elo": 1676.6,
+    "pontos_ultimos_5": 8,
+    "aproveitamento_ultimos_5_pct": 53.3,
+    "ultimos_5_jogos": [
+      "D",
+      "E",
+      "V",
+      "E",
+      "V"
+    ]
+  },
+  "Botswana": {
+    "elo": 1441.5,
+    "pontos_ultimos_5": 5,
+    "aproveitamento_ultimos_5_pct": 33.3,
+    "ultimos_5_jogos": [
+      "D",
+      "D",
+      "V",
+      "E",
+      "E"
+    ]
+  },
+  "Brazil": {
+    "elo": 1974.8,
+    "pontos_ultimos_5": 10,
+    "aproveitamento_ultimos_5_pct": 66.7,
+    "ultimos_5_jogos": [
+      "V",
+      "D",
+      "E",
+      "V",
+      "V"
+    ]
+  },
+  "British Virgin Islands": {
+    "elo": 1117.4,
+    "pontos_ultimos_5": 3,
+    "aproveitamento_ultimos_5_pct": 20.0,
+    "ultimos_5_jogos": [
+      "V",
+      "D",
+      "D",
+      "D",
+      "D"
+    ]
+  },
+  "Brittany": {
+    "elo": 1515.9,
+    "pontos_ultimos_5": 9,
+    "aproveitamento_ultimos_5_pct": 60.0,
+    "ultimos_5_jogos": [
+      "V",
+      "D",
+      "V",
+      "D",
+      "V"
+    ]
+  },
+  "Brunei": {
+    "elo": 1005.3,
+    "pontos_ultimos_5": 0,
+    "aproveitamento_ultimos_5_pct": 0.0,
+    "ultimos_5_jogos": [
+      "D",
+      "D",
+      "D",
+      "D",
+      "D"
+    ]
+  },
+  "Bulgaria": {
+    "elo": 1510.6,
+    "pontos_ultimos_5": 5,
+    "aproveitamento_ultimos_5_pct": 33.3,
+    "ultimos_5_jogos": [
+      "E",
+      "D",
+      "E",
+      "D",
+      "V"
+    ]
+  },
+  "Burkina Faso": {
+    "elo": 1632.8,
+    "pontos_ultimos_5": 5,
+    "aproveitamento_ultimos_5_pct": 33.3,
+    "ultimos_5_jogos": [
+      "D",
+      "E",
+      "E",
+      "V",
+      "D"
+    ]
+  },
+  "Burundi": {
+    "elo": 1438.2,
+    "pontos_ultimos_5": 7,
+    "aproveitamento_ultimos_5_pct": 46.7,
+    "ultimos_5_jogos": [
+      "V",
+      "V",
+      "D",
+      "D",
+      "E"
+    ]
+  },
+  "Cambodia": {
+    "elo": 1145.2,
+    "pontos_ultimos_5": 7,
+    "aproveitamento_ultimos_5_pct": 46.7,
+    "ultimos_5_jogos": [
+      "V",
+      "D",
+      "V",
+      "E",
+      "D"
+    ]
+  },
+  "Cameroon": {
+    "elo": 1685.5,
+    "pontos_ultimos_5": 10,
+    "aproveitamento_ultimos_5_pct": 66.7,
+    "ultimos_5_jogos": [
+      "D",
+      "V",
+      "V",
+      "E",
+      "V"
+    ]
+  },
+  "Canada": {
+    "elo": 1796.8,
+    "pontos_ultimos_5": 9,
+    "aproveitamento_ultimos_5_pct": 60.0,
+    "ultimos_5_jogos": [
+      "V",
+      "D",
+      "V",
+      "V",
+      "D"
+    ]
+  },
+  "Canary Islands": {
+    "elo": 1513.2,
+    "pontos_ultimos_5": 9,
+    "aproveitamento_ultimos_5_pct": 60.0,
+    "ultimos_5_jogos": [
+      "V",
+      "V",
+      "D",
+      "V"
+    ]
+  },
+  "Canton Ticino": {
+    "elo": 1451.6,
+    "pontos_ultimos_5": 3,
+    "aproveitamento_ultimos_5_pct": 20.0,
+    "ultimos_5_jogos": [
+      "D",
+      "D",
+      "V",
+      "D",
+      "D"
+    ]
+  },
+  "Cape Verde": {
+    "elo": 1611.1,
+    "pontos_ultimos_5": 2,
+    "aproveitamento_ultimos_5_pct": 13.3,
+    "ultimos_5_jogos": [
+      "E",
+      "E",
+      "D",
+      "D",
+      "D"
+    ]
+  },
+  "Cascadia": {
+    "elo": 1530.3,
+    "pontos_ultimos_5": 10,
+    "aproveitamento_ultimos_5_pct": 66.7,
+    "ultimos_5_jogos": [
+      "V",
+      "D",
+      "V",
+      "E",
+      "V"
+    ]
+  },
+  "Catalonia": {
+    "elo": 1667.8,
+    "pontos_ultimos_5": 8,
+    "aproveitamento_ultimos_5_pct": 53.3,
+    "ultimos_5_jogos": [
+      "V",
+      "E",
+      "D",
+      "E",
+      "V"
+    ]
+  },
+  "Cayman Islands": {
+    "elo": 1159.4,
+    "pontos_ultimos_5": 1,
+    "aproveitamento_ultimos_5_pct": 6.7,
+    "ultimos_5_jogos": [
+      "D",
+      "E",
+      "D",
+      "D",
+      "D"
+    ]
+  },
+  "Central African Republic": {
+    "elo": 1375.7,
+    "pontos_ultimos_5": 4,
+    "aproveitamento_ultimos_5_pct": 26.7,
+    "ultimos_5_jogos": [
+      "V",
+      "E",
+      "D",
+      "D",
+      "D"
+    ]
+  },
+  "Central Spain": {
+    "elo": 1501.1,
+    "pontos_ultimos_5": 3,
+    "aproveitamento_ultimos_5_pct": 20.0,
+    "ultimos_5_jogos": [
+      "D",
+      "V"
+    ]
+  },
+  "Chad": {
+    "elo": 1267.7,
+    "pontos_ultimos_5": 1,
+    "aproveitamento_ultimos_5_pct": 6.7,
+    "ultimos_5_jogos": [
+      "D",
+      "D",
+      "E",
+      "D",
+      "D"
+    ]
+  },
+  "Chagos Islands": {
+    "elo": 1401.4,
+    "pontos_ultimos_5": 0,
+    "aproveitamento_ultimos_5_pct": 0.0,
+    "ultimos_5_jogos": [
+      "D",
+      "D",
+      "D",
+      "D",
+      "D"
+    ]
+  },
+  "Chameria": {
+    "elo": 1520.6,
+    "pontos_ultimos_5": 8,
+    "aproveitamento_ultimos_5_pct": 53.3,
+    "ultimos_5_jogos": [
+      "V",
+      "E",
+      "E",
+      "D",
+      "V"
+    ]
+  },
+  "Chechnya": {
+    "elo": 1472.8,
+    "pontos_ultimos_5": 1,
+    "aproveitamento_ultimos_5_pct": 6.7,
+    "ultimos_5_jogos": [
+      "D",
+      "E",
+      "D"
+    ]
+  },
+  "Chile": {
+    "elo": 1758.2,
+    "pontos_ultimos_5": 6,
+    "aproveitamento_ultimos_5_pct": 40.0,
+    "ultimos_5_jogos": [
+      "D",
+      "V",
+      "D",
+      "D",
+      "V"
+    ]
+  },
+  "China": {
+    "elo": 1475.3,
+    "pontos_ultimos_5": 4,
+    "aproveitamento_ultimos_5_pct": 26.7,
+    "ultimos_5_jogos": [
+      "E",
+      "V",
+      "D",
+      "D",
+      "D"
+    ]
+  },
+  "Cilento": {
+    "elo": 1487.6,
+    "pontos_ultimos_5": 0,
+    "aproveitamento_ultimos_5_pct": 0.0,
+    "ultimos_5_jogos": [
+      "D"
+    ]
+  },
+  "Colombia": {
+    "elo": 1942.8,
+    "pontos_ultimos_5": 8,
+    "aproveitamento_ultimos_5_pct": 53.3,
+    "ultimos_5_jogos": [
+      "V",
+      "E",
+      "E",
+      "D",
+      "V"
+    ]
+  },
+  "Comoros": {
+    "elo": 1485.5,
+    "pontos_ultimos_5": 6,
+    "aproveitamento_ultimos_5_pct": 40.0,
+    "ultimos_5_jogos": [
+      "D",
+      "V",
+      "D",
+      "V",
+      "D"
+    ]
+  },
+  "Congo": {
+    "elo": 1353.7,
+    "pontos_ultimos_5": 2,
+    "aproveitamento_ultimos_5_pct": 13.3,
+    "ultimos_5_jogos": [
+      "E",
+      "D",
+      "D",
+      "D",
+      "E"
+    ]
+  },
+  "Cook Islands": {
+    "elo": 1280.0,
+    "pontos_ultimos_5": 6,
+    "aproveitamento_ultimos_5_pct": 40.0,
+    "ultimos_5_jogos": [
+      "D",
+      "V",
+      "D",
+      "D",
+      "V"
+    ]
+  },
+  "Corsica": {
+    "elo": 1559.9,
+    "pontos_ultimos_5": 9,
+    "aproveitamento_ultimos_5_pct": 60.0,
+    "ultimos_5_jogos": [
+      "E",
+      "V",
+      "V",
+      "E",
+      "E"
+    ]
+  },
+  "Costa Rica": {
+    "elo": 1649.4,
+    "pontos_ultimos_5": 6,
+    "aproveitamento_ultimos_5_pct": 40.0,
+    "ultimos_5_jogos": [
+      "D",
+      "D",
+      "D",
+      "V",
+      "V"
+    ]
+  },
+  "County of Nice": {
+    "elo": 1574.8,
+    "pontos_ultimos_5": 10,
+    "aproveitamento_ultimos_5_pct": 66.7,
+    "ultimos_5_jogos": [
+      "E",
+      "V",
+      "V",
+      "V",
+      "D"
+    ]
+  },
+  "Crimea": {
+    "elo": 1515.2,
+    "pontos_ultimos_5": 9,
+    "aproveitamento_ultimos_5_pct": 60.0,
+    "ultimos_5_jogos": [
+      "D",
+      "V",
+      "V",
+      "V",
+      "D"
+    ]
+  },
+  "Croatia": {
+    "elo": 1861.2,
+    "pontos_ultimos_5": 3,
+    "aproveitamento_ultimos_5_pct": 20.0,
+    "ultimos_5_jogos": [
+      "D",
+      "V",
+      "D",
+      "D",
+      "D"
+    ]
+  },
+  "Cuba": {
+    "elo": 1430.0,
+    "pontos_ultimos_5": 9,
+    "aproveitamento_ultimos_5_pct": 60.0,
+    "ultimos_5_jogos": [
+      "E",
+      "V",
+      "V",
+      "E",
+      "E"
+    ]
+  },
+  "Curaçao": {
+    "elo": 1568.6,
+    "pontos_ultimos_5": 10,
+    "aproveitamento_ultimos_5_pct": 66.7,
+    "ultimos_5_jogos": [
+      "D",
+      "V",
+      "V",
+      "V",
+      "E"
+    ]
+  },
+  "Cyprus": {
+    "elo": 1430.7,
+    "pontos_ultimos_5": 10,
+    "aproveitamento_ultimos_5_pct": 66.7,
+    "ultimos_5_jogos": [
+      "V",
+      "D",
+      "E",
+      "V",
+      "V"
+    ]
+  },
+  "Czech Republic": {
+    "elo": 1706.7,
+    "pontos_ultimos_5": 0,
+    "aproveitamento_ultimos_5_pct": 0.0,
+    "ultimos_5_jogos": [
+      "D",
+      "D",
+      "D",
+      "D",
+      "D"
+    ]
+  },
+  "Czechoslovakia": {
+    "elo": 1723.9,
+    "pontos_ultimos_5": 11,
+    "aproveitamento_ultimos_5_pct": 73.3,
+    "ultimos_5_jogos": [
+      "V",
+      "V",
+      "E",
+      "V",
+      "E"
+    ]
+  },
+  "DR Congo": {
+    "elo": 1684.1,
+    "pontos_ultimos_5": 7,
+    "aproveitamento_ultimos_5_pct": 46.7,
+    "ultimos_5_jogos": [
+      "D",
+      "V",
+      "V",
+      "D",
+      "E"
+    ]
+  },
+  "Darfur": {
+    "elo": 1402.1,
+    "pontos_ultimos_5": 0,
+    "aproveitamento_ultimos_5_pct": 0.0,
+    "ultimos_5_jogos": [
+      "D",
+      "D",
+      "D",
+      "D",
+      "D"
+    ]
+  },
+  "Denmark": {
+    "elo": 1844.7,
+    "pontos_ultimos_5": 9,
+    "aproveitamento_ultimos_5_pct": 60.0,
+    "ultimos_5_jogos": [
+      "V",
+      "D",
+      "V",
+      "D",
+      "V"
+    ]
+  },
+  "Djibouti": {
+    "elo": 1161.9,
+    "pontos_ultimos_5": 3,
+    "aproveitamento_ultimos_5_pct": 20.0,
+    "ultimos_5_jogos": [
+      "D",
+      "D",
+      "D",
+      "D",
+      "V"
+    ]
+  },
+  "Dominica": {
+    "elo": 1212.6,
+    "pontos_ultimos_5": 4,
+    "aproveitamento_ultimos_5_pct": 26.7,
+    "ultimos_5_jogos": [
+      "V",
+      "E",
+      "D",
+      "D",
+      "D"
+    ]
+  },
+  "Dominican Republic": {
+    "elo": 1487.4,
+    "pontos_ultimos_5": 9,
+    "aproveitamento_ultimos_5_pct": 60.0,
+    "ultimos_5_jogos": [
+      "D",
+      "V",
+      "V",
+      "D",
+      "V"
+    ]
+  },
+  "Donetsk PR": {
+    "elo": 1513.2,
+    "pontos_ultimos_5": 8,
+    "aproveitamento_ultimos_5_pct": 53.3,
+    "ultimos_5_jogos": [
+      "D",
+      "V",
+      "E",
+      "E",
+      "V"
+    ]
+  },
+  "Délvidék": {
+    "elo": 1495.9,
+    "pontos_ultimos_5": 3,
+    "aproveitamento_ultimos_5_pct": 20.0,
+    "ultimos_5_jogos": [
+      "V",
+      "D"
+    ]
+  },
+  "East Turkestan": {
+    "elo": 1478.7,
+    "pontos_ultimos_5": 6,
+    "aproveitamento_ultimos_5_pct": 40.0,
+    "ultimos_5_jogos": [
+      "V",
+      "D",
+      "D",
+      "V",
+      "D"
+    ]
+  },
+  "Ecuador": {
+    "elo": 1868.8,
+    "pontos_ultimos_5": 5,
+    "aproveitamento_ultimos_5_pct": 33.3,
+    "ultimos_5_jogos": [
+      "V",
+      "D",
+      "D",
+      "E",
+      "E"
+    ]
+  },
+  "Egypt": {
+    "elo": 1740.0,
+    "pontos_ultimos_5": 5,
+    "aproveitamento_ultimos_5_pct": 33.3,
+    "ultimos_5_jogos": [
+      "E",
+      "D",
+      "E",
+      "V",
+      "D"
+    ]
+  },
+  "El Salvador": {
+    "elo": 1474.5,
+    "pontos_ultimos_5": 5,
+    "aproveitamento_ultimos_5_pct": 33.3,
+    "ultimos_5_jogos": [
+      "E",
+      "V",
+      "D",
+      "D",
+      "E"
+    ]
+  },
+  "Elba Island": {
+    "elo": 1517.4,
+    "pontos_ultimos_5": 6,
+    "aproveitamento_ultimos_5_pct": 40.0,
+    "ultimos_5_jogos": [
+      "V",
+      "V"
+    ]
+  },
+  "Ellan Vannin": {
+    "elo": 1557.8,
+    "pontos_ultimos_5": 10,
+    "aproveitamento_ultimos_5_pct": 66.7,
+    "ultimos_5_jogos": [
+      "E",
+      "V",
+      "V",
+      "V",
+      "D"
+    ]
+  },
+  "England": {
+    "elo": 1998.3,
+    "pontos_ultimos_5": 12,
+    "aproveitamento_ultimos_5_pct": 80.0,
+    "ultimos_5_jogos": [
+      "V",
+      "D",
+      "V",
+      "V",
+      "V"
+    ]
+  },
+  "Equatorial Guinea": {
+    "elo": 1458.8,
+    "pontos_ultimos_5": 7,
+    "aproveitamento_ultimos_5_pct": 46.7,
+    "ultimos_5_jogos": [
+      "V",
+      "E",
+      "D",
+      "D",
+      "V"
+    ]
+  },
+  "Eritrea": {
+    "elo": 1298.6,
+    "pontos_ultimos_5": 7,
+    "aproveitamento_ultimos_5_pct": 46.7,
+    "ultimos_5_jogos": [
+      "D",
+      "V",
+      "V",
+      "E",
+      "D"
+    ]
+  },
+  "Estonia": {
+    "elo": 1487.9,
+    "pontos_ultimos_5": 9,
+    "aproveitamento_ultimos_5_pct": 60.0,
+    "ultimos_5_jogos": [
+      "V",
+      "E",
+      "E",
+      "V",
+      "E"
+    ]
+  },
+  "Eswatini": {
+    "elo": 1307.5,
+    "pontos_ultimos_5": 1,
+    "aproveitamento_ultimos_5_pct": 6.7,
+    "ultimos_5_jogos": [
+      "D",
+      "E",
+      "D",
+      "D",
+      "D"
+    ]
+  },
+  "Ethiopia": {
+    "elo": 1411.6,
+    "pontos_ultimos_5": 7,
+    "aproveitamento_ultimos_5_pct": 46.7,
+    "ultimos_5_jogos": [
+      "V",
+      "V",
+      "E",
+      "D",
+      "D"
+    ]
+  },
+  "Falkland Islands": {
+    "elo": 1294.8,
+    "pontos_ultimos_5": 1,
+    "aproveitamento_ultimos_5_pct": 6.7,
+    "ultimos_5_jogos": [
+      "D",
+      "D",
+      "D",
+      "D",
+      "E"
+    ]
+  },
+  "Faroe Islands": {
+    "elo": 1449.2,
+    "pontos_ultimos_5": 7,
+    "aproveitamento_ultimos_5_pct": 46.7,
+    "ultimos_5_jogos": [
+      "V",
+      "E",
+      "E",
+      "E",
+      "E"
+    ]
+  },
+  "Felvidék": {
+    "elo": 1509.2,
+    "pontos_ultimos_5": 9,
+    "aproveitamento_ultimos_5_pct": 60.0,
+    "ultimos_5_jogos": [
+      "V",
+      "V",
+      "D",
+      "D",
+      "V"
+    ]
+  },
+  "Fiji": {
+    "elo": 1451.4,
+    "pontos_ultimos_5": 10,
+    "aproveitamento_ultimos_5_pct": 66.7,
+    "ultimos_5_jogos": [
+      "E",
+      "D",
+      "V",
+      "V",
+      "V"
+    ]
+  },
+  "Finland": {
+    "elo": 1570.2,
+    "pontos_ultimos_5": 7,
+    "aproveitamento_ultimos_5_pct": 46.7,
+    "ultimos_5_jogos": [
+      "D",
+      "V",
+      "E",
+      "V",
+      "D"
+    ]
+  },
+  "France": {
+    "elo": 2031.6,
+    "pontos_ultimos_5": 10,
+    "aproveitamento_ultimos_5_pct": 66.7,
+    "ultimos_5_jogos": [
+      "D",
+      "V",
+      "V",
+      "E",
+      "V"
+    ]
+  },
+  "Franconia": {
+    "elo": 1508.0,
+    "pontos_ultimos_5": 6,
+    "aproveitamento_ultimos_5_pct": 40.0,
+    "ultimos_5_jogos": [
+      "V",
+      "D",
+      "V"
+    ]
+  },
+  "French Guiana": {
+    "elo": 1440.2,
+    "pontos_ultimos_5": 10,
+    "aproveitamento_ultimos_5_pct": 66.7,
+    "ultimos_5_jogos": [
+      "E",
+      "D",
+      "V",
+      "V",
+      "V"
+    ]
+  },
+  "Frøya": {
+    "elo": 1279.9,
+    "pontos_ultimos_5": 3,
+    "aproveitamento_ultimos_5_pct": 20.0,
+    "ultimos_5_jogos": [
+      "V",
+      "D",
+      "D",
+      "D",
+      "D"
+    ]
+  },
+  "Gabon": {
+    "elo": 1527.8,
+    "pontos_ultimos_5": 4,
+    "aproveitamento_ultimos_5_pct": 26.7,
+    "ultimos_5_jogos": [
+      "D",
+      "D",
+      "E",
+      "D",
+      "V"
+    ]
+  },
+  "Galicia": {
+    "elo": 1540.0,
+    "pontos_ultimos_5": 7,
+    "aproveitamento_ultimos_5_pct": 46.7,
+    "ultimos_5_jogos": [
+      "V",
+      "V",
+      "D",
+      "E",
+      "D"
+    ]
+  },
+  "Gambia": {
+    "elo": 1536.4,
+    "pontos_ultimos_5": 7,
+    "aproveitamento_ultimos_5_pct": 46.7,
+    "ultimos_5_jogos": [
+      "E",
+      "D",
+      "D",
+      "V",
+      "V"
+    ]
+  },
+  "Georgia": {
+    "elo": 1635.1,
+    "pontos_ultimos_5": 5,
+    "aproveitamento_ultimos_5_pct": 33.3,
+    "ultimos_5_jogos": [
+      "V",
+      "D",
+      "E",
+      "D",
+      "E"
+    ]
+  },
+  "German DR": {
+    "elo": 1715.3,
+    "pontos_ultimos_5": 13,
+    "aproveitamento_ultimos_5_pct": 86.7,
+    "ultimos_5_jogos": [
+      "V",
+      "V",
+      "V",
+      "E",
+      "V"
+    ]
+  },
+  "Germany": {
+    "elo": 1901.1,
+    "pontos_ultimos_5": 6,
+    "aproveitamento_ultimos_5_pct": 40.0,
+    "ultimos_5_jogos": [
+      "E",
+      "E",
+      "D",
+      "V",
+      "E"
+    ]
+  },
+  "Ghana": {
+    "elo": 1573.1,
+    "pontos_ultimos_5": 1,
+    "aproveitamento_ultimos_5_pct": 6.7,
+    "ultimos_5_jogos": [
+      "E",
+      "D",
+      "D",
+      "D",
+      "D"
+    ]
+  },
+  "Gibraltar": {
+    "elo": 1240.7,
+    "pontos_ultimos_5": 9,
+    "aproveitamento_ultimos_5_pct": 60.0,
+    "ultimos_5_jogos": [
+      "V",
+      "E",
+      "E",
+      "E",
+      "V"
+    ]
+  },
+  "Gotland": {
+    "elo": 1421.2,
+    "pontos_ultimos_5": 6,
+    "aproveitamento_ultimos_5_pct": 40.0,
+    "ultimos_5_jogos": [
+      "D",
+      "V",
+      "V",
+      "D",
+      "D"
+    ]
+  },
+  "Gozo": {
+    "elo": 1470.2,
+    "pontos_ultimos_5": 5,
+    "aproveitamento_ultimos_5_pct": 33.3,
+    "ultimos_5_jogos": [
+      "V",
+      "D",
+      "E",
+      "D",
+      "E"
+    ]
+  },
+  "Greece": {
+    "elo": 1782.3,
+    "pontos_ultimos_5": 8,
+    "aproveitamento_ultimos_5_pct": 53.3,
+    "ultimos_5_jogos": [
+      "D",
+      "V",
+      "V",
+      "E",
+      "E"
+    ]
+  },
+  "Greenland": {
+    "elo": 1480.2,
+    "pontos_ultimos_5": 6,
+    "aproveitamento_ultimos_5_pct": 40.0,
+    "ultimos_5_jogos": [
+      "D",
+      "D",
+      "D",
+      "V",
+      "V"
+    ]
+  },
+  "Grenada": {
+    "elo": 1283.1,
+    "pontos_ultimos_5": 3,
+    "aproveitamento_ultimos_5_pct": 20.0,
+    "ultimos_5_jogos": [
+      "D",
+      "D",
+      "D",
+      "V",
+      "D"
+    ]
+  },
+  "Guadeloupe": {
+    "elo": 1443.6,
+    "pontos_ultimos_5": 4,
+    "aproveitamento_ultimos_5_pct": 26.7,
+    "ultimos_5_jogos": [
+      "D",
+      "V",
+      "E",
+      "D",
+      "D"
+    ]
+  },
+  "Guam": {
+    "elo": 1094.4,
+    "pontos_ultimos_5": 3,
+    "aproveitamento_ultimos_5_pct": 20.0,
+    "ultimos_5_jogos": [
+      "D",
+      "D",
+      "V",
+      "D",
+      "D"
+    ]
+  },
+  "Guatemala": {
+    "elo": 1595.4,
+    "pontos_ultimos_5": 7,
+    "aproveitamento_ultimos_5_pct": 46.7,
+    "ultimos_5_jogos": [
+      "D",
+      "D",
+      "V",
+      "E",
+      "V"
+    ]
+  },
+  "Guernsey": {
+    "elo": 1682.2,
+    "pontos_ultimos_5": 9,
+    "aproveitamento_ultimos_5_pct": 60.0,
+    "ultimos_5_jogos": [
+      "D",
+      "V",
+      "V",
+      "D",
+      "V"
+    ]
+  },
+  "Guinea": {
+    "elo": 1535.1,
+    "pontos_ultimos_5": 4,
+    "aproveitamento_ultimos_5_pct": 26.7,
+    "ultimos_5_jogos": [
+      "E",
+      "D",
+      "D",
+      "D",
+      "V"
+    ]
+  },
+  "Guinea-Bissau": {
+    "elo": 1424.8,
+    "pontos_ultimos_5": 7,
+    "aproveitamento_ultimos_5_pct": 46.7,
+    "ultimos_5_jogos": [
+      "D",
+      "D",
+      "E",
+      "V",
+      "V"
+    ]
+  },
+  "Guyana": {
+    "elo": 1499.0,
+    "pontos_ultimos_5": 15,
+    "aproveitamento_ultimos_5_pct": 100.0,
+    "ultimos_5_jogos": [
+      "V",
+      "V",
+      "V",
+      "V",
+      "V"
+    ]
+  },
+  "Găgăuzia": {
+    "elo": 1454.8,
+    "pontos_ultimos_5": 1,
+    "aproveitamento_ultimos_5_pct": 6.7,
+    "ultimos_5_jogos": [
+      "D",
+      "D",
+      "E"
+    ]
+  },
+  "Haiti": {
+    "elo": 1635.3,
+    "pontos_ultimos_5": 9,
+    "aproveitamento_ultimos_5_pct": 60.0,
+    "ultimos_5_jogos": [
+      "D",
+      "V",
+      "V",
+      "V",
+      "D"
+    ]
+  },
+  "Hitra": {
+    "elo": 1391.0,
+    "pontos_ultimos_5": 6,
+    "aproveitamento_ultimos_5_pct": 40.0,
+    "ultimos_5_jogos": [
+      "D",
+      "D",
+      "D",
+      "V",
+      "V"
+    ]
+  },
+  "Hmong": {
+    "elo": 1478.1,
+    "pontos_ultimos_5": 3,
+    "aproveitamento_ultimos_5_pct": 20.0,
+    "ultimos_5_jogos": [
+      "D",
+      "V",
+      "D"
+    ]
+  },
+  "Honduras": {
+    "elo": 1603.1,
+    "pontos_ultimos_5": 4,
+    "aproveitamento_ultimos_5_pct": 26.7,
+    "ultimos_5_jogos": [
+      "D",
+      "D",
+      "V",
+      "D",
+      "E"
+    ]
+  },
+  "Hong Kong": {
+    "elo": 1336.5,
+    "pontos_ultimos_5": 12,
+    "aproveitamento_ultimos_5_pct": 80.0,
+    "ultimos_5_jogos": [
+      "V",
+      "D",
+      "V",
+      "V",
+      "V"
+    ]
+  },
+  "Hungary": {
+    "elo": 1754.6,
+    "pontos_ultimos_5": 10,
+    "aproveitamento_ultimos_5_pct": 66.7,
+    "ultimos_5_jogos": [
+      "V",
+      "D",
+      "E",
+      "V",
+      "V"
+    ]
+  },
+  "Iceland": {
+    "elo": 1617.0,
+    "pontos_ultimos_5": 8,
+    "aproveitamento_ultimos_5_pct": 53.3,
+    "ultimos_5_jogos": [
+      "D",
+      "E",
+      "V",
+      "V",
+      "E"
+    ]
+  },
+  "India": {
+    "elo": 1306.6,
+    "pontos_ultimos_5": 2,
+    "aproveitamento_ultimos_5_pct": 13.3,
+    "ultimos_5_jogos": [
+      "D",
+      "E",
+      "E",
+      "D",
+      "D"
+    ]
+  },
+  "Indonesia": {
+    "elo": 1476.1,
+    "pontos_ultimos_5": 9,
+    "aproveitamento_ultimos_5_pct": 60.0,
+    "ultimos_5_jogos": [
+      "E",
+      "V",
+      "E",
+      "V",
+      "E"
+    ]
+  },
+  "Iran": {
+    "elo": 1793.8,
+    "pontos_ultimos_5": 3,
+    "aproveitamento_ultimos_5_pct": 20.0,
+    "ultimos_5_jogos": [
+      "E",
+      "E",
+      "E",
+      "D",
+      "D"
+    ]
+  },
+  "Iraq": {
+    "elo": 1664.6,
+    "pontos_ultimos_5": 4,
+    "aproveitamento_ultimos_5_pct": 26.7,
+    "ultimos_5_jogos": [
+      "D",
+      "D",
+      "E",
+      "V",
+      "D"
+    ]
+  },
+  "Iraqi Kurdistan": {
+    "elo": 1592.2,
+    "pontos_ultimos_5": 9,
+    "aproveitamento_ultimos_5_pct": 60.0,
+    "ultimos_5_jogos": [
+      "V",
+      "V",
+      "E",
+      "E",
+      "E"
+    ]
+  },
+  "Isle of Man": {
+    "elo": 1654.6,
+    "pontos_ultimos_5": 12,
+    "aproveitamento_ultimos_5_pct": 80.0,
+    "ultimos_5_jogos": [
+      "V",
+      "V",
+      "V",
+      "D",
+      "V"
+    ]
+  },
+  "Isle of Wight": {
+    "elo": 1620.3,
+    "pontos_ultimos_5": 9,
+    "aproveitamento_ultimos_5_pct": 60.0,
+    "ultimos_5_jogos": [
+      "D",
+      "V",
+      "V",
+      "V",
+      "D"
+    ]
+  },
+  "Israel": {
+    "elo": 1645.0,
+    "pontos_ultimos_5": 5,
+    "aproveitamento_ultimos_5_pct": 33.3,
+    "ultimos_5_jogos": [
+      "V",
+      "D",
+      "D",
+      "E",
+      "E"
+    ]
+  },
+  "Italy": {
+    "elo": 1909.7,
+    "pontos_ultimos_5": 10,
+    "aproveitamento_ultimos_5_pct": 66.7,
+    "ultimos_5_jogos": [
+      "V",
+      "D",
+      "V",
+      "E",
+      "V"
+    ]
+  },
+  "Ivory Coast": {
+    "elo": 1760.7,
+    "pontos_ultimos_5": 9,
+    "aproveitamento_ultimos_5_pct": 60.0,
+    "ultimos_5_jogos": [
+      "V",
+      "D",
+      "V",
+      "V",
+      "D"
+    ]
+  },
+  "Jamaica": {
+    "elo": 1620.8,
+    "pontos_ultimos_5": 7,
+    "aproveitamento_ultimos_5_pct": 46.7,
+    "ultimos_5_jogos": [
+      "D",
+      "V",
+      "D",
+      "V",
+      "E"
+    ]
+  },
+  "Japan": {
+    "elo": 1898.0,
+    "pontos_ultimos_5": 8,
+    "aproveitamento_ultimos_5_pct": 53.3,
+    "ultimos_5_jogos": [
+      "E",
+      "D",
+      "V",
+      "E",
+      "V"
+    ]
+  },
+  "Jersey": {
+    "elo": 1750.5,
+    "pontos_ultimos_5": 10,
+    "aproveitamento_ultimos_5_pct": 66.7,
+    "ultimos_5_jogos": [
+      "V",
+      "V",
+      "V",
+      "E",
+      "D"
+    ]
+  },
+  "Jordan": {
+    "elo": 1654.2,
+    "pontos_ultimos_5": 2,
+    "aproveitamento_ultimos_5_pct": 13.3,
+    "ultimos_5_jogos": [
+      "D",
+      "D",
+      "D",
+      "E",
+      "E"
+    ]
+  },
+  "Kabylia": {
+    "elo": 1470.6,
+    "pontos_ultimos_5": 5,
+    "aproveitamento_ultimos_5_pct": 33.3,
+    "ultimos_5_jogos": [
+      "E",
+      "D",
+      "E",
+      "V",
+      "D"
+    ]
+  },
+  "Kazakhstan": {
+    "elo": 1454.7,
+    "pontos_ultimos_5": 2,
+    "aproveitamento_ultimos_5_pct": 13.3,
+    "ultimos_5_jogos": [
+      "D",
+      "E",
+      "D",
+      "D",
+      "E"
+    ]
+  },
+  "Kenya": {
+    "elo": 1463.9,
+    "pontos_ultimos_5": 6,
+    "aproveitamento_ultimos_5_pct": 40.0,
+    "ultimos_5_jogos": [
+      "V",
+      "E",
+      "E",
+      "D",
+      "E"
+    ]
+  },
+  "Kernow": {
+    "elo": 1589.5,
+    "pontos_ultimos_5": 13,
+    "aproveitamento_ultimos_5_pct": 86.7,
+    "ultimos_5_jogos": [
+      "V",
+      "V",
+      "E",
+      "V",
+      "V"
+    ]
+  },
+  "Kiribati": {
+    "elo": 1363.8,
+    "pontos_ultimos_5": 0,
+    "aproveitamento_ultimos_5_pct": 0.0,
+    "ultimos_5_jogos": [
+      "D",
+      "D",
+      "D",
+      "D",
+      "D"
+    ]
+  },
+  "Kosovo": {
+    "elo": 1697.1,
+    "pontos_ultimos_5": 8,
+    "aproveitamento_ultimos_5_pct": 53.3,
+    "ultimos_5_jogos": [
+      "V",
+      "V",
+      "D",
+      "E",
+      "E"
+    ]
+  },
+  "Kurdistan": {
+    "elo": 1551.9,
+    "pontos_ultimos_5": 13,
+    "aproveitamento_ultimos_5_pct": 86.7,
+    "ultimos_5_jogos": [
+      "V",
+      "E",
+      "V",
+      "V",
+      "V"
+    ]
+  },
+  "Kuwait": {
+    "elo": 1456.2,
+    "pontos_ultimos_5": 1,
+    "aproveitamento_ultimos_5_pct": 6.7,
+    "ultimos_5_jogos": [
+      "D",
+      "E",
+      "D",
+      "D",
+      "D"
+    ]
+  },
+  "Kyrgyzstan": {
+    "elo": 1456.0,
+    "pontos_ultimos_5": 8,
+    "aproveitamento_ultimos_5_pct": 53.3,
+    "ultimos_5_jogos": [
+      "D",
+      "E",
+      "E",
+      "V",
+      "V"
+    ]
+  },
+  "Kárpátalja": {
+    "elo": 1571.0,
+    "pontos_ultimos_5": 13,
+    "aproveitamento_ultimos_5_pct": 86.7,
+    "ultimos_5_jogos": [
+      "V",
+      "V",
+      "V",
+      "V",
+      "E"
+    ]
+  },
+  "Laos": {
+    "elo": 1041.1,
+    "pontos_ultimos_5": 3,
+    "aproveitamento_ultimos_5_pct": 20.0,
+    "ultimos_5_jogos": [
+      "D",
+      "D",
+      "D",
+      "V",
+      "D"
+    ]
+  },
+  "Latvia": {
+    "elo": 1330.6,
+    "pontos_ultimos_5": 1,
+    "aproveitamento_ultimos_5_pct": 6.7,
+    "ultimos_5_jogos": [
+      "D",
+      "D",
+      "E",
+      "D",
+      "D"
+    ]
+  },
+  "Lebanon": {
+    "elo": 1435.9,
+    "pontos_ultimos_5": 9,
+    "aproveitamento_ultimos_5_pct": 60.0,
+    "ultimos_5_jogos": [
+      "V",
+      "V",
+      "D",
+      "V",
+      "D"
+    ]
+  },
+  "Lesotho": {
+    "elo": 1388.1,
+    "pontos_ultimos_5": 5,
+    "aproveitamento_ultimos_5_pct": 33.3,
+    "ultimos_5_jogos": [
+      "E",
+      "V",
+      "E",
+      "D",
+      "D"
+    ]
+  },
+  "Liberia": {
+    "elo": 1388.2,
+    "pontos_ultimos_5": 4,
+    "aproveitamento_ultimos_5_pct": 26.7,
+    "ultimos_5_jogos": [
+      "E",
+      "D",
+      "V",
+      "D",
+      "D"
+    ]
+  },
+  "Libya": {
+    "elo": 1512.4,
+    "pontos_ultimos_5": 4,
+    "aproveitamento_ultimos_5_pct": 26.7,
+    "ultimos_5_jogos": [
+      "E",
+      "E",
+      "E",
+      "E",
+      "D"
+    ]
+  },
+  "Liechtenstein": {
+    "elo": 1088.0,
+    "pontos_ultimos_5": 1,
+    "aproveitamento_ultimos_5_pct": 6.7,
+    "ultimos_5_jogos": [
+      "D",
+      "D",
+      "D",
+      "E",
+      "D"
+    ]
+  },
+  "Lithuania": {
+    "elo": 1363.2,
+    "pontos_ultimos_5": 7,
+    "aproveitamento_ultimos_5_pct": 46.7,
+    "ultimos_5_jogos": [
+      "D",
+      "V",
+      "E",
+      "V",
+      "D"
+    ]
+  },
+  "Luhansk PR": {
+    "elo": 1490.8,
+    "pontos_ultimos_5": 7,
+    "aproveitamento_ultimos_5_pct": 46.7,
+    "ultimos_5_jogos": [
+      "V",
+      "D",
+      "E",
+      "D",
+      "V"
+    ]
+  },
+  "Luxembourg": {
+    "elo": 1445.8,
+    "pontos_ultimos_5": 6,
+    "aproveitamento_ultimos_5_pct": 40.0,
+    "ultimos_5_jogos": [
+      "V",
+      "V",
+      "D",
+      "D",
+      "D"
+    ]
+  },
+  "Macau": {
+    "elo": 977.7,
+    "pontos_ultimos_5": 0,
+    "aproveitamento_ultimos_5_pct": 0.0,
+    "ultimos_5_jogos": [
+      "D",
+      "D",
+      "D",
+      "D",
+      "D"
+    ]
+  },
+  "Madagascar": {
+    "elo": 1480.1,
+    "pontos_ultimos_5": 5,
+    "aproveitamento_ultimos_5_pct": 33.3,
+    "ultimos_5_jogos": [
+      "V",
+      "E",
+      "D",
+      "D",
+      "E"
+    ]
+  },
+  "Madrid": {
+    "elo": 1485.1,
+    "pontos_ultimos_5": 0,
+    "aproveitamento_ultimos_5_pct": 0.0,
+    "ultimos_5_jogos": [
+      "D"
+    ]
+  },
+  "Malawi": {
+    "elo": 1425.4,
+    "pontos_ultimos_5": 4,
+    "aproveitamento_ultimos_5_pct": 26.7,
+    "ultimos_5_jogos": [
+      "D",
+      "D",
+      "E",
+      "V",
+      "D"
+    ]
+  },
+  "Malaysia": {
+    "elo": 1515.0,
+    "pontos_ultimos_5": 10,
+    "aproveitamento_ultimos_5_pct": 66.7,
+    "ultimos_5_jogos": [
+      "D",
+      "V",
+      "E",
+      "V",
+      "V"
+    ]
+  },
+  "Maldives": {
+    "elo": 1089.9,
+    "pontos_ultimos_5": 0,
+    "aproveitamento_ultimos_5_pct": 0.0,
+    "ultimos_5_jogos": [
+      "D",
+      "D",
+      "D",
+      "D",
+      "D"
+    ]
+  },
+  "Mali": {
+    "elo": 1690.4,
+    "pontos_ultimos_5": 8,
+    "aproveitamento_ultimos_5_pct": 53.3,
+    "ultimos_5_jogos": [
+      "E",
+      "D",
+      "V",
+      "V",
+      "E"
+    ]
+  },
+  "Malta": {
+    "elo": 1406.7,
+    "pontos_ultimos_5": 13,
+    "aproveitamento_ultimos_5_pct": 86.7,
+    "ultimos_5_jogos": [
+      "V",
+      "V",
+      "V",
+      "E",
+      "V"
+    ]
+  },
+  "Manchukuo": {
+    "elo": 1448.3,
+    "pontos_ultimos_5": 0,
+    "aproveitamento_ultimos_5_pct": 0.0,
+    "ultimos_5_jogos": [
+      "D",
+      "D",
+      "D"
+    ]
+  },
+  "Mapuche": {
+    "elo": 1500.7,
+    "pontos_ultimos_5": 3,
+    "aproveitamento_ultimos_5_pct": 20.0,
+    "ultimos_5_jogos": [
+      "D",
+      "V"
+    ]
+  },
+  "Marshall Islands": {
+    "elo": 1443.2,
+    "pontos_ultimos_5": 0,
+    "aproveitamento_ultimos_5_pct": 0.0,
+    "ultimos_5_jogos": [
+      "D",
+      "D"
+    ]
+  },
+  "Martinique": {
+    "elo": 1457.5,
+    "pontos_ultimos_5": 4,
+    "aproveitamento_ultimos_5_pct": 26.7,
+    "ultimos_5_jogos": [
+      "D",
+      "D",
+      "D",
+      "V",
+      "E"
+    ]
+  },
+  "Matabeleland": {
+    "elo": 1499.7,
+    "pontos_ultimos_5": 8,
+    "aproveitamento_ultimos_5_pct": 53.3,
+    "ultimos_5_jogos": [
+      "E",
+      "V",
+      "E",
+      "V",
+      "D"
+    ]
+  },
+  "Maule Sur": {
+    "elo": 1530.5,
+    "pontos_ultimos_5": 6,
+    "aproveitamento_ultimos_5_pct": 40.0,
+    "ultimos_5_jogos": [
+      "V",
+      "V"
+    ]
+  },
+  "Mauritania": {
+    "elo": 1470.5,
+    "pontos_ultimos_5": 7,
+    "aproveitamento_ultimos_5_pct": 46.7,
+    "ultimos_5_jogos": [
+      "D",
+      "E",
+      "V",
+      "V",
+      "D"
+    ]
+  },
+  "Mauritius": {
+    "elo": 1220.9,
+    "pontos_ultimos_5": 6,
+    "aproveitamento_ultimos_5_pct": 40.0,
+    "ultimos_5_jogos": [
+      "E",
+      "E",
+      "E",
+      "V",
+      "D"
+    ]
+  },
+  "Mayotte": {
+    "elo": 1438.5,
+    "pontos_ultimos_5": 8,
+    "aproveitamento_ultimos_5_pct": 53.3,
+    "ultimos_5_jogos": [
+      "V",
+      "D",
+      "V",
+      "E",
+      "E"
+    ]
+  },
+  "Menorca": {
+    "elo": 1526.4,
+    "pontos_ultimos_5": 3,
+    "aproveitamento_ultimos_5_pct": 20.0,
+    "ultimos_5_jogos": [
+      "D",
+      "V",
+      "D",
+      "D",
+      "D"
+    ]
+  },
+  "Mexico": {
+    "elo": 1852.1,
+    "pontos_ultimos_5": 2,
+    "aproveitamento_ultimos_5_pct": 13.3,
+    "ultimos_5_jogos": [
+      "D",
+      "E",
+      "E",
+      "D",
+      "D"
+    ]
+  },
+  "Micronesia": {
+    "elo": 1414.6,
+    "pontos_ultimos_5": 3,
+    "aproveitamento_ultimos_5_pct": 20.0,
+    "ultimos_5_jogos": [
+      "V",
+      "D",
+      "D",
+      "D",
+      "D"
+    ]
+  },
+  "Moldova": {
+    "elo": 1375.1,
+    "pontos_ultimos_5": 5,
+    "aproveitamento_ultimos_5_pct": 33.3,
+    "ultimos_5_jogos": [
+      "E",
+      "D",
+      "E",
+      "V",
+      "D"
+    ]
+  },
+  "Monaco": {
+    "elo": 1485.3,
+    "pontos_ultimos_5": 7,
+    "aproveitamento_ultimos_5_pct": 46.7,
+    "ultimos_5_jogos": [
+      "D",
+      "V",
+      "D",
+      "V",
+      "E"
+    ]
+  },
+  "Mongolia": {
+    "elo": 1092.0,
+    "pontos_ultimos_5": 3,
+    "aproveitamento_ultimos_5_pct": 20.0,
+    "ultimos_5_jogos": [
+      "V",
+      "D",
+      "D",
+      "D",
+      "D"
+    ]
+  },
+  "Montenegro": {
+    "elo": 1566.7,
+    "pontos_ultimos_5": 11,
+    "aproveitamento_ultimos_5_pct": 73.3,
+    "ultimos_5_jogos": [
+      "E",
+      "V",
+      "V",
+      "V",
+      "E"
+    ]
+  },
+  "Montserrat": {
+    "elo": 1348.0,
+    "pontos_ultimos_5": 12,
+    "aproveitamento_ultimos_5_pct": 80.0,
+    "ultimos_5_jogos": [
+      "D",
+      "V",
+      "V",
+      "V",
+      "V"
+    ]
+  },
+  "Morocco": {
+    "elo": 1906.9,
+    "pontos_ultimos_5": 10,
+    "aproveitamento_ultimos_5_pct": 66.7,
+    "ultimos_5_jogos": [
+      "V",
+      "D",
+      "V",
+      "V",
+      "E"
+    ]
+  },
+  "Mozambique": {
+    "elo": 1496.7,
+    "pontos_ultimos_5": 4,
+    "aproveitamento_ultimos_5_pct": 26.7,
+    "ultimos_5_jogos": [
+      "D",
+      "D",
+      "D",
+      "E",
+      "V"
+    ]
+  },
+  "Myanmar": {
+    "elo": 1211.6,
+    "pontos_ultimos_5": 6,
+    "aproveitamento_ultimos_5_pct": 40.0,
+    "ultimos_5_jogos": [
+      "V",
+      "D",
+      "D",
+      "V",
+      "D"
+    ]
+  },
+  "Namibia": {
+    "elo": 1432.7,
+    "pontos_ultimos_5": 4,
+    "aproveitamento_ultimos_5_pct": 26.7,
+    "ultimos_5_jogos": [
+      "D",
+      "E",
+      "V",
+      "D",
+      "D"
+    ]
+  },
+  "Nepal": {
+    "elo": 1197.4,
+    "pontos_ultimos_5": 2,
+    "aproveitamento_ultimos_5_pct": 13.3,
+    "ultimos_5_jogos": [
+      "E",
+      "D",
+      "D",
+      "E",
+      "D"
+    ]
+  },
+  "Netherlands": {
+    "elo": 1929.9,
+    "pontos_ultimos_5": 9,
+    "aproveitamento_ultimos_5_pct": 60.0,
+    "ultimos_5_jogos": [
+      "E",
+      "E",
+      "V",
+      "E",
+      "V"
+    ]
+  },
+  "New Caledonia": {
+    "elo": 1495.5,
+    "pontos_ultimos_5": 3,
+    "aproveitamento_ultimos_5_pct": 20.0,
+    "ultimos_5_jogos": [
+      "D",
+      "D",
+      "V",
+      "D",
+      "D"
+    ]
+  },
+  "New Zealand": {
+    "elo": 1627.9,
+    "pontos_ultimos_5": 5,
+    "aproveitamento_ultimos_5_pct": 33.3,
+    "ultimos_5_jogos": [
+      "D",
+      "E",
+      "V",
+      "E",
+      "D"
+    ]
+  },
+  "Nicaragua": {
+    "elo": 1415.4,
+    "pontos_ultimos_5": 0,
+    "aproveitamento_ultimos_5_pct": 0.0,
+    "ultimos_5_jogos": [
+      "D",
+      "D",
+      "D",
+      "D",
+      "D"
+    ]
+  },
+  "Niger": {
+    "elo": 1452.8,
+    "pontos_ultimos_5": 4,
+    "aproveitamento_ultimos_5_pct": 26.7,
+    "ultimos_5_jogos": [
+      "E",
+      "D",
+      "V",
+      "D",
+      "D"
+    ]
+  },
+  "Nigeria": {
+    "elo": 1751.0,
+    "pontos_ultimos_5": 5,
+    "aproveitamento_ultimos_5_pct": 33.3,
+    "ultimos_5_jogos": [
+      "E",
+      "D",
+      "V",
+      "D",
+      "E"
+    ]
+  },
+  "Niue": {
+    "elo": 1475.1,
+    "pontos_ultimos_5": 0,
+    "aproveitamento_ultimos_5_pct": 0.0,
+    "ultimos_5_jogos": [
+      "D",
+      "D"
+    ]
+  },
+  "North Korea": {
+    "elo": 1504.4,
+    "pontos_ultimos_5": 2,
+    "aproveitamento_ultimos_5_pct": 13.3,
+    "ultimos_5_jogos": [
+      "E",
+      "D",
+      "D",
+      "E",
+      "D"
+    ]
+  },
+  "North Macedonia": {
+    "elo": 1572.1,
+    "pontos_ultimos_5": 0,
+    "aproveitamento_ultimos_5_pct": 0.0,
+    "ultimos_5_jogos": [
+      "D",
+      "D",
+      "D",
+      "D",
+      "D"
+    ]
+  },
+  "North Vietnam": {
+    "elo": 1465.7,
+    "pontos_ultimos_5": 7,
+    "aproveitamento_ultimos_5_pct": 46.7,
+    "ultimos_5_jogos": [
+      "V",
+      "E",
+      "D",
+      "D",
+      "V"
+    ]
+  },
+  "Northern Cyprus": {
+    "elo": 1666.6,
+    "pontos_ultimos_5": 13,
+    "aproveitamento_ultimos_5_pct": 86.7,
+    "ultimos_5_jogos": [
+      "V",
+      "E",
+      "V",
+      "V",
+      "V"
+    ]
+  },
+  "Northern Ireland": {
+    "elo": 1662.2,
+    "pontos_ultimos_5": 8,
+    "aproveitamento_ultimos_5_pct": 53.3,
+    "ultimos_5_jogos": [
+      "D",
+      "V",
+      "E",
+      "V",
+      "E"
+    ]
+  },
+  "Northern Mariana Islands": {
+    "elo": 1143.8,
+    "pontos_ultimos_5": 7,
+    "aproveitamento_ultimos_5_pct": 46.7,
+    "ultimos_5_jogos": [
+      "D",
+      "V",
+      "D",
+      "E",
+      "V"
+    ]
+  },
+  "Norway": {
+    "elo": 1838.3,
+    "pontos_ultimos_5": 3,
+    "aproveitamento_ultimos_5_pct": 20.0,
+    "ultimos_5_jogos": [
+      "D",
+      "V",
+      "D",
+      "D",
+      "D"
+    ]
+  },
+  "Occitania": {
+    "elo": 1630.2,
+    "pontos_ultimos_5": 11,
+    "aproveitamento_ultimos_5_pct": 73.3,
+    "ultimos_5_jogos": [
+      "V",
+      "E",
+      "E",
+      "V",
+      "V"
+    ]
+  },
+  "Oman": {
+    "elo": 1564.4,
+    "pontos_ultimos_5": 4,
+    "aproveitamento_ultimos_5_pct": 26.7,
+    "ultimos_5_jogos": [
+      "D",
+      "E",
+      "D",
+      "V",
+      "D"
+    ]
+  },
+  "Orkney": {
+    "elo": 1423.1,
+    "pontos_ultimos_5": 9,
+    "aproveitamento_ultimos_5_pct": 60.0,
+    "ultimos_5_jogos": [
+      "D",
+      "V",
+      "V",
+      "D",
+      "V"
+    ]
+  },
+  "Padania": {
+    "elo": 1621.8,
+    "pontos_ultimos_5": 9,
+    "aproveitamento_ultimos_5_pct": 60.0,
+    "ultimos_5_jogos": [
+      "V",
+      "D",
+      "V",
+      "V",
+      "D"
+    ]
+  },
+  "Pakistan": {
+    "elo": 1164.1,
+    "pontos_ultimos_5": 7,
+    "aproveitamento_ultimos_5_pct": 46.7,
+    "ultimos_5_jogos": [
+      "V",
+      "V",
+      "D",
+      "E",
+      "D"
+    ]
+  },
+  "Palau": {
+    "elo": 1453.1,
+    "pontos_ultimos_5": 0,
+    "aproveitamento_ultimos_5_pct": 0.0,
+    "ultimos_5_jogos": [
+      "D",
+      "D"
+    ]
+  },
+  "Palestine": {
+    "elo": 1577.6,
+    "pontos_ultimos_5": 9,
+    "aproveitamento_ultimos_5_pct": 60.0,
+    "ultimos_5_jogos": [
+      "E",
+      "E",
+      "E",
+      "V",
+      "V"
+    ]
+  },
+  "Panama": {
+    "elo": 1697.8,
+    "pontos_ultimos_5": 3,
+    "aproveitamento_ultimos_5_pct": 20.0,
+    "ultimos_5_jogos": [
+      "D",
+      "D",
+      "E",
+      "E",
+      "E"
+    ]
+  },
+  "Panjab": {
+    "elo": 1539.4,
+    "pontos_ultimos_5": 7,
+    "aproveitamento_ultimos_5_pct": 46.7,
+    "ultimos_5_jogos": [
+      "D",
+      "V",
+      "E",
+      "D",
+      "V"
+    ]
+  },
+  "Papua New Guinea": {
+    "elo": 1444.1,
+    "pontos_ultimos_5": 5,
+    "aproveitamento_ultimos_5_pct": 33.3,
+    "ultimos_5_jogos": [
+      "E",
+      "V",
+      "D",
+      "D",
+      "E"
+    ]
+  },
+  "Paraguay": {
+    "elo": 1849.5,
+    "pontos_ultimos_5": 8,
+    "aproveitamento_ultimos_5_pct": 53.3,
+    "ultimos_5_jogos": [
+      "E",
+      "E",
+      "D",
+      "V",
+      "V"
+    ]
+  },
+  "Parishes of Jersey": {
+    "elo": 1511.7,
+    "pontos_ultimos_5": 6,
+    "aproveitamento_ultimos_5_pct": 40.0,
+    "ultimos_5_jogos": [
+      "V",
+      "D",
+      "V"
+    ]
+  },
+  "Peru": {
+    "elo": 1690.3,
+    "pontos_ultimos_5": 1,
+    "aproveitamento_ultimos_5_pct": 6.7,
+    "ultimos_5_jogos": [
+      "D",
+      "D",
+      "E",
+      "D",
+      "D"
+    ]
+  },
+  "Philippines": {
+    "elo": 1338.6,
+    "pontos_ultimos_5": 4,
+    "aproveitamento_ultimos_5_pct": 26.7,
+    "ultimos_5_jogos": [
+      "D",
+      "D",
+      "D",
+      "E",
+      "V"
+    ]
+  },
+  "Poland": {
+    "elo": 1712.4,
+    "pontos_ultimos_5": 5,
+    "aproveitamento_ultimos_5_pct": 33.3,
+    "ultimos_5_jogos": [
+      "E",
+      "E",
+      "D",
+      "V",
+      "D"
+    ]
+  },
+  "Portugal": {
+    "elo": 1995.4,
+    "pontos_ultimos_5": 12,
+    "aproveitamento_ultimos_5_pct": 80.0,
+    "ultimos_5_jogos": [
+      "D",
+      "V",
+      "V",
+      "V",
+      "V"
+    ]
+  },
+  "Provence": {
+    "elo": 1445.4,
+    "pontos_ultimos_5": 6,
+    "aproveitamento_ultimos_5_pct": 40.0,
+    "ultimos_5_jogos": [
+      "D",
+      "V",
+      "V",
+      "D",
+      "D"
+    ]
+  },
+  "Puerto Rico": {
+    "elo": 1381.2,
+    "pontos_ultimos_5": 9,
+    "aproveitamento_ultimos_5_pct": 60.0,
+    "ultimos_5_jogos": [
+      "D",
+      "D",
+      "V",
+      "V",
+      "V"
+    ]
+  },
+  "Qatar": {
+    "elo": 1571.7,
+    "pontos_ultimos_5": 8,
+    "aproveitamento_ultimos_5_pct": 53.3,
+    "ultimos_5_jogos": [
+      "D",
+      "V",
+      "V",
+      "E",
+      "E"
+    ]
+  },
+  "Quebec": {
+    "elo": 1512.0,
+    "pontos_ultimos_5": 6,
+    "aproveitamento_ultimos_5_pct": 40.0,
+    "ultimos_5_jogos": [
+      "V",
+      "V",
+      "D"
+    ]
+  },
+  "Raetia": {
+    "elo": 1397.7,
+    "pontos_ultimos_5": 7,
+    "aproveitamento_ultimos_5_pct": 46.7,
+    "ultimos_5_jogos": [
+      "V",
+      "V",
+      "D",
+      "D",
+      "E"
+    ]
+  },
+  "Republic of Ireland": {
+    "elo": 1707.4,
+    "pontos_ultimos_5": 6,
+    "aproveitamento_ultimos_5_pct": 40.0,
+    "ultimos_5_jogos": [
+      "E",
+      "D",
+      "V",
+      "E",
+      "E"
+    ]
+  },
+  "Republic of St. Pauli": {
+    "elo": 1467.5,
+    "pontos_ultimos_5": 4,
+    "aproveitamento_ultimos_5_pct": 26.7,
+    "ultimos_5_jogos": [
+      "E",
+      "V",
+      "D",
+      "D"
+    ]
+  },
+  "Rhodes": {
+    "elo": 1572.0,
+    "pontos_ultimos_5": 9,
+    "aproveitamento_ultimos_5_pct": 60.0,
+    "ultimos_5_jogos": [
+      "D",
+      "V",
+      "V",
+      "V",
+      "D"
+    ]
+  },
+  "Romani people": {
+    "elo": 1470.3,
+    "pontos_ultimos_5": 3,
+    "aproveitamento_ultimos_5_pct": 20.0,
+    "ultimos_5_jogos": [
+      "D",
+      "D",
+      "V",
+      "D",
+      "D"
+    ]
+  },
+  "Romania": {
+    "elo": 1603.2,
+    "pontos_ultimos_5": 3,
+    "aproveitamento_ultimos_5_pct": 20.0,
+    "ultimos_5_jogos": [
+      "V",
+      "D",
+      "D",
+      "D",
+      "D"
+    ]
+  },
+  "Rouet-Provence": {
+    "elo": 1469.3,
+    "pontos_ultimos_5": 1,
+    "aproveitamento_ultimos_5_pct": 6.7,
+    "ultimos_5_jogos": [
+      "D",
+      "D",
+      "E"
+    ]
+  },
+  "Russia": {
+    "elo": 1789.6,
+    "pontos_ultimos_5": 13,
+    "aproveitamento_ultimos_5_pct": 86.7,
+    "ultimos_5_jogos": [
+      "V",
+      "V",
+      "V",
+      "V",
+      "E"
+    ]
+  },
+  "Rwanda": {
+    "elo": 1485.8,
+    "pontos_ultimos_5": 13,
+    "aproveitamento_ultimos_5_pct": 86.7,
+    "ultimos_5_jogos": [
+      "V",
+      "V",
+      "V",
+      "V",
+      "E"
+    ]
+  },
+  "Ryūkyū": {
+    "elo": 1483.6,
+    "pontos_ultimos_5": 0,
+    "aproveitamento_ultimos_5_pct": 0.0,
+    "ultimos_5_jogos": [
+      "D"
+    ]
+  },
+  "Réunion": {
+    "elo": 1557.7,
+    "pontos_ultimos_5": 6,
+    "aproveitamento_ultimos_5_pct": 40.0,
+    "ultimos_5_jogos": [
+      "E",
+      "E",
+      "E",
+      "V",
+      "D"
+    ]
+  },
+  "Saare County": {
+    "elo": 1360.9,
+    "pontos_ultimos_5": 8,
+    "aproveitamento_ultimos_5_pct": 53.3,
+    "ultimos_5_jogos": [
+      "V",
+      "D",
+      "E",
+      "E",
+      "V"
+    ]
+  },
+  "Saarland": {
+    "elo": 1440.6,
+    "pontos_ultimos_5": 1,
+    "aproveitamento_ultimos_5_pct": 6.7,
+    "ultimos_5_jogos": [
+      "D",
+      "D",
+      "D",
+      "E",
+      "D"
+    ]
+  },
+  "Saint Barthélemy": {
+    "elo": 1414.9,
+    "pontos_ultimos_5": 7,
+    "aproveitamento_ultimos_5_pct": 46.7,
+    "ultimos_5_jogos": [
+      "D",
+      "E",
+      "V",
+      "V",
+      "D"
+    ]
+  },
+  "Saint Helena": {
+    "elo": 1394.8,
+    "pontos_ultimos_5": 0,
+    "aproveitamento_ultimos_5_pct": 0.0,
+    "ultimos_5_jogos": [
+      "D",
+      "D",
+      "D",
+      "D",
+      "D"
+    ]
+  },
+  "Saint Kitts and Nevis": {
+    "elo": 1353.2,
+    "pontos_ultimos_5": 11,
+    "aproveitamento_ultimos_5_pct": 73.3,
+    "ultimos_5_jogos": [
+      "V",
+      "V",
+      "V",
+      "E",
+      "E"
+    ]
+  },
+  "Saint Lucia": {
+    "elo": 1338.7,
+    "pontos_ultimos_5": 9,
+    "aproveitamento_ultimos_5_pct": 60.0,
+    "ultimos_5_jogos": [
+      "D",
+      "D",
+      "V",
+      "V",
+      "V"
+    ]
+  },
+  "Saint Martin": {
+    "elo": 1328.3,
+    "pontos_ultimos_5": 12,
+    "aproveitamento_ultimos_5_pct": 80.0,
+    "ultimos_5_jogos": [
+      "V",
+      "V",
+      "D",
+      "V",
+      "V"
+    ]
+  },
+  "Saint Pierre and Miquelon": {
+    "elo": 1393.4,
+    "pontos_ultimos_5": 0,
+    "aproveitamento_ultimos_5_pct": 0.0,
+    "ultimos_5_jogos": [
+      "D",
+      "D",
+      "D",
+      "D",
+      "D"
+    ]
+  },
+  "Saint Vincent and the Grenadines": {
+    "elo": 1445.3,
+    "pontos_ultimos_5": 15,
+    "aproveitamento_ultimos_5_pct": 100.0,
+    "ultimos_5_jogos": [
+      "V",
+      "V",
+      "V",
+      "V",
+      "V"
+    ]
+  },
+  "Samoa": {
+    "elo": 1308.4,
+    "pontos_ultimos_5": 6,
+    "aproveitamento_ultimos_5_pct": 40.0,
+    "ultimos_5_jogos": [
+      "V",
+      "V",
+      "D",
+      "D",
+      "D"
+    ]
+  },
+  "San Marino": {
+    "elo": 993.4,
+    "pontos_ultimos_5": 0,
+    "aproveitamento_ultimos_5_pct": 0.0,
+    "ultimos_5_jogos": [
+      "D",
+      "D",
+      "D",
+      "D",
+      "D"
+    ]
+  },
+  "Sark": {
+    "elo": 1437.3,
+    "pontos_ultimos_5": 0,
+    "aproveitamento_ultimos_5_pct": 0.0,
+    "ultimos_5_jogos": [
+      "D",
+      "D",
+      "D",
+      "D"
+    ]
+  },
+  "Saudi Arabia": {
+    "elo": 1689.4,
+    "pontos_ultimos_5": 13,
+    "aproveitamento_ultimos_5_pct": 86.7,
+    "ultimos_5_jogos": [
+      "V",
+      "V",
+      "V",
+      "E",
+      "V"
+    ]
+  },
+  "Saugeais": {
+    "elo": 1495.0,
+    "pontos_ultimos_5": 1,
+    "aproveitamento_ultimos_5_pct": 6.7,
+    "ultimos_5_jogos": [
+      "E"
+    ]
+  },
+  "Scotland": {
+    "elo": 1717.8,
+    "pontos_ultimos_5": 4,
+    "aproveitamento_ultimos_5_pct": 26.7,
+    "ultimos_5_jogos": [
+      "D",
+      "E",
+      "D",
+      "V",
+      "D"
+    ]
+  },
+  "Sealand": {
+    "elo": 1503.6,
+    "pontos_ultimos_5": 11,
+    "aproveitamento_ultimos_5_pct": 73.3,
+    "ultimos_5_jogos": [
+      "V",
+      "E",
+      "E",
+      "V",
+      "V"
+    ]
+  },
+  "Seborga": {
+    "elo": 1480.1,
+    "pontos_ultimos_5": 0,
+    "aproveitamento_ultimos_5_pct": 0.0,
+    "ultimos_5_jogos": [
+      "D"
+    ]
+  },
+  "Senegal": {
+    "elo": 1803.7,
+    "pontos_ultimos_5": 10,
+    "aproveitamento_ultimos_5_pct": 66.7,
+    "ultimos_5_jogos": [
+      "V",
+      "D",
+      "E",
+      "V",
+      "V"
+    ]
+  },
+  "Serbia": {
+    "elo": 1708.1,
+    "pontos_ultimos_5": 0,
+    "aproveitamento_ultimos_5_pct": 0.0,
+    "ultimos_5_jogos": [
+      "D",
+      "D",
+      "D",
+      "D",
+      "D"
+    ]
+  },
+  "Seychelles": {
+    "elo": 1065.0,
+    "pontos_ultimos_5": 1,
+    "aproveitamento_ultimos_5_pct": 6.7,
+    "ultimos_5_jogos": [
+      "D",
+      "E",
+      "D",
+      "D",
+      "D"
+    ]
+  },
+  "Shetland": {
+    "elo": 1482.8,
+    "pontos_ultimos_5": 8,
+    "aproveitamento_ultimos_5_pct": 53.3,
+    "ultimos_5_jogos": [
+      "V",
+      "V",
+      "E",
+      "E",
+      "D"
+    ]
+  },
+  "Sierra Leone": {
+    "elo": 1423.3,
+    "pontos_ultimos_5": 4,
+    "aproveitamento_ultimos_5_pct": 26.7,
+    "ultimos_5_jogos": [
+      "E",
+      "V",
+      "D",
+      "D",
+      "D"
+    ]
+  },
+  "Silesia": {
+    "elo": 1496.5,
+    "pontos_ultimos_5": 8,
+    "aproveitamento_ultimos_5_pct": 53.3,
+    "ultimos_5_jogos": [
+      "V",
+      "D",
+      "E",
+      "V",
+      "E"
+    ]
+  },
+  "Singapore": {
+    "elo": 1359.0,
+    "pontos_ultimos_5": 6,
+    "aproveitamento_ultimos_5_pct": 40.0,
+    "ultimos_5_jogos": [
+      "D",
+      "V",
+      "D",
+      "V",
+      "D"
+    ]
+  },
+  "Sint Maarten": {
+    "elo": 1306.2,
+    "pontos_ultimos_5": 1,
+    "aproveitamento_ultimos_5_pct": 6.7,
+    "ultimos_5_jogos": [
+      "E",
+      "D",
+      "D",
+      "D",
+      "D"
+    ]
+  },
+  "Slovakia": {
+    "elo": 1683.9,
+    "pontos_ultimos_5": 11,
+    "aproveitamento_ultimos_5_pct": 73.3,
+    "ultimos_5_jogos": [
+      "E",
+      "V",
+      "V",
+      "E",
+      "V"
+    ]
+  },
+  "Slovenia": {
+    "elo": 1734.7,
+    "pontos_ultimos_5": 7,
+    "aproveitamento_ultimos_5_pct": 46.7,
+    "ultimos_5_jogos": [
+      "D",
+      "E",
+      "V",
+      "D",
+      "V"
+    ]
+  },
+  "Solomon Islands": {
+    "elo": 1416.0,
+    "pontos_ultimos_5": 6,
+    "aproveitamento_ultimos_5_pct": 40.0,
+    "ultimos_5_jogos": [
+      "D",
+      "E",
+      "V",
+      "E",
+      "E"
+    ]
+  },
+  "Somalia": {
+    "elo": 1150.5,
+    "pontos_ultimos_5": 3,
+    "aproveitamento_ultimos_5_pct": 20.0,
+    "ultimos_5_jogos": [
+      "E",
+      "E",
+      "E",
+      "D",
+      "D"
+    ]
+  },
+  "Somaliland": {
+    "elo": 1484.7,
+    "pontos_ultimos_5": 6,
+    "aproveitamento_ultimos_5_pct": 40.0,
+    "ultimos_5_jogos": [
+      "D",
+      "D",
+      "V",
+      "V",
+      "D"
+    ]
+  },
+  "South Africa": {
+    "elo": 1673.7,
+    "pontos_ultimos_5": 12,
+    "aproveitamento_ultimos_5_pct": 80.0,
+    "ultimos_5_jogos": [
+      "V",
+      "D",
+      "V",
+      "V",
+      "V"
+    ]
+  },
+  "South Korea": {
+    "elo": 1796.7,
+    "pontos_ultimos_5": 7,
+    "aproveitamento_ultimos_5_pct": 46.7,
+    "ultimos_5_jogos": [
+      "D",
+      "V",
+      "D",
+      "E",
+      "V"
+    ]
+  },
+  "South Ossetia": {
+    "elo": 1483.2,
+    "pontos_ultimos_5": 8,
+    "aproveitamento_ultimos_5_pct": 53.3,
+    "ultimos_5_jogos": [
+      "E",
+      "E",
+      "V",
+      "V",
+      "D"
+    ]
+  },
+  "South Sudan": {
+    "elo": 1277.6,
+    "pontos_ultimos_5": 3,
+    "aproveitamento_ultimos_5_pct": 20.0,
+    "ultimos_5_jogos": [
+      "D",
+      "V",
+      "D",
+      "D",
+      "D"
+    ]
+  },
+  "South Yemen": {
+    "elo": 1474.1,
+    "pontos_ultimos_5": 0,
+    "aproveitamento_ultimos_5_pct": 0.0,
+    "ultimos_5_jogos": [
+      "D",
+      "D",
+      "D"
+    ]
+  },
+  "Spain": {
+    "elo": 2135.6,
+    "pontos_ultimos_5": 15,
+    "aproveitamento_ultimos_5_pct": 100.0,
+    "ultimos_5_jogos": [
+      "V",
+      "V",
+      "V",
+      "V",
+      "V"
+    ]
+  },
+  "Sri Lanka": {
+    "elo": 1153.8,
+    "pontos_ultimos_5": 9,
+    "aproveitamento_ultimos_5_pct": 60.0,
+    "ultimos_5_jogos": [
+      "D",
+      "V",
+      "V",
+      "D",
+      "V"
+    ]
+  },
+  "Sudan": {
+    "elo": 1475.0,
+    "pontos_ultimos_5": 6,
+    "aproveitamento_ultimos_5_pct": 40.0,
+    "ultimos_5_jogos": [
+      "V",
+      "D",
+      "D",
+      "V",
+      "D"
+    ]
+  },
+  "Suriname": {
+    "elo": 1557.8,
+    "pontos_ultimos_5": 7,
+    "aproveitamento_ultimos_5_pct": 46.7,
+    "ultimos_5_jogos": [
+      "D",
+      "V",
+      "V",
+      "E",
+      "D"
+    ]
+  },
+  "Surrey": {
+    "elo": 1517.1,
+    "pontos_ultimos_5": 3,
+    "aproveitamento_ultimos_5_pct": 20.0,
+    "ultimos_5_jogos": [
+      "V"
+    ]
+  },
+  "Sweden": {
+    "elo": 1776.7,
+    "pontos_ultimos_5": 10,
+    "aproveitamento_ultimos_5_pct": 66.7,
+    "ultimos_5_jogos": [
+      "D",
+      "V",
+      "V",
+      "E",
+      "V"
+    ]
+  },
+  "Switzerland": {
+    "elo": 1904.9,
+    "pontos_ultimos_5": 12,
+    "aproveitamento_ultimos_5_pct": 80.0,
+    "ultimos_5_jogos": [
+      "D",
+      "V",
+      "V",
+      "V",
+      "V"
+    ]
+  },
+  "Syria": {
+    "elo": 1549.3,
+    "pontos_ultimos_5": 2,
+    "aproveitamento_ultimos_5_pct": 13.3,
+    "ultimos_5_jogos": [
+      "E",
+      "D",
+      "D",
+      "E",
+      "D"
+    ]
+  },
+  "Székely Land": {
+    "elo": 1466.1,
+    "pontos_ultimos_5": 7,
+    "aproveitamento_ultimos_5_pct": 46.7,
+    "ultimos_5_jogos": [
+      "E",
+      "D",
+      "D",
+      "V",
+      "V"
+    ]
+  },
+  "Sápmi": {
+    "elo": 1448.8,
+    "pontos_ultimos_5": 3,
+    "aproveitamento_ultimos_5_pct": 20.0,
+    "ultimos_5_jogos": [
+      "D",
+      "D",
+      "D",
+      "V",
+      "D"
+    ]
+  },
+  "São Tomé and Príncipe": {
+    "elo": 1223.9,
+    "pontos_ultimos_5": 4,
+    "aproveitamento_ultimos_5_pct": 26.7,
+    "ultimos_5_jogos": [
+      "D",
+      "V",
+      "D",
+      "D",
+      "E"
+    ]
+  },
+  "Tahiti": {
+    "elo": 1488.2,
+    "pontos_ultimos_5": 9,
+    "aproveitamento_ultimos_5_pct": 60.0,
+    "ultimos_5_jogos": [
+      "V",
+      "V",
+      "D",
+      "V",
+      "D"
+    ]
+  },
+  "Taiwan": {
+    "elo": 1180.0,
+    "pontos_ultimos_5": 0,
+    "aproveitamento_ultimos_5_pct": 0.0,
+    "ultimos_5_jogos": [
+      "D",
+      "D",
+      "D",
+      "D",
+      "D"
+    ]
+  },
+  "Tajikistan": {
+    "elo": 1437.3,
+    "pontos_ultimos_5": 7,
+    "aproveitamento_ultimos_5_pct": 46.7,
+    "ultimos_5_jogos": [
+      "V",
+      "E",
+      "D",
+      "D",
+      "V"
+    ]
+  },
+  "Tamil Eelam": {
+    "elo": 1558.4,
+    "pontos_ultimos_5": 15,
+    "aproveitamento_ultimos_5_pct": 100.0,
+    "ultimos_5_jogos": [
+      "V",
+      "V",
+      "V",
+      "V",
+      "V"
+    ]
+  },
+  "Tanzania": {
+    "elo": 1387.5,
+    "pontos_ultimos_5": 4,
+    "aproveitamento_ultimos_5_pct": 26.7,
+    "ultimos_5_jogos": [
+      "D",
+      "D",
+      "V",
+      "D",
+      "E"
+    ]
+  },
+  "Thailand": {
+    "elo": 1520.0,
+    "pontos_ultimos_5": 8,
+    "aproveitamento_ultimos_5_pct": 53.3,
+    "ultimos_5_jogos": [
+      "E",
+      "V",
+      "V",
+      "D",
+      "E"
+    ]
+  },
+  "Tibet": {
+    "elo": 1317.9,
+    "pontos_ultimos_5": 1,
+    "aproveitamento_ultimos_5_pct": 6.7,
+    "ultimos_5_jogos": [
+      "E",
+      "D",
+      "D",
+      "D",
+      "D"
+    ]
+  },
+  "Timor-Leste": {
+    "elo": 1001.6,
+    "pontos_ultimos_5": 1,
+    "aproveitamento_ultimos_5_pct": 6.7,
+    "ultimos_5_jogos": [
+      "D",
+      "D",
+      "D",
+      "D",
+      "E"
+    ]
+  },
+  "Togo": {
+    "elo": 1488.0,
+    "pontos_ultimos_5": 10,
+    "aproveitamento_ultimos_5_pct": 66.7,
+    "ultimos_5_jogos": [
+      "V",
+      "E",
+      "V",
+      "V",
+      "D"
+    ]
+  },
+  "Tonga": {
+    "elo": 1186.6,
+    "pontos_ultimos_5": 6,
+    "aproveitamento_ultimos_5_pct": 40.0,
+    "ultimos_5_jogos": [
+      "V",
+      "D",
+      "D",
+      "V",
+      "D"
+    ]
+  },
+  "Trinidad and Tobago": {
+    "elo": 1467.8,
+    "pontos_ultimos_5": 1,
+    "aproveitamento_ultimos_5_pct": 6.7,
+    "ultimos_5_jogos": [
+      "D",
+      "D",
+      "D",
+      "D",
+      "E"
+    ]
+  },
+  "Tunisia": {
+    "elo": 1645.9,
+    "pontos_ultimos_5": 2,
+    "aproveitamento_ultimos_5_pct": 13.3,
+    "ultimos_5_jogos": [
+      "D",
+      "D",
+      "D",
+      "E",
+      "E"
+    ]
+  },
+  "Turkey": {
+    "elo": 1804.7,
+    "pontos_ultimos_5": 3,
+    "aproveitamento_ultimos_5_pct": 20.0,
+    "ultimos_5_jogos": [
+      "V",
+      "D",
+      "D",
+      "D",
+      "D"
+    ]
+  },
+  "Turkmenistan": {
+    "elo": 1396.2,
+    "pontos_ultimos_5": 12,
+    "aproveitamento_ultimos_5_pct": 80.0,
+    "ultimos_5_jogos": [
+      "V",
+      "V",
+      "D",
+      "V",
+      "V"
+    ]
+  },
+  "Turks and Caicos Islands": {
+    "elo": 1186.4,
+    "pontos_ultimos_5": 9,
+    "aproveitamento_ultimos_5_pct": 60.0,
+    "ultimos_5_jogos": [
+      "V",
+      "D",
+      "V",
+      "V",
+      "D"
+    ]
+  },
+  "Tuvalu": {
+    "elo": 1307.9,
+    "pontos_ultimos_5": 6,
+    "aproveitamento_ultimos_5_pct": 40.0,
+    "ultimos_5_jogos": [
+      "D",
+      "D",
+      "D",
+      "V",
+      "V"
+    ]
+  },
+  "Two Sicilies": {
+    "elo": 1445.5,
+    "pontos_ultimos_5": 3,
+    "aproveitamento_ultimos_5_pct": 20.0,
+    "ultimos_5_jogos": [
+      "V",
+      "D",
+      "D",
+      "D",
+      "D"
+    ]
+  },
+  "Uganda": {
+    "elo": 1553.7,
+    "pontos_ultimos_5": 8,
+    "aproveitamento_ultimos_5_pct": 53.3,
+    "ultimos_5_jogos": [
+      "D",
+      "E",
+      "V",
+      "V",
+      "E"
+    ]
+  },
+  "Ukraine": {
+    "elo": 1770.9,
+    "pontos_ultimos_5": 4,
+    "aproveitamento_ultimos_5_pct": 26.7,
+    "ultimos_5_jogos": [
+      "D",
+      "V",
+      "E",
+      "D",
+      "D"
+    ]
+  },
+  "United Arab Emirates": {
+    "elo": 1635.8,
+    "pontos_ultimos_5": 10,
+    "aproveitamento_ultimos_5_pct": 66.7,
+    "ultimos_5_jogos": [
+      "V",
+      "V",
+      "E",
+      "V",
+      "D"
+    ]
+  },
+  "United Koreans in Japan": {
+    "elo": 1494.9,
+    "pontos_ultimos_5": 6,
+    "aproveitamento_ultimos_5_pct": 40.0,
+    "ultimos_5_jogos": [
+      "E",
+      "E",
+      "V",
+      "D",
+      "E"
+    ]
+  },
+  "United States": {
+    "elo": 1821.2,
+    "pontos_ultimos_5": 12,
+    "aproveitamento_ultimos_5_pct": 80.0,
+    "ultimos_5_jogos": [
+      "D",
+      "V",
+      "V",
+      "V",
+      "V"
+    ]
+  },
+  "United States Virgin Islands": {
+    "elo": 1137.3,
+    "pontos_ultimos_5": 9,
+    "aproveitamento_ultimos_5_pct": 60.0,
+    "ultimos_5_jogos": [
+      "V",
+      "D",
+      "V",
+      "V",
+      "D"
+    ]
+  },
+  "Uruguay": {
+    "elo": 1869.2,
+    "pontos_ultimos_5": 8,
+    "aproveitamento_ultimos_5_pct": 53.3,
+    "ultimos_5_jogos": [
+      "E",
+      "E",
+      "D",
+      "V",
+      "V"
+    ]
+  },
+  "Uzbekistan": {
+    "elo": 1724.6,
+    "pontos_ultimos_5": 6,
+    "aproveitamento_ultimos_5_pct": 40.0,
+    "ultimos_5_jogos": [
+      "D",
+      "D",
+      "V",
+      "V",
+      "D"
+    ]
+  },
+  "Vanuatu": {
+    "elo": 1446.0,
+    "pontos_ultimos_5": 7,
+    "aproveitamento_ultimos_5_pct": 46.7,
+    "ultimos_5_jogos": [
+      "D",
+      "V",
+      "E",
+      "V",
+      "D"
+    ]
+  },
+  "Vatican City": {
+    "elo": 1415.0,
+    "pontos_ultimos_5": 2,
+    "aproveitamento_ultimos_5_pct": 13.3,
+    "ultimos_5_jogos": [
+      "D",
+      "D",
+      "E",
+      "E",
+      "D"
+    ]
+  },
+  "Venezuela": {
+    "elo": 1754.1,
+    "pontos_ultimos_5": 5,
+    "aproveitamento_ultimos_5_pct": 33.3,
+    "ultimos_5_jogos": [
+      "D",
+      "V",
+      "D",
+      "E",
+      "E"
+    ]
+  },
+  "Vietnam": {
+    "elo": 1537.6,
+    "pontos_ultimos_5": 9,
+    "aproveitamento_ultimos_5_pct": 60.0,
+    "ultimos_5_jogos": [
+      "V",
+      "V",
+      "D",
+      "V",
+      "D"
+    ]
+  },
+  "Vietnam Republic": {
+    "elo": 1396.3,
+    "pontos_ultimos_5": 0,
+    "aproveitamento_ultimos_5_pct": 0.0,
+    "ultimos_5_jogos": [
+      "D",
+      "D",
+      "D",
+      "D",
+      "D"
+    ]
+  },
+  "Wales": {
+    "elo": 1676.4,
+    "pontos_ultimos_5": 3,
+    "aproveitamento_ultimos_5_pct": 20.0,
+    "ultimos_5_jogos": [
+      "D",
+      "D",
+      "D",
+      "V",
+      "D"
+    ]
+  },
+  "Wallis Islands and Futuna": {
+    "elo": 1350.3,
+    "pontos_ultimos_5": 3,
+    "aproveitamento_ultimos_5_pct": 20.0,
+    "ultimos_5_jogos": [
+      "V",
+      "D",
+      "D",
+      "D",
+      "D"
+    ]
+  },
+  "West Papua": {
+    "elo": 1478.8,
+    "pontos_ultimos_5": 1,
+    "aproveitamento_ultimos_5_pct": 6.7,
+    "ultimos_5_jogos": [
+      "D",
+      "E"
+    ]
+  },
+  "Western Armenia": {
+    "elo": 1486.5,
+    "pontos_ultimos_5": 5,
+    "aproveitamento_ultimos_5_pct": 33.3,
+    "ultimos_5_jogos": [
+      "D",
+      "V",
+      "E",
+      "E",
+      "D"
+    ]
+  },
+  "Western Australia": {
+    "elo": 1411.0,
+    "pontos_ultimos_5": 5,
+    "aproveitamento_ultimos_5_pct": 33.3,
+    "ultimos_5_jogos": [
+      "D",
+      "E",
+      "D",
+      "V",
+      "E"
+    ]
+  },
+  "Western Isles": {
+    "elo": 1457.5,
+    "pontos_ultimos_5": 7,
+    "aproveitamento_ultimos_5_pct": 46.7,
+    "ultimos_5_jogos": [
+      "D",
+      "V",
+      "V",
+      "D",
+      "E"
+    ]
+  },
+  "Western Sahara": {
+    "elo": 1451.3,
+    "pontos_ultimos_5": 6,
+    "aproveitamento_ultimos_5_pct": 40.0,
+    "ultimos_5_jogos": [
+      "V",
+      "V",
+      "D",
+      "D",
+      "D"
+    ]
+  },
+  "Yemen": {
+    "elo": 1339.8,
+    "pontos_ultimos_5": 7,
+    "aproveitamento_ultimos_5_pct": 46.7,
+    "ultimos_5_jogos": [
+      "V",
+      "E",
+      "D",
+      "D",
+      "V"
+    ]
+  },
+  "Yemen DPR": {
+    "elo": 1408.2,
+    "pontos_ultimos_5": 4,
+    "aproveitamento_ultimos_5_pct": 26.7,
+    "ultimos_5_jogos": [
+      "E",
+      "D",
+      "D",
+      "D",
+      "V"
+    ]
+  },
+  "Ynys Môn": {
+    "elo": 1648.9,
+    "pontos_ultimos_5": 12,
+    "aproveitamento_ultimos_5_pct": 80.0,
+    "ultimos_5_jogos": [
+      "V",
+      "V",
+      "D",
+      "V",
+      "V"
+    ]
+  },
+  "Yorkshire": {
+    "elo": 1550.0,
+    "pontos_ultimos_5": 12,
+    "aproveitamento_ultimos_5_pct": 80.0,
+    "ultimos_5_jogos": [
+      "V",
+      "D",
+      "V",
+      "V",
+      "V"
+    ]
+  },
+  "Yoruba Nation": {
+    "elo": 1483.3,
+    "pontos_ultimos_5": 1,
+    "aproveitamento_ultimos_5_pct": 6.7,
+    "ultimos_5_jogos": [
+      "E",
+      "D"
+    ]
+  },
+  "Yugoslavia": {
+    "elo": 1759.4,
+    "pontos_ultimos_5": 6,
+    "aproveitamento_ultimos_5_pct": 40.0,
+    "ultimos_5_jogos": [
+      "D",
+      "V",
+      "D",
+      "V",
+      "D"
+    ]
+  },
+  "Zambia": {
+    "elo": 1532.1,
+    "pontos_ultimos_5": 4,
+    "aproveitamento_ultimos_5_pct": 26.7,
+    "ultimos_5_jogos": [
+      "E",
+      "D",
+      "D",
+      "D",
+      "V"
+    ]
+  },
+  "Zanzibar": {
+    "elo": 1522.4,
+    "pontos_ultimos_5": 10,
+    "aproveitamento_ultimos_5_pct": 66.7,
+    "ultimos_5_jogos": [
+      "E",
+      "V",
+      "D",
+      "V",
+      "V"
+    ]
+  },
+  "Zimbabwe": {
+    "elo": 1474.7,
+    "pontos_ultimos_5": 9,
+    "aproveitamento_ultimos_5_pct": 60.0,
+    "ultimos_5_jogos": [
+      "V",
+      "D",
+      "V",
+      "V",
+      "D"
+    ]
+  },
+  "Åland Islands": {
+    "elo": 1479.8,
+    "pontos_ultimos_5": 4,
+    "aproveitamento_ultimos_5_pct": 26.7,
+    "ultimos_5_jogos": [
+      "V",
+      "D",
+      "D",
+      "D",
+      "E"
+    ]
+  }
+}

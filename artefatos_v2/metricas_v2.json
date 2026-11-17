@@ -1,0 +1,79 @@
+{
+  "versao": "2.0.0",
+  "modelo": "RandomForestClassifier (Ensemble com Elo e Forma Recente)",
+  "acuracia_teste": 0.5514,
+  "f1_macro_teste": 0.5039,
+  "classes": [
+    "empate",
+    "vitoria_mandante",
+    "vitoria_visitante"
+  ],
+  "matriz_confusao": [
+    [
+      607,
+      782,
+      879
+    ],
+    [
+      877,
+      3114,
+      904
+    ],
+    [
+      501,
+      538,
+      1787
+    ]
+  ],
+  "relatorio_completo": {
+    "empate": {
+      "precision": 0.3057934508816121,
+      "recall": 0.26763668430335097,
+      "f1-score": 0.2854455678344698,
+      "support": 2268.0
+    },
+    "vitoria_mandante": {
+      "precision": 0.7023004059539919,
+      "recall": 0.6361593462717058,
+      "f1-score": 0.667595669417944,
+      "support": 4895.0
+    },
+    "vitoria_visitante": {
+      "precision": 0.5005602240896359,
+      "recall": 0.632342533616419,
+      "f1-score": 0.558786741713571,
+      "support": 2826.0
+    },
+    "accuracy": 0.5514065472019221,
+    "macro avg": {
+      "precision": 0.5028846936417466,
+      "recall": 0.5120461880638253,
+      "f1-score": 0.5039426596553283,
+      "support": 9989.0
+    },
+    "weighted avg": {
+      "precision": 0.5551990416479725,
+      "recall": 0.5514065472019221,
+      "f1-score": 0.5500453180230218,
+      "support": 9989.0
+    }
+  },
+  "features_utilizadas": {
+    "numericas": [
+      "diff_elo",
+      "diff_forma",
+      "elo_mandante",
+      "elo_visitante"
+    ],
+    "categoricas": [
+      "torneio",
+      "campo_neutro"
+    ]
+  },
+  "comparacao_baseline": {
+    "f1_macro_inicial_aula02": 0.4201,
+    "f1_macro_v2": 0.5039,
+    "ganho_absoluto": 0.0838,
+    "ganho_percentual": "+20.0%"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "fase": "desenvolvimento",
+  "quantidade": 6,
+  "taxa_sucesso": 1.0,
+  "casos": [
+    {
+      "id": "brasil_vs_argentina_copa_america",
+      "passou": true,
+      "resposta": {
+        "resultado": "vitoria_mandante",
+        "versao": "1.0.0"
+      },
+      "segundos": 0.0056488999998691725
+    },
+    {
+      "id": "franca_vs_alemanha_amigavel",
+      "passou": true,
+      "resposta": {
+        "resultado": "vitoria_visitante",
+        "versao": "1.0.0"
+      },
+      "segundos": 0.005733999999847583
+    },
+    {
+      "id": "inglaterra_vs_escocia_eliminatorias",
+      "passou": true,
+      "resposta": {
+        "resultado": "vitoria_mandante",
+        "versao": "1.0.0"
+      },
+      "segundos": 0.005234499999914988
+    },
+    {
+      "id": "japao_vs_espanha_copa_do_mundo",
+      "passou": true,
+      "resposta": {
+        "resultado": "vitoria_visitante",
+        "versao": "1.0.0"
+      },
+      "segundos": 0.005159199999980046
+    },
+    {
+      "id": "caso_recusa_falta_mandante",
+      "passou": true,
+      "erro_tipo": "ValueError",
+      "erro": "mandante: campo obrigatório.",
+      "segundos": 1.0199999906035373e-05
+    },
+    {
+      "id": "caso_recusa_campo_neutro_invalido",
+      "passou": true,
+      "erro_tipo": "ValueError",
+      "erro": "campo_neutro: valor não permitido.",
+      "segundos": 9.100000170292333e-06
+    }
+  ],
+  "limite": "Taxa relativa aos oráculos definidos; não comprova correção semântica."
+}

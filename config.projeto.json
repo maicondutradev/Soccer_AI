@@ -1,0 +1,45 @@
+{
+  "nome": "Previsao_Partidas_Futebol_P2",
+  "versao": "1.0.0",
+  "modo": "tabular",
+  "tarefa": "classificacao",
+  "metrica": "f1_macro",
+  "csv": "data/partidas_futebol.csv",
+  "separador": ",",
+  "decimal": ".",
+  "numericas": [],
+  "categoricas": [
+    "mandante",
+    "visitante",
+    "torneio",
+    "campo_neutro"
+  ],
+  "alvo": "resultado",
+  "divisao": "aleatoria",
+  "fracao_teste": 0.20,
+  "seed": 42,
+  "saida": "artefatos_v1",
+  "casos": "casos_do_grupo.json",
+  "schema": {
+    "mandante": {
+      "tipo": "texto",
+      "obrigatorio": true
+    },
+    "visitante": {
+      "tipo": "texto",
+      "obrigatorio": true
+    },
+    "torneio": {
+      "tipo": "texto",
+      "obrigatorio": true
+    },
+    "campo_neutro": {
+      "tipo": "texto",
+      "obrigatorio": true,
+      "opcoes": [
+        "Sim",
+        "Nao"
+      ]
+    }
+  }
+}

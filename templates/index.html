@@ -1,0 +1,1032 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="dark lg:h-screen lg:overflow-hidden">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Preditor de Futebol Internacional — IA P2</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+            mono: ['"JetBrains Mono"', 'monospace'],
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    @media (min-width: 1024px) {
+      html, body {
+        height: 100vh;
+        max-height: 100vh;
+        overflow: hidden;
+      }
+    }
+    body {
+      background-color: #080c14;
+      background-image: 
+        radial-gradient(at 20% 0%, rgba(30, 58, 138, 0.25) 0px, transparent 50%),
+        radial-gradient(at 80% 100%, rgba(15, 23, 42, 0.6) 0px, transparent 50%);
+    }
+    .glass-card {
+      background: linear-gradient(180deg, rgba(15, 23, 42, 0.9) 0%, rgba(11, 15, 25, 0.95) 100%);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      box-shadow: 0 15px 35px -10px rgba(0, 0, 0, 0.6);
+    }
+    .flag-shadow {
+      box-shadow: 0 8px 16px -4px rgba(0, 0, 0, 0.6), 0 0 0 2px rgba(255, 255, 255, 0.1);
+    }
+    .custom-scroll::-webkit-scrollbar {
+      width: 5px;
+    }
+    .custom-scroll::-webkit-scrollbar-track {
+      background: rgba(11, 15, 25, 0.6);
+      border-radius: 8px;
+    }
+    .custom-scroll::-webkit-scrollbar-thumb {
+      background: rgba(51, 65, 85, 0.8);
+      border-radius: 8px;
+    }
+    .custom-scroll::-webkit-scrollbar-thumb:hover {
+      background: rgba(14, 165, 233, 0.5);
+    }
+    .badge-v { background-color: #059669; color: #ffffff; }
+    .badge-e { background-color: #d97706; color: #ffffff; }
+    .badge-d { background-color: #dc2626; color: #ffffff; }
+    @keyframes cardEntrance {
+      from {
+        opacity: 0;
+        transform: translateY(14px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    .card-entrance {
+      animation: cardEntrance 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    }
+  </style>
+</head>
+<body class="text-slate-100 flex flex-col font-sans selection:bg-sky-500 selection:text-white min-h-screen lg:h-screen lg:overflow-hidden">
+  <header class="border-b border-slate-800/80 bg-slate-950/85 backdrop-blur-md shrink-0 z-40 h-12 flex items-center">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 w-full flex items-center justify-between">
+      <div class="flex items-center">
+        <h1 class="text-xs sm:text-sm font-extrabold tracking-tight text-white">
+          SOFAPREDICT <span class="text-sky-400">AI PRO</span>
+        </h1>
+      </div>
+      <div class="flex items-center gap-2 sm:gap-3 text-[11px] font-mono">
+        <div class="flex items-center gap-1.5 sm:gap-2">
+          <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+          <span class="text-slate-400 hidden lg:inline">Modelo Ativo:</span>
+          <span class="text-emerald-400 font-bold hidden sm:inline">RandomForest (200 Árvores)</span>
+        </div>
+        <button type="button" onclick="abrirModalMetodologia()" class="px-2.5 py-1 rounded-lg bg-slate-900 hover:bg-slate-800 text-[10px] font-sans font-bold text-sky-300 border border-slate-700 hover:border-sky-500 transition-all shrink-0">
+          Sobre a IA
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 py-3.5 flex-1 w-full grid grid-cols-1 lg:grid-cols-12 gap-5 items-stretch lg:overflow-hidden">
+    <div class="lg:col-span-5 flex flex-col space-y-3 lg:overflow-hidden">
+      <div class="glass-card rounded-2xl p-4 sm:p-5 space-y-3.5 shrink-0">
+        <div class="border-b border-slate-800/80 pb-2 flex items-center justify-between">
+          <h2 class="text-xs font-bold uppercase tracking-wider text-slate-200">
+            Arena de Confronto
+          </h2>
+          <span class="text-[9px] font-mono text-slate-400">Dados estruturados</span>
+        </div>
+
+        <div id="alerta-validacao" class="hidden rounded-xl bg-rose-950/50 border border-rose-500/50 p-2.5 text-xs text-rose-200">
+          <div class="flex items-start gap-2">
+            <div class="w-3.5 h-3.5 rounded-full bg-rose-500/20 text-rose-400 flex items-center justify-center font-bold text-[9px] shrink-0 mt-0.5">!</div>
+            <div class="flex-1">
+              <span class="font-bold text-rose-400 block text-[11px]">Entrada Inválida</span>
+              <p id="msg-erro-validacao" class="text-rose-200/90 text-[10px] mt-0.5"></p>
+              <div id="acoes-erro-validacao" class="flex flex-wrap gap-1.5 mt-2"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-11 gap-2.5 items-center">
+          <div class="col-span-5 flex flex-col items-center text-center space-y-1.5">
+            <div class="relative">
+              <img id="flag-mandante" src="https://flagcdn.com/w160/br.png" onerror="this.onerror=null;this.src='https://flagcdn.com/w160/un.png';" alt="" class="w-16 h-11 sm:w-20 sm:h-13 object-cover rounded-lg flag-shadow transition-all duration-300">
+              <span class="absolute -bottom-1.5 left-1/2 -translate-x-1/2 px-1.5 py-0.2 rounded-full text-[8px] font-extrabold uppercase tracking-wider bg-emerald-500 text-slate-950 shadow-md">
+                Mandante
+              </span>
+            </div>
+            <div class="w-full pt-1">
+              <select id="mandante" onchange="atualizarBandeira('mandante'); validarSelecoesEmTempoReal();" class="w-full bg-slate-950/90 border border-slate-700/80 rounded-lg px-2 py-1.5 text-xs font-semibold text-slate-100 focus:outline-none focus:ring-1 focus:ring-sky-500 focus:border-transparent transition-all">
+                <option value="">Carregando...</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="col-span-1 flex flex-col items-center justify-center space-y-1">
+            <button type="button" onclick="inverterMando()" title="Inverter Mando de Campo" class="px-1 py-0.5 rounded bg-slate-900 hover:bg-slate-800 text-sky-400 font-mono text-[9px] border border-slate-700 hover:border-sky-500 transition-all shadow-sm">
+              Trocar
+            </button>
+            <div class="w-6 h-6 rounded-full bg-slate-800/80 border border-slate-700 flex items-center justify-center font-black text-[9px] text-slate-400">
+              VS
+            </div>
+          </div>
+
+          <div class="col-span-5 flex flex-col items-center text-center space-y-1.5">
+            <div class="relative">
+              <img id="flag-visitante" src="https://flagcdn.com/w160/ar.png" onerror="this.onerror=null;this.src='https://flagcdn.com/w160/un.png';" alt="" class="w-16 h-11 sm:w-20 sm:h-13 object-cover rounded-lg flag-shadow transition-all duration-300">
+              <span class="absolute -bottom-1.5 left-1/2 -translate-x-1/2 px-1.5 py-0.2 rounded-full text-[8px] font-extrabold uppercase tracking-wider bg-sky-400 text-slate-950 shadow-md">
+                Visitante
+              </span>
+            </div>
+            <div class="w-full pt-1">
+              <select id="visitante" onchange="atualizarBandeira('visitante'); validarSelecoesEmTempoReal();" class="w-full bg-slate-950/90 border border-slate-700/80 rounded-lg px-2 py-1.5 text-xs font-semibold text-slate-100 focus:outline-none focus:ring-1 focus:ring-sky-500 focus:border-transparent transition-all">
+                <option value="">Carregando...</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div class="space-y-2.5 pt-2 border-t border-slate-800/80">
+          <div>
+            <label for="torneio" class="block text-[10px] font-bold uppercase tracking-wider text-slate-400 mb-1">
+              Competição Oficial
+            </label>
+            <select id="torneio" onchange="validarSelecoesEmTempoReal()" class="w-full bg-slate-950/90 border border-slate-700/80 rounded-lg px-2.5 py-1.5 text-xs text-slate-100 focus:outline-none focus:ring-1 focus:ring-sky-500 focus:border-transparent transition-all"></select>
+          </div>
+
+          <div>
+            <label for="campo_neutro" class="block text-[10px] font-bold uppercase tracking-wider text-slate-400 mb-1">
+              Mando de Campo
+            </label>
+            <select id="campo_neutro" class="w-full bg-slate-950/90 border border-slate-700/80 rounded-lg px-2.5 py-1.5 text-xs text-slate-100 focus:outline-none focus:ring-1 focus:ring-sky-500 focus:border-transparent transition-all">
+              <option value="Nao">Estádio do Mandante (Vantagem Casa +70 Elo)</option>
+              <option value="Sim">Campo Neutro / Fase Final (Sem Bônus)</option>
+            </select>
+          </div>
+
+          <div class="flex items-center gap-2 pt-0.5">
+            <button type="button" onclick="alternarCampoNeutro()" class="flex-1 py-1 px-2 rounded-lg bg-slate-900 hover:bg-slate-800 text-[10px] font-semibold text-slate-300 border border-slate-700 hover:border-slate-500 transition-all text-center">
+              Alternar Campo Neutro
+            </button>
+            <button type="button" onclick="inverterMando()" class="flex-1 py-1 px-2 rounded-lg bg-slate-900 hover:bg-slate-800 text-[10px] font-semibold text-slate-300 border border-slate-700 hover:border-slate-500 transition-all text-center">
+              Inverter Mando
+            </button>
+          </div>
+        </div>
+
+        <div class="pt-1">
+          <button id="btn-prever" type="button" onclick="iniciarAnaliseStream()" class="w-full py-3 px-4 rounded-xl font-black text-xs tracking-wide uppercase bg-gradient-to-r from-sky-500 via-indigo-500 to-emerald-400 hover:opacity-95 active:scale-[0.99] text-slate-950 shadow-md shadow-sky-500/20 transition-all flex items-center justify-center">
+            <span>Analisar Confronto com Inteligência Artificial</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="glass-card rounded-2xl p-3 text-xs text-slate-400 space-y-1 border border-slate-800 shrink-0">
+        <span class="text-[11px] font-bold text-slate-300 block">Arquitetura de Avaliação</span>
+        <p class="text-[10px] leading-relaxed">
+          O modelo processa 49.945 confrontos com Rating Elo dinâmico e momentum dos últimos 5 jogos. As probabilidades refletem a distribuição do ensemble de 200 árvores balanceadas.
+        </p>
+      </div>
+    </div>
+
+    <div class="lg:col-span-7 min-h-[420px] lg:min-h-0 lg:h-full flex flex-col lg:overflow-hidden">
+      <div class="glass-card rounded-3xl p-4 sm:p-5 shadow-2xl flex flex-col flex-1 lg:h-full lg:overflow-hidden">
+        <div class="flex items-center justify-between border-b border-slate-800/80 pb-2.5 mb-3 shrink-0">
+          <div class="flex items-center gap-2">
+            <span id="dot-status" class="w-2.5 h-2.5 rounded-full bg-slate-500"></span>
+            <span id="txt-status-header" class="text-xs font-bold uppercase tracking-wider text-slate-300">
+              Painel de Diagnóstico da IA
+            </span>
+          </div>
+          <span class="text-[10px] font-mono text-slate-500" id="tempo-analise">Aguardando solicitação</span>
+        </div>
+
+        <div id="feed-analise" class="lg:flex-1 lg:overflow-y-auto custom-scroll space-y-3.5 lg:pr-1.5">
+          <div id="feed-boas-vindas" class="h-full flex flex-col items-center justify-center text-center p-6 space-y-2.5">
+            <div class="w-11 h-11 rounded-2xl bg-slate-900 border border-slate-800 flex items-center justify-center text-sky-400 font-mono font-bold text-sm shadow-inner">
+              IA
+            </div>
+            <div class="max-w-sm space-y-1">
+              <h3 class="text-xs font-bold text-slate-200">Pronto para Analisar</h3>
+              <p class="text-[11px] text-slate-400 leading-relaxed">
+                Configure os parâmetros da partida à esquerda e clique em <strong class="text-sky-400">Analisar Confronto</strong>. As etapas de validação, os cálculos de Elo e o veredito da IA serão gerados aqui progressivamente.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <div id="modal-metodologia" class="hidden fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-sm flex items-center justify-center p-4" onclick="if (event.target === this) fecharModalMetodologia()">
+    <div class="glass-card rounded-2xl max-w-2xl w-full max-h-[85vh] flex flex-col border border-slate-700/80 shadow-2xl overflow-hidden">
+      <div class="px-5 py-3.5 border-b border-slate-800 flex items-center justify-between bg-slate-950/90">
+        <div>
+          <h2 class="text-sm font-extrabold text-white tracking-tight">Sobre a IA &amp; Metodologia (P2)</h2>
+          <p class="text-[10px] text-slate-400 font-mono">Preditor Probabilístico de Partidas Internacionais</p>
+        </div>
+        <button type="button" onclick="fecharModalMetodologia()" class="px-2.5 py-1 rounded-lg bg-slate-900 hover:bg-slate-800 text-xs font-bold text-slate-300 border border-slate-700 transition-all">
+          Fechar
+        </button>
+      </div>
+
+      <div class="p-5 overflow-y-auto custom-scroll space-y-4 text-xs text-slate-300 leading-relaxed">
+        <div class="p-3.5 rounded-xl bg-slate-950/70 border border-slate-800 space-y-1.5">
+          <span class="text-[10px] font-bold uppercase tracking-wider text-sky-400 block">1. Problema, Objetivo e Público-Alvo</span>
+          <p><strong class="text-white">O que resolve:</strong> Estima as probabilidades de <strong class="text-emerald-400">Vitória do Mandante</strong>, <strong class="text-amber-400">Empate</strong> e <strong class="text-sky-400">Vitória do Visitante</strong> em partidas internacionais entre seleções.</p>
+          <p><strong class="text-white">Para quem:</strong> Analistas esportivos, torcedores e entusiastas de dados que desejam comparar cenários (mando de campo, torneio e campo neutro).</p>
+          <p><strong class="text-white">Por que IA:</strong> O desfecho depende de relações não lineares entre força histórica, momento recente e contexto da partida em quase 50 mil jogos.</p>
+        </div>
+
+        <div class="p-3.5 rounded-xl bg-slate-950/70 border border-slate-800 space-y-1.5">
+          <span class="text-[10px] font-bold uppercase tracking-wider text-emerald-400 block">2. Base de Dados e Preparação</span>
+          <p><strong class="text-white">Origem:</strong> Dataset histórico internacional (<code class="text-sky-300">data/partidas_futebol.csv</code>) cobrindo partidas de <strong class="text-white">1872 a 2024</strong> (49.945 confrontos processados).</p>
+          <p><strong class="text-white">Engenharia de Atributos (sem vazamento de dados):</strong></p>
+          <ul class="list-disc list-inside space-y-0.5 text-slate-300">
+            <li><strong class="text-white">Rating Elo Dinâmico:</strong> Sistema de pontuação que mede a força atual de cada seleção (sobe com vitórias e cai com derrotas, variando conforme a força do adversário e o peso do torneio). É recalculado cronologicamente jogo a jogo antes de cada partida para nunca vazar resultados futuros.</li>
+            <li><strong class="text-white">Momentum / Forma Recente:</strong> Aproveitamento e sequência dos últimos 5 jogos anteriores ao confronto.</li>
+            <li><strong class="text-white">Contexto:</strong> Torneio oficial e vantagem de mando de campo (removida quando campo neutro = Sim).</li>
+          </ul>
+        </div>
+
+        <div class="p-3.5 rounded-xl bg-slate-950/70 border border-slate-800 space-y-2">
+          <span class="text-[10px] font-bold uppercase tracking-wider text-indigo-400 block">3. Solução de IA e Métricas</span>
+          <p><strong class="text-white">O que é Random Forest (Floresta Aleatória):</strong> É um modelo em conjunto (<em>ensemble</em>) que combina <strong class="text-white">200 árvores de decisão</strong> diferentes. Cada árvore analisa combinações dos dados (Elo, forma recente, mando e torneio) e vota em um desfecho; as probabilidades exibidas na tela são a proporção de votos dessas 200 árvores.</p>
+          <p><strong class="text-white">Por que <code class="text-sky-300">class_weight='balanced'</code>:</strong> No futebol, o empate ocorre menos vezes que vitórias. Sem balanceamento, o modelo poderia ignorar empates para inflar acertos. Esse parâmetro dá peso maior à classe minoritária durante o treinamento.</p>
+          <p><strong class="text-white">O que é F1-Macro e por que usamos:</strong> O F1-Score combina <em>Precisão</em> (quando prevê uma classe, quanto acerta) e <em>Recall</em> (dos jogos reais daquela classe, quantos encontra). O <strong class="text-white">F1-Macro</strong> calcula o F1 separado para cada uma das 3 classes (Vitória Mandante, Empate, Vitória Visitante) e tira a <strong class="text-white">média simples com peso igual</strong> — impedindo que o modelo mascare erros ignorando empates.</p>
+          <p><strong class="text-white">Por que a v2 superou a v1 em +20%:</strong> A v1 (baseline) só enxergava os nomes das seleções e o torneio; a v2 passou a receber <strong class="text-white">Rating Elo dinâmico</strong> e <strong class="text-white">Momentum dos últimos 5 jogos</strong>, capturando a força real do momento.</p>
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-2 pt-1 text-center font-mono">
+            <div class="p-2 rounded-lg bg-slate-900 border border-slate-800">
+              <span class="text-[9px] text-slate-400 block">F1-Macro (v1 → v2)</span>
+              <span class="text-emerald-400 font-bold">0,4201 → 0,5039</span>
+            </div>
+            <div class="p-2 rounded-lg bg-slate-900 border border-slate-800">
+              <span class="text-[9px] text-slate-400 block">Ganho Relativo</span>
+              <span class="text-sky-400 font-bold">+20% em F1</span>
+            </div>
+            <div class="p-2 rounded-lg bg-slate-900 border border-slate-800">
+              <span class="text-[9px] text-slate-400 block">Acurácia (vs 33,3% acaso)</span>
+              <span class="text-white font-bold">55,14%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="p-3.5 rounded-xl bg-amber-950/30 border border-amber-500/30 space-y-1.5">
+          <span class="text-[10px] font-bold uppercase tracking-wider text-amber-300 block">4. Limites e Interpretação Honesta</span>
+          <p>O percentual exibido (<strong class="text-white">Maior Frequência</strong>) representa a distribuição probabilística aprendida pelo modelo sobre padrões históricos, <strong class="text-white">não</strong> uma certeza de acerto individual.</p>
+          <p>O modelo <strong class="text-white">não</strong> considera escalações, lesões, cartões vermelhos, clima ou arbitragem, e separa os fatos do retrospecto histórico direto da predição gerada pela IA.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const mapaBandeiras = {
+      "Afghanistan": "af", "Albania": "al", "Algeria": "dz", "American Samoa": "as",
+      "Andorra": "ad", "Angola": "ao", "Anguilla": "ai", "Antigua and Barbuda": "ag",
+      "Argentina": "ar", "Armenia": "am", "Aruba": "aw", "Australia": "au",
+      "Austria": "at", "Azerbaijan": "az", "Bahamas": "bs", "Bahrain": "bh",
+      "Bangladesh": "bd", "Barbados": "bb", "Belarus": "by", "Belgium": "be",
+      "Belize": "bz", "Benin": "bj", "Bermuda": "bm", "Bhutan": "bt",
+      "Bolivia": "bo", "Bonaire": "bq", "Bosnia and Herzegovina": "ba", "Botswana": "bw",
+      "Brazil": "br", "British Virgin Islands": "vg", "Brunei": "bn", "Bulgaria": "bg",
+      "Burkina Faso": "bf", "Burundi": "bi", "Cambodia": "kh", "Cameroon": "cm",
+      "Canada": "ca", "Cape Verde": "cv", "Cayman Islands": "ky", "Central African Republic": "cf",
+      "Chad": "td", "Chile": "cl", "China": "cn", "China PR": "cn",
+      "Colombia": "co", "Comoros": "km", "Congo": "cg", "Cook Islands": "ck",
+      "Costa Rica": "cr", "Croatia": "hr", "Cuba": "cu", "Curaçao": "cw",
+      "Cyprus": "cy", "Czech Republic": "cz", "Czechia": "cz", "DR Congo": "cd",
+      "Denmark": "dk", "Djibouti": "dj", "Dominica": "dm", "Dominican Republic": "do",
+      "Ecuador": "ec", "Egypt": "eg", "El Salvador": "sv", "England": "gb-eng",
+      "Equatorial Guinea": "gq", "Eritrea": "er", "Estonia": "ee", "Eswatini": "sz",
+      "Ethiopia": "et", "Falkland Islands": "fk", "Faroe Islands": "fo", "Fiji": "fj",
+      "Finland": "fi", "France": "fr", "French Guiana": "gf", "Gabon": "ga",
+      "Gambia": "gm", "Georgia": "ge", "Germany": "de", "Ghana": "gh",
+      "Gibraltar": "gi", "Greece": "gr", "Greenland": "gl", "Grenada": "gd",
+      "Guadeloupe": "gp", "Guam": "gu", "Guatemala": "gt", "Guernsey": "gg",
+      "Guinea": "gn", "Guinea-Bissau": "gw", "Guyana": "gy", "Haiti": "ht",
+      "Honduras": "hn", "Hong Kong": "hk", "Hungary": "hu", "Iceland": "is",
+      "India": "in", "Indonesia": "id", "Iran": "ir", "Iraq": "iq",
+      "Ireland": "ie", "Isle of Man": "im", "Israel": "il", "Italy": "it",
+      "Ivory Coast": "ci", "Jamaica": "jm", "Japan": "jp", "Jersey": "je",
+      "Jordan": "jo", "Kazakhstan": "kz", "Kenya": "ke", "Kiribati": "ki",
+      "Korea Republic": "kr", "Kosovo": "xk", "Kuwait": "kw", "Kyrgyzstan": "kg",
+      "Laos": "la", "Latvia": "lv", "Lebanon": "lb", "Lesotho": "ls",
+      "Liberia": "lr", "Libya": "ly", "Liechtenstein": "li", "Lithuania": "lt",
+      "Luxembourg": "lu", "Macau": "mo", "Madagascar": "mg", "Malawi": "mw",
+      "Malaysia": "my", "Maldives": "mv", "Mali": "ml", "Malta": "mt",
+      "Marshall Islands": "mh", "Martinique": "mq", "Mauritania": "mr", "Mauritius": "mu",
+      "Mayotte": "yt", "Mexico": "mx", "Micronesia": "fm", "Moldova": "md",
+      "Monaco": "mc", "Mongolia": "mn", "Montenegro": "me", "Montserrat": "ms",
+      "Morocco": "ma", "Mozambique": "mz", "Myanmar": "mm", "Namibia": "na",
+      "Nepal": "np", "Netherlands": "nl", "New Caledonia": "nc", "New Zealand": "nz",
+      "Nicaragua": "ni", "Niger": "ne", "Nigeria": "ng", "Niue": "nu",
+      "North Korea": "kp", "North Macedonia": "mk", "Northern Ireland": "gb-nir", "Northern Mariana Islands": "mp",
+      "Norway": "no", "Oman": "om", "Pakistan": "pk", "Palau": "pw",
+      "Palestine": "ps", "Panama": "pa", "Papua New Guinea": "pg", "Paraguay": "py",
+      "Peru": "pe", "Philippines": "ph", "Poland": "pl", "Portugal": "pt",
+      "Puerto Rico": "pr", "Qatar": "qa", "Republic of Ireland": "ie", "Romania": "ro",
+      "Russia": "ru", "Rwanda": "rw", "Réunion": "re", "Saint Barthélemy": "bl",
+      "Saint Helena": "sh", "Saint Kitts and Nevis": "kn", "Saint Lucia": "lc", "Saint Martin": "mf",
+      "Saint Pierre and Miquelon": "pm", "Saint Vincent and the Grenadines": "vc", "Samoa": "ws", "San Marino": "sm",
+      "Saudi Arabia": "sa", "Scotland": "gb-sct", "Senegal": "sn", "Serbia": "rs",
+      "Seychelles": "sc", "Sierra Leone": "sl", "Singapore": "sg", "Sint Maarten": "sx",
+      "Slovakia": "sk", "Slovenia": "si", "Solomon Islands": "sb", "Somalia": "so",
+      "South Africa": "za", "South Korea": "kr", "South Sudan": "ss", "Spain": "es",
+      "Sri Lanka": "lk", "Sudan": "sd", "Suriname": "sr", "Sweden": "se",
+      "Switzerland": "ch", "Syria": "sy", "São Tomé and Príncipe": "st", "Tahiti": "pf",
+      "Taiwan": "tw", "Tajikistan": "tj", "Tanzania": "tz", "Thailand": "th",
+      "Timor-Leste": "tl", "Togo": "tg", "Tonga": "to", "Trinidad and Tobago": "tt",
+      "Tunisia": "tn", "Turkey": "tr", "Turkmenistan": "tm", "Turks and Caicos Islands": "tc",
+      "Tuvalu": "tv", "USA": "us", "Uganda": "ug", "Ukraine": "ua",
+      "United Arab Emirates": "ae", "United States": "us", "United States Virgin Islands": "vi", "Uruguay": "uy",
+      "Uzbekistan": "uz", "Vanuatu": "vu", "Vatican City": "va", "Venezuela": "ve",
+      "Vietnam": "vn", "Wales": "gb-wls", "Wallis Islands and Futuna": "wf", "Western Sahara": "eh",
+      "Yemen": "ye", "Zambia": "zm", "Zimbabwe": "zw", "Åland Islands": "ax"
+    };
+
+    const mapaConfederacoes = {
+      "Brazil": "CONMEBOL", "Argentina": "CONMEBOL", "Uruguay": "CONMEBOL", "Colombia": "CONMEBOL",
+      "Chile": "CONMEBOL", "Paraguay": "CONMEBOL", "Peru": "CONMEBOL", "Ecuador": "CONMEBOL",
+      "Venezuela": "CONMEBOL", "Bolivia": "CONMEBOL",
+      "Germany": "UEFA", "France": "UEFA", "England": "UEFA", "Spain": "UEFA", "Italy": "UEFA",
+      "Portugal": "UEFA", "Netherlands": "UEFA", "Belgium": "UEFA", "Croatia": "UEFA", "Denmark": "UEFA",
+      "Sweden": "UEFA", "Switzerland": "UEFA", "Poland": "UEFA", "Austria": "UEFA", "Scotland": "UEFA",
+      "Wales": "UEFA", "Northern Ireland": "UEFA", "Czech Republic": "UEFA", "Czechia": "UEFA", "Norway": "UEFA",
+      "Greece": "UEFA", "Turkey": "UEFA", "Ukraine": "UEFA", "Hungary": "UEFA", "Serbia": "UEFA",
+      "Romania": "UEFA", "Republic of Ireland": "UEFA", "Ireland": "UEFA", "Finland": "UEFA", "Slovakia": "UEFA",
+      "Slovenia": "UEFA", "Albania": "UEFA", "Georgia": "UEFA", "Bosnia and Herzegovina": "UEFA",
+      "North Macedonia": "UEFA", "Bulgaria": "UEFA", "Iceland": "UEFA", "Israel": "UEFA", "Russia": "UEFA",
+      "Morocco": "CAF", "Senegal": "CAF", "Nigeria": "CAF", "Egypt": "CAF", "Algeria": "CAF",
+      "Ghana": "CAF", "Cameroon": "CAF", "Ivory Coast": "CAF", "South Africa": "CAF", "Tunisia": "CAF",
+      "United States": "CONCACAF", "USA": "CONCACAF", "Mexico": "CONCACAF", "Canada": "CONCACAF",
+      "Costa Rica": "CONCACAF", "Panama": "CONCACAF", "Jamaica": "CONCACAF", "Honduras": "CONCACAF",
+      "Japan": "AFC", "South Korea": "AFC", "Korea Republic": "AFC", "Australia": "AFC",
+      "Saudi Arabia": "AFC", "Iran": "AFC", "Qatar": "AFC", "China": "AFC", "China PR": "AFC"
+    };
+
+    let selecoesGlobais = [];
+    let torneiosGlobais = [];
+    let torneiosRestritos = {};
+
+    async function inicializarOpcoes() {
+      try {
+        const resp = await fetch('/api/opcoes');
+        const data = await resp.json();
+        selecoesGlobais = data.selecoes || [];
+        torneiosGlobais = data.torneios || [];
+        torneiosRestritos = data.torneios_restritos || {};
+        if (data.confederacoes) {
+          Object.assign(mapaConfederacoes, data.confederacoes);
+        }
+
+        preencherSelect('mandante', selecoesGlobais, 'Brazil');
+        preencherSelect('visitante', selecoesGlobais, 'Argentina');
+
+        const selectTorneio = document.getElementById('torneio');
+        selectTorneio.innerHTML = '';
+        torneiosGlobais.forEach(t => {
+          const opt = document.createElement('option');
+          opt.value = t;
+          opt.textContent = t;
+          if (t === 'Copa América') opt.selected = true;
+          selectTorneio.appendChild(opt);
+        });
+
+        atualizarBandeira('mandante');
+        atualizarBandeira('visitante');
+      } catch (err) {
+        exibirErroValidacao("Não foi possível carregar as seleções do servidor.");
+      }
+    }
+
+    function preencherSelect(id, itens, selecionado) {
+      const select = document.getElementById(id);
+      select.innerHTML = '';
+      itens.forEach(item => {
+        const opt = document.createElement('option');
+        opt.value = item;
+        opt.textContent = item;
+        if (item === selecionado) opt.selected = true;
+        select.appendChild(opt);
+      });
+    }
+
+    function obterUrlBandeira(nomeSelecao) {
+      const codigo = mapaBandeiras[nomeSelecao];
+      if (codigo) {
+        return `https://flagcdn.com/w160/${codigo.toLowerCase()}.png`;
+      }
+      return 'https://flagcdn.com/w160/un.png';
+    }
+
+    function atualizarBandeira(campo) {
+      const select = document.getElementById(campo);
+      const img = document.getElementById(`flag-${campo}`);
+      if (select && img) {
+        img.src = obterUrlBandeira(select.value);
+      }
+    }
+
+    function obterSugestoesTorneio(confM, confV) {
+      if ((confM === "CONMEBOL" || confM === "CONCACAF") && (confV === "CONMEBOL" || confV === "CONCACAF")) {
+        return ["Copa América", "FIFA World Cup", "Friendly"];
+      }
+      if (confM === "UEFA" && confV === "UEFA") {
+        return ["UEFA Euro", "FIFA World Cup", "Friendly"];
+      }
+      if (confM === "CAF" && confV === "CAF") {
+        return ["African Cup of Nations", "FIFA World Cup", "Friendly"];
+      }
+      if (confM === "AFC" && confV === "AFC") {
+        return ["AFC Asian Cup", "FIFA World Cup", "Friendly"];
+      }
+      return ["FIFA World Cup", "Friendly"];
+    }
+
+    function validarSelecoesEmTempoReal() {
+      const m = document.getElementById('mandante').value;
+      const v = document.getElementById('visitante').value;
+      const t = document.getElementById('torneio').value;
+
+      if (m && v && m.toLowerCase() === v.toLowerCase()) {
+        exibirErroValidacao(`A seleção mandante não pode ser igual à visitante (${m}). Escolha seleções distintas.`);
+        return false;
+      }
+
+      const confM = mapaConfederacoes[m] || "Outra";
+      const confV = mapaConfederacoes[v] || "Outra";
+      const sugestoes = obterSugestoesTorneio(confM, confV);
+
+      if (t === "Copa América") {
+        const fora = [];
+        if (confM !== "CONMEBOL" && confM !== "CONCACAF") fora.push(`${m} (${confM})`);
+        if (confV !== "CONMEBOL" && confV !== "CONCACAF") fora.push(`${v} (${confV})`);
+        if (fora.length > 0) {
+          exibirErroValidacao(`${fora.join(" e ")} não disputa a Copa América. Torneio restrito às Américas.`, sugestoes);
+          return false;
+        }
+      } else if (torneiosRestritos[t]) {
+        const confExigida = torneiosRestritos[t];
+        const fora = [];
+        if (confM !== confExigida) fora.push(`${m} (${confM})`);
+        if (confV !== confExigida) fora.push(`${v} (${confV})`);
+        if (fora.length > 0) {
+          exibirErroValidacao(`${fora.join(" e ")} não pertence à ${confExigida} e não disputa o torneio ${t}.`, sugestoes);
+          return false;
+        }
+      }
+
+      if (t === "African Cup of Nations" || t === "African Cup of Nations qualification") {
+        const fora = [];
+        if (confM !== "CAF" && confM !== "Outra") fora.push(`${m} (${confM})`);
+        if (confV !== "CAF" && confV !== "Outra") fora.push(`${v} (${confV})`);
+        if (fora.length > 0) {
+          exibirErroValidacao(`${fora.join(" e ")} não disputa torneios da CAF (${t}). Torneio restrito à África.`, sugestoes);
+          return false;
+        }
+      }
+
+      if (t === "AFC Asian Cup" || t === "AFC Asian Cup qualification") {
+        const fora = [];
+        if (confM !== "AFC" && confM !== "Outra") fora.push(`${m} (${confM})`);
+        if (confV !== "AFC" && confV !== "Outra") fora.push(`${v} (${confV})`);
+        if (fora.length > 0) {
+          exibirErroValidacao(`${fora.join(" e ")} não disputa torneios da AFC (${t}). Torneio restrito à Ásia e Oceania parceira.`, sugestoes);
+          return false;
+        }
+      }
+
+      if (t === "Gold Cup") {
+        const fora = [];
+        if (confM !== "CONCACAF" && confM !== "Outra") fora.push(`${m} (${confM})`);
+        if (confV !== "CONCACAF" && confV !== "Outra") fora.push(`${v} (${confV})`);
+        if (fora.length > 0) {
+          exibirErroValidacao(`${fora.join(" e ")} não disputa a Gold Cup. Torneio restrito à CONCACAF.`, sugestoes);
+          return false;
+        }
+      }
+
+      ocultarAlerta();
+      return true;
+    }
+
+    function inverterMando() {
+      const m = document.getElementById('mandante');
+      const v = document.getElementById('visitante');
+      const temp = m.value;
+      m.value = v.value;
+      v.value = temp;
+      atualizarBandeira('mandante');
+      atualizarBandeira('visitante');
+      validarSelecoesEmTempoReal();
+    }
+
+    function alternarCampoNeutro() {
+      const cn = document.getElementById('campo_neutro');
+      cn.value = cn.value === 'Sim' ? 'Nao' : 'Sim';
+    }
+
+    function ocultarAlerta() {
+      document.getElementById('alerta-validacao').classList.add('hidden');
+    }
+
+    function exibirErroValidacao(mensagem, sugestoes = []) {
+      const box = document.getElementById('alerta-validacao');
+      document.getElementById('msg-erro-validacao').textContent = mensagem;
+      const acoes = document.getElementById('acoes-erro-validacao');
+      if (acoes) {
+        acoes.innerHTML = '';
+        sugestoes.slice(0, 2).forEach(sug => {
+          const btn = document.createElement('button');
+          btn.type = 'button';
+          btn.className = 'px-2 py-1 rounded-md bg-rose-500/20 hover:bg-rose-500/40 text-[10px] font-bold text-rose-200 border border-rose-500/40 transition-all';
+          btn.textContent = `Mudar para ${sug}`;
+          btn.onclick = () => corrigirTorneio(sug);
+          acoes.appendChild(btn);
+        });
+      }
+      box.classList.remove('hidden');
+    }
+
+    function corrigirTorneio(novoTorneio) {
+      const select = document.getElementById('torneio');
+      if (select) {
+        select.value = novoTorneio;
+        validarSelecoesEmTempoReal();
+      }
+    }
+
+    function sleep(ms) {
+      return new Promise(resolve => setTimeout(resolve, ms));
+    }
+
+    function rolarFeedParaFim() {
+      const feed = document.getElementById('feed-analise');
+      feed.scrollTo({ top: feed.scrollHeight, behavior: 'smooth' });
+    }
+
+    function calcularOdd(pct) {
+      if (!pct || pct <= 0) return '—';
+      return (100 / pct).toFixed(2);
+    }
+
+    function criarBadgeForma(sigla) {
+      return `<span class="w-4 h-4 rounded flex items-center justify-center font-bold text-[9px] ${sigla === 'V' ? 'badge-v' : (sigla === 'E' ? 'badge-e' : 'badge-d')}">${sigla}</span>`;
+    }
+
+    async function iniciarAnaliseStream() {
+      if (!validarSelecoesEmTempoReal()) return;
+
+      const mandante = document.getElementById('mandante').value.trim();
+      const visitante = document.getElementById('visitante').value.trim();
+      const torneio = document.getElementById('torneio').value.trim();
+      const campo_neutro = document.getElementById('campo_neutro').value.trim();
+
+      const btn = document.getElementById('btn-prever');
+      btn.disabled = true;
+      btn.classList.add('opacity-50', 'cursor-not-allowed');
+
+      const dotStatus = document.getElementById('dot-status');
+      dotStatus.className = 'w-2.5 h-2.5 rounded-full bg-sky-400 animate-ping';
+      document.getElementById('txt-status-header').textContent = 'Analisando Confronto com IA...';
+      document.getElementById('tempo-analise').textContent = 'Processando em tempo real';
+
+      const feed = document.getElementById('feed-analise');
+      feed.innerHTML = `
+        <div id="bloco-pensamento" class="card-entrance p-3.5 rounded-2xl bg-slate-950/70 border border-slate-800 space-y-2 text-xs font-mono">
+          <div class="text-sky-400 font-bold flex items-center gap-2 pb-1 border-b border-slate-800/80 text-[11px]">
+            <span class="w-1.5 h-1.5 rounded-full bg-sky-400 animate-pulse"></span>
+            <span>Raciocínio da IA em Andamento</span>
+          </div>
+          <div id="step-1" class="text-slate-400 flex items-center gap-2 text-[11px] transition-all duration-300">
+            <span class="w-1.5 h-1.5 rounded-full bg-slate-600"></span>
+            <span>1. Validando regras geográficas e bônus de campo...</span>
+          </div>
+          <div id="step-2" class="text-slate-400 flex items-center gap-2 text-[11px] transition-all duration-300">
+            <span class="w-1.5 h-1.5 rounded-full bg-slate-600"></span>
+            <span>2. Calculando Ratings Elo e retrospecto direto...</span>
+          </div>
+          <div id="step-3" class="text-slate-400 flex items-center gap-2 text-[11px] transition-all duration-300">
+            <span class="w-1.5 h-1.5 rounded-full bg-slate-600"></span>
+            <span>3. Extraindo momentum e últimos 5 jogos...</span>
+          </div>
+          <div id="step-4" class="text-slate-400 flex items-center gap-2 text-[11px] transition-all duration-300">
+            <span class="w-1.5 h-1.5 rounded-full bg-slate-600"></span>
+            <span>4. Executando 200 árvores no RandomForest...</span>
+          </div>
+        </div>
+      `;
+
+      const reqPromise = fetch('/api/prever', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ mandante, visitante, torneio, campo_neutro })
+      });
+
+      const marcarEtapa = (id, ativa) => {
+        const el = document.getElementById(id);
+        if (!el) return;
+        const dot = el.querySelector('span:first-child');
+        if (ativa) {
+          el.className = 'text-sky-300 font-semibold flex items-center gap-2 text-[11px]';
+          if (dot) dot.className = 'w-1.5 h-1.5 rounded-full bg-sky-400 animate-ping';
+        } else {
+          el.className = 'text-slate-400 flex items-center gap-2 text-[11px]';
+          if (dot) dot.className = 'w-1.5 h-1.5 rounded-full bg-emerald-400';
+        }
+      };
+
+      marcarEtapa('step-1', true);
+      await sleep(650);
+      marcarEtapa('step-1', false);
+      marcarEtapa('step-2', true);
+
+      await sleep(700);
+      marcarEtapa('step-2', false);
+      marcarEtapa('step-3', true);
+
+      await sleep(700);
+      marcarEtapa('step-3', false);
+      marcarEtapa('step-4', true);
+
+      try {
+        const resp = await reqPromise;
+        const data = await resp.json();
+
+        await sleep(750);
+        marcarEtapa('step-4', false);
+
+        if (resp.status === 422 || data.status === 'invalido') {
+          dotStatus.className = 'w-2.5 h-2.5 rounded-full bg-rose-400';
+          document.getElementById('txt-status-header').textContent = 'Validação Rejeitada';
+          document.getElementById('tempo-analise').textContent = 'Incompatibilidade detectada';
+          const msg = data.mensagem || (data.erros ? data.erros[0] : "Entrada inválida");
+          const confM = mapaConfederacoes[mandante] || "Outra";
+          const confV = mapaConfederacoes[visitante] || "Outra";
+          const sugs = obterSugestoesTorneio(confM, confV);
+          exibirErroValidacao(msg, sugs);
+          feed.innerHTML += `
+            <div class="card-entrance p-3.5 rounded-2xl bg-rose-950/40 border border-rose-500/40 text-xs text-rose-200 space-y-2">
+              <span class="font-bold block text-xs text-rose-300">Confronto Incompatível com o Torneio</span>
+              <p class="text-[11px] text-rose-200/90 leading-relaxed">${msg}</p>
+            </div>
+          `;
+          rolarFeedParaFim();
+          return;
+        }
+
+        if (!resp.ok || data.status === 'falha') {
+          dotStatus.className = 'w-2.5 h-2.5 rounded-full bg-rose-400';
+          document.getElementById('txt-status-header').textContent = 'Falha Técnica';
+          document.getElementById('tempo-analise').textContent = 'Erro';
+          feed.innerHTML += `
+            <div class="card-entrance p-3.5 rounded-2xl bg-rose-950/40 border border-rose-500/40 text-xs text-rose-200">
+              <span class="font-bold block text-xs">Falha no Processamento</span>
+              <p class="mt-1 text-[11px]">${data.mensagem || "Não foi possível obter resposta do modelo."}</p>
+            </div>
+          `;
+          rolarFeedParaFim();
+          return;
+        }
+
+        dotStatus.className = 'w-2.5 h-2.5 rounded-full bg-emerald-400';
+        document.getElementById('txt-status-header').textContent = 'Diagnóstico Concluído';
+        document.getElementById('tempo-analise').textContent = 'Processamento finalizado';
+
+        await renderizarBlocosNoFeed(data);
+      } catch (err) {
+        dotStatus.className = 'w-2.5 h-2.5 rounded-full bg-rose-400';
+        document.getElementById('txt-status-header').textContent = 'Erro de Conexão';
+        feed.innerHTML += `
+          <div class="card-entrance p-3.5 rounded-2xl bg-rose-950/40 border border-rose-500/40 text-xs text-rose-200">
+            Falha na conexão com o servidor local.
+          </div>
+        `;
+        rolarFeedParaFim();
+      } finally {
+        btn.disabled = false;
+        btn.classList.remove('opacity-50', 'cursor-not-allowed');
+      }
+    }
+
+    async function renderizarBlocosNoFeed(data) {
+      const feed = document.getElementById('feed-analise');
+
+      if (data.eh_inconclusivo) {
+        feed.innerHTML += `
+          <div class="card-entrance p-3.5 rounded-2xl bg-amber-950/40 border border-amber-500/40 text-xs text-amber-200">
+            <span class="font-bold text-amber-300 block uppercase tracking-wider text-[10px]">Alerta de Inconclusão Estatística</span>
+            <p class="mt-1 text-amber-200/90 text-[11px]">${data.motivo_inconclusivo}</p>
+          </div>
+        `;
+        rolarFeedParaFim();
+        await sleep(500);
+      }
+
+      const pm = data.probabilidades.vitoria_mandante;
+      const pe = data.probabilidades.empate;
+      const pv = data.probabilidades.vitoria_visitante;
+
+      const cardVeredito = document.createElement('div');
+      cardVeredito.className = 'card-entrance p-4 rounded-2xl bg-slate-950/90 border border-slate-800 space-y-3';
+      cardVeredito.innerHTML = `
+        <div class="flex items-center justify-between border-b border-slate-800 pb-2">
+          <span class="text-[11px] font-bold uppercase tracking-wider text-slate-300">Veredito da IA</span>
+          <span class="text-[9px] font-mono px-2 py-0.5 rounded-full font-bold bg-emerald-500/10 text-emerald-400 border border-emerald-500/30">
+            Maior Frequência: ${data.prob_maior}%
+          </span>
+        </div>
+
+        <div class="text-center py-1">
+          <div class="text-lg sm:text-xl font-black text-white tracking-tight">${data.resultado_formatado}</div>
+          <div class="text-[11px] text-slate-400 mt-0.5">${data.partida.torneio} • ${data.partida.campo_neutro === 'Sim' ? 'Estádio Neutro' : 'Mando Tradicional'}</div>
+        </div>
+
+        <div class="space-y-1.5 pt-1">
+          <div class="flex justify-between items-center text-[10px] font-bold uppercase tracking-wider text-slate-400">
+            <span>Distribuição de Probabilidades</span>
+            <span class="font-mono">Total: 100%</span>
+          </div>
+
+          <div class="h-5 w-full bg-slate-900 rounded-lg overflow-hidden flex p-0.5 border border-slate-800">
+            <div id="feed-bar-m" style="width: 0%" class="bg-gradient-to-r from-emerald-600 to-emerald-400 rounded-l transition-all duration-1000 flex items-center justify-center text-[9px] font-black text-slate-950">
+            </div>
+            <div id="feed-bar-e" style="width: 0%" class="bg-gradient-to-r from-amber-500 to-amber-400 transition-all duration-1000 flex items-center justify-center text-[9px] font-black text-slate-950">
+            </div>
+            <div id="feed-bar-v" style="width: 0%" class="bg-gradient-to-r from-sky-600 to-sky-400 rounded-r transition-all duration-1000 flex items-center justify-center text-[9px] font-black text-slate-950">
+            </div>
+          </div>
+
+          <div class="grid grid-cols-3 gap-2 pt-1 text-center">
+            <div class="bg-slate-900/80 p-2 rounded-xl border border-slate-800/80">
+              <span class="text-[9px] text-slate-400 block font-medium">Vitória ${data.partida.mandante}</span>
+              <span class="text-xs font-black text-emerald-400 block font-mono">${pm}%</span>
+              <span class="text-[8px] text-slate-500 font-mono">Odd: ${calcularOdd(pm)}</span>
+            </div>
+            <div class="bg-slate-900/80 p-2 rounded-xl border border-slate-800/80">
+              <span class="text-[9px] text-slate-400 block font-medium">Empate</span>
+              <span class="text-xs font-black text-amber-400 block font-mono">${pe}%</span>
+              <span class="text-[8px] text-slate-500 font-mono">Odd: ${calcularOdd(pe)}</span>
+            </div>
+            <div class="bg-slate-900/80 p-2 rounded-xl border border-slate-800/80">
+              <span class="text-[9px] text-slate-400 block font-medium">Vitória ${data.partida.visitante}</span>
+              <span class="text-xs font-black text-sky-400 block font-mono">${pv}%</span>
+              <span class="text-[8px] text-slate-500 font-mono">Odd: ${calcularOdd(pv)}</span>
+            </div>
+          </div>
+        </div>
+      `;
+      feed.appendChild(cardVeredito);
+      rolarFeedParaFim();
+
+      await sleep(150);
+      const barM = document.getElementById('feed-bar-m');
+      const barE = document.getElementById('feed-bar-e');
+      const barV = document.getElementById('feed-bar-v');
+      if (barM) { barM.style.width = `${pm}%`; barM.textContent = pm >= 14 ? `${pm}%` : ''; }
+      if (barE) { barE.style.width = `${pe}%`; barE.textContent = pe >= 14 ? `${pe}%` : ''; }
+      if (barV) { barV.style.width = `${pv}%`; barV.textContent = pv >= 14 ? `${pv}%` : ''; }
+
+      await sleep(750);
+
+      if (data.projecao_gols && data.termometro_zebra) {
+        const cardGolsZebra = document.createElement('div');
+        cardGolsZebra.className = 'card-entrance p-3.5 rounded-2xl bg-slate-950/80 border border-slate-800 space-y-2.5';
+        cardGolsZebra.innerHTML = `
+          <div class="flex items-center justify-between border-b border-slate-800 pb-1.5">
+            <span class="text-[11px] font-bold uppercase tracking-wider text-slate-300">Projeção de Gols e Risco</span>
+            <span class="text-[9px] font-mono text-sky-400">Distribuição Poisson</span>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-2.5 text-xs">
+            <div class="bg-slate-900/60 p-2.5 rounded-xl border border-slate-800/80 space-y-1">
+              <span class="text-[10px] text-slate-400 block">Placar Mais Provável:</span>
+              <span class="text-base font-black font-mono text-sky-400 block">${data.projecao_gols.placar}</span>
+              <span class="text-[9px] text-slate-400 block">${data.projecao_gols.faixa_gols}</span>
+            </div>
+
+            <div class="bg-slate-900/60 p-2.5 rounded-xl border border-slate-800/80 space-y-1">
+              <span class="text-[10px] text-slate-400 block">Grau de Imprevisibilidade:</span>
+              <span class="text-[11px] font-bold text-amber-400 block">${data.termometro_zebra.nivel}</span>
+              <p class="text-[9px] text-slate-400 leading-tight">${data.termometro_zebra.detalhe}</p>
+            </div>
+          </div>
+        `;
+        feed.appendChild(cardGolsZebra);
+        rolarFeedParaFim();
+        await sleep(750);
+      }
+
+      const mc = data.metricas_confronto;
+      if (mc) {
+        let textoDiff = 'Equilíbrio Total (0 pts)';
+        if (mc.diff_elo > 0) {
+          textoDiff = `+${mc.diff_elo} pts (Vantagem ${data.partida.mandante})`;
+        } else if (mc.diff_elo < 0) {
+          textoDiff = `+${Math.abs(mc.diff_elo).toFixed(1)} pts (Vantagem ${data.partida.visitante})`;
+        }
+
+        const seqM = mc.forma_mandante.sequencia.map(criarBadgeForma).join('');
+        const seqV = mc.forma_visitante.sequencia.map(criarBadgeForma).join('');
+
+        const cardRaioX = document.createElement('div');
+        cardRaioX.className = 'card-entrance p-3.5 rounded-2xl bg-slate-950/80 border border-slate-800 space-y-2.5';
+        cardRaioX.innerHTML = `
+          <div class="flex items-center justify-between border-b border-slate-800 pb-1.5">
+            <span class="text-[11px] font-bold uppercase tracking-wider text-slate-300">Raio-X: Força e Momentum</span>
+            <span class="text-[9px] font-mono text-emerald-400">Ratings Oficiais</span>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-2.5 text-xs">
+            <div class="bg-slate-900/60 p-2.5 rounded-xl border border-slate-800/80 space-y-1">
+              <div class="flex justify-between items-center">
+                <span class="font-bold text-slate-200 text-[11px]">${data.partida.mandante}</span>
+                <span class="font-mono font-black text-emerald-400 text-[11px]">${mc.elo_mandante} Elo</span>
+              </div>
+              <div class="flex items-center justify-between text-[10px] text-slate-400 pt-0.5">
+                <span>Últimos 5 jogos:</span>
+                <div class="flex gap-1">${seqM}</div>
+              </div>
+              <div class="text-[9px] text-slate-400 flex justify-between">
+                <span>Aproveitamento:</span>
+                <span class="font-mono text-slate-300">${mc.forma_mandante.pontos}/15 pts</span>
+              </div>
+            </div>
+
+            <div class="bg-slate-900/60 p-2.5 rounded-xl border border-slate-800/80 space-y-1">
+              <div class="flex justify-between items-center">
+                <span class="font-bold text-slate-200 text-[11px]">${data.partida.visitante}</span>
+                <span class="font-mono font-black text-sky-400 text-[11px]">${mc.elo_visitante} Elo</span>
+              </div>
+              <div class="flex items-center justify-between text-[10px] text-slate-400 pt-0.5">
+                <span>Últimos 5 jogos:</span>
+                <div class="flex gap-1">${seqV}</div>
+              </div>
+              <div class="text-[9px] text-slate-400 flex justify-between">
+                <span>Aproveitamento:</span>
+                <span class="font-mono text-slate-300">${mc.forma_visitante.pontos}/15 pts</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-slate-900/40 p-2 rounded-xl border border-slate-800 flex flex-wrap items-center justify-between gap-2 text-xs">
+            <span class="text-slate-400 text-[10px]">Diferencial Ponderado:</span>
+            <span class="font-mono font-bold text-slate-200 text-[10px]">${textoDiff}</span>
+          </div>
+        `;
+        feed.appendChild(cardRaioX);
+        rolarFeedParaFim();
+        await sleep(750);
+      }
+
+      const h = data.historico;
+      const cardHist = document.createElement('div');
+      cardHist.className = 'card-entrance p-3.5 rounded-2xl bg-slate-950/80 border border-slate-800 space-y-2 text-xs';
+      let htmlUltimo = '';
+      if (data.ultimo_confronto) {
+        htmlUltimo = `
+          <div class="mt-2 pt-2 border-t border-slate-800/80 flex items-center justify-between text-[10px] text-slate-400">
+            <span>Último encontro oficial:</span>
+            <span class="font-mono text-slate-200">${data.ultimo_confronto.data} • ${data.ultimo_confronto.mandante} vs ${data.ultimo_confronto.visitante} (${data.ultimo_confronto.desfecho})</span>
+          </div>
+        `;
+      }
+
+      if (h.total > 0) {
+        cardHist.innerHTML = `
+          <div class="flex justify-between items-center border-b border-slate-800 pb-1.5">
+            <span class="font-bold uppercase tracking-wider text-slate-300 text-[11px]">Retrospecto Direto no Dataset</span>
+            <span class="font-mono text-[9px] text-sky-400">${h.total} jogos</span>
+          </div>
+          <div class="grid grid-cols-3 gap-2 text-center pt-0.5">
+            <div class="bg-slate-900/60 p-1.5 rounded-xl border border-slate-800">
+              <span class="text-slate-400 text-[9px] block">Vitórias ${data.partida.mandante}</span>
+              <span class="font-mono font-bold text-emerald-400 text-[11px]">${h.vitorias_mandante} (${h.pct_mandante}%)</span>
+            </div>
+            <div class="bg-slate-900/60 p-1.5 rounded-xl border border-slate-800">
+              <span class="text-slate-400 text-[9px] block">Empates</span>
+              <span class="font-mono font-bold text-amber-400 text-[11px]">${h.empates} (${h.pct_empate}%)</span>
+            </div>
+            <div class="bg-slate-900/60 p-1.5 rounded-xl border border-slate-800">
+              <span class="text-slate-400 text-[9px] block">Vitórias ${data.partida.visitante}</span>
+              <span class="font-mono font-bold text-sky-400 text-[11px]">${h.vitorias_visitante} (${h.pct_visitante}%)</span>
+            </div>
+          </div>
+          ${htmlUltimo}
+        `;
+      } else {
+        cardHist.innerHTML = `
+          <div class="text-slate-400 italic text-[11px]">
+            Sem registro de confrontos diretos prévios entre <strong>${data.partida.mandante}</strong> e <strong>${data.partida.visitante}</strong> na base oficial (1872–2024).
+          </div>
+        `;
+      }
+      feed.appendChild(cardHist);
+      rolarFeedParaFim();
+      await sleep(750);
+
+      const cardFatores = document.createElement('div');
+      cardFatores.className = 'card-entrance p-3.5 rounded-2xl bg-slate-950/80 border border-slate-800 space-y-1.5 text-xs';
+      cardFatores.innerHTML = `
+        <span class="font-bold uppercase tracking-wider text-slate-300 block text-[11px] border-b border-slate-800 pb-1.5">
+          Fatores Considerados pelo Modelo
+        </span>
+        <ul id="feed-lista-fatores" class="space-y-1 text-slate-300 text-[10px] pt-0.5"></ul>
+      `;
+      feed.appendChild(cardFatores);
+      rolarFeedParaFim();
+
+      const ulFatores = document.getElementById('feed-lista-fatores');
+      for (const f of data.fatores) {
+        await sleep(350);
+        const li = document.createElement('li');
+        li.className = 'card-entrance flex items-start gap-1.5';
+        li.innerHTML = `<span class="text-sky-400 font-bold">•</span><span>${f}</span>`;
+        ulFatores.appendChild(li);
+        rolarFeedParaFim();
+      }
+
+      await sleep(500);
+
+      if (data.sintese_ia) {
+        const cardSintese = document.createElement('div');
+        cardSintese.className = 'card-entrance p-4 rounded-2xl bg-gradient-to-b from-sky-950/30 to-slate-950/80 border border-sky-500/30 space-y-2 text-xs';
+        cardSintese.innerHTML = `
+          <div class="flex items-center justify-between border-b border-sky-500/20 pb-1.5">
+            <span class="font-bold uppercase tracking-wider text-sky-300 text-[11px]">Parecer Técnico da IA</span>
+            <span class="text-[9px] font-mono text-sky-400">Síntese Analítica</span>
+          </div>
+          <p id="feed-txt-sintese" class="text-slate-200 text-[11px] leading-relaxed"></p>
+        `;
+        feed.appendChild(cardSintese);
+        rolarFeedParaFim();
+
+        const pSintese = document.getElementById('feed-txt-sintese');
+        const palavras = data.sintese_ia.split(' ');
+        let atual = '';
+        for (const palavra of palavras) {
+          atual += (atual ? ' ' : '') + palavra;
+          pSintese.textContent = atual;
+          await sleep(25);
+          rolarFeedParaFim();
+        }
+      }
+
+      const cardLimitesAcoes = document.createElement('div');
+      cardLimitesAcoes.className = 'card-entrance p-3.5 rounded-2xl bg-slate-950/80 border border-slate-800 space-y-3 text-xs';
+      cardLimitesAcoes.innerHTML = `
+        <div class="space-y-1">
+          <span class="font-bold uppercase tracking-wider text-amber-300 block text-[10px]">Limites e Interpretação</span>
+          <p class="text-slate-400 text-[10px] leading-relaxed">
+            ${data.nota_metodologica || 'Estimativa probabilística baseada em histórico internacional (1872–2024).'}
+            Não representa certeza individual de resultado e não considera escalações, lesões, clima ou arbitragem.
+          </p>
+        </div>
+        <div class="pt-2 border-t border-slate-800/80 space-y-1.5">
+          <span class="font-bold uppercase tracking-wider text-slate-300 block text-[10px]">Próxima Ação</span>
+          <div class="flex flex-wrap gap-2">
+            <button type="button" onclick="inverterMando(); iniciarAnaliseStream();" class="px-2.5 py-1.5 rounded-lg bg-slate-900 hover:bg-slate-800 text-[10px] font-semibold text-sky-300 border border-slate-700 hover:border-sky-500 transition-all">
+              Inverter Mando e Reanalisar
+            </button>
+            <button type="button" onclick="alternarCampoNeutro(); iniciarAnaliseStream();" class="px-2.5 py-1.5 rounded-lg bg-slate-900 hover:bg-slate-800 text-[10px] font-semibold text-emerald-300 border border-slate-700 hover:border-emerald-500 transition-all">
+              Alternar Campo Neutro e Reanalisar
+            </button>
+            <button type="button" onclick="document.getElementById('mandante').focus();" class="px-2.5 py-1.5 rounded-lg bg-slate-900 hover:bg-slate-800 text-[10px] font-semibold text-slate-300 border border-slate-700 hover:border-slate-500 transition-all">
+              Testar Outro Confronto
+            </button>
+          </div>
+        </div>
+      `;
+      feed.appendChild(cardLimitesAcoes);
+      rolarFeedParaFim();
+    }
+
+    function abrirModalMetodologia() {
+      const modal = document.getElementById('modal-metodologia');
+      if (modal) modal.classList.remove('hidden');
+    }
+
+    function fecharModalMetodologia() {
+      const modal = document.getElementById('modal-metodologia');
+      if (modal) modal.classList.add('hidden');
+    }
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') fecharModalMetodologia();
+    });
+
+    document.addEventListener('DOMContentLoaded', inicializarOpcoes);
+  </script>
+</body>
+</html>

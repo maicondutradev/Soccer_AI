@@ -1,0 +1,20 @@
+{
+  "originais": 49945,
+  "duplicatas_completas": 0,
+  "ausencias_originais": {
+    "mandante": 0,
+    "visitante": 0,
+    "torneio": 0,
+    "campo_neutro": 0,
+    "resultado": 0
+  },
+  "observacao": "Duplicatas não removidas automaticamente; investigar unidade de observação.",
+  "removidas_sem_alvo_ou_auxiliar": 0,
+  "validas": 49945,
+  "ausencias_entradas_apos_conversao": {
+    "mandante": 0,
+    "visitante": 0,
+    "torneio": 0,
+    "campo_neutro": 0
+  }
+}

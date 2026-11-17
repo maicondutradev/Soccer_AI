@@ -1,0 +1,2361 @@
+[
+  {
+    "posicao": 1,
+    "selecao": "Spain",
+    "elo": 2135.6,
+    "pontos_ultimos_5": 15,
+    "sequencia": "VVVVV"
+  },
+  {
+    "posicao": 2,
+    "selecao": "Argentina",
+    "elo": 2099.1,
+    "pontos_ultimos_5": 12,
+    "sequencia": "DVVVV"
+  },
+  {
+    "posicao": 3,
+    "selecao": "France",
+    "elo": 2031.6,
+    "pontos_ultimos_5": 10,
+    "sequencia": "DVVEV"
+  },
+  {
+    "posicao": 4,
+    "selecao": "England",
+    "elo": 1998.3,
+    "pontos_ultimos_5": 12,
+    "sequencia": "VDVVV"
+  },
+  {
+    "posicao": 5,
+    "selecao": "Portugal",
+    "elo": 1995.4,
+    "pontos_ultimos_5": 12,
+    "sequencia": "DVVVV"
+  },
+  {
+    "posicao": 6,
+    "selecao": "Brazil",
+    "elo": 1974.8,
+    "pontos_ultimos_5": 10,
+    "sequencia": "VDEVV"
+  },
+  {
+    "posicao": 7,
+    "selecao": "Colombia",
+    "elo": 1942.8,
+    "pontos_ultimos_5": 8,
+    "sequencia": "VEEDV"
+  },
+  {
+    "posicao": 8,
+    "selecao": "Netherlands",
+    "elo": 1929.9,
+    "pontos_ultimos_5": 9,
+    "sequencia": "EEVEV"
+  },
+  {
+    "posicao": 9,
+    "selecao": "Italy",
+    "elo": 1909.7,
+    "pontos_ultimos_5": 10,
+    "sequencia": "VDVEV"
+  },
+  {
+    "posicao": 10,
+    "selecao": "Morocco",
+    "elo": 1906.9,
+    "pontos_ultimos_5": 10,
+    "sequencia": "VDVVE"
+  },
+  {
+    "posicao": 11,
+    "selecao": "Belgium",
+    "elo": 1906.4,
+    "pontos_ultimos_5": 6,
+    "sequencia": "DVDVD"
+  },
+  {
+    "posicao": 12,
+    "selecao": "Switzerland",
+    "elo": 1904.9,
+    "pontos_ultimos_5": 12,
+    "sequencia": "DVVVV"
+  },
+  {
+    "posicao": 13,
+    "selecao": "Germany",
+    "elo": 1901.1,
+    "pontos_ultimos_5": 6,
+    "sequencia": "EEDVE"
+  },
+  {
+    "posicao": 14,
+    "selecao": "Japan",
+    "elo": 1898.0,
+    "pontos_ultimos_5": 8,
+    "sequencia": "EDVEV"
+  },
+  {
+    "posicao": 15,
+    "selecao": "Uruguay",
+    "elo": 1869.2,
+    "pontos_ultimos_5": 8,
+    "sequencia": "EEDVV"
+  },
+  {
+    "posicao": 16,
+    "selecao": "Ecuador",
+    "elo": 1868.8,
+    "pontos_ultimos_5": 5,
+    "sequencia": "VDDEE"
+  },
+  {
+    "posicao": 17,
+    "selecao": "Croatia",
+    "elo": 1861.2,
+    "pontos_ultimos_5": 3,
+    "sequencia": "DVDDD"
+  },
+  {
+    "posicao": 18,
+    "selecao": "Mexico",
+    "elo": 1852.1,
+    "pontos_ultimos_5": 2,
+    "sequencia": "DEEDD"
+  },
+  {
+    "posicao": 19,
+    "selecao": "Paraguay",
+    "elo": 1849.5,
+    "pontos_ultimos_5": 8,
+    "sequencia": "EEDVV"
+  },
+  {
+    "posicao": 20,
+    "selecao": "Denmark",
+    "elo": 1844.7,
+    "pontos_ultimos_5": 9,
+    "sequencia": "VDVDV"
+  },
+  {
+    "posicao": 21,
+    "selecao": "Norway",
+    "elo": 1838.3,
+    "pontos_ultimos_5": 3,
+    "sequencia": "DVDDD"
+  },
+  {
+    "posicao": 22,
+    "selecao": "Austria",
+    "elo": 1835.4,
+    "pontos_ultimos_5": 8,
+    "sequencia": "DVVEE"
+  },
+  {
+    "posicao": 23,
+    "selecao": "United States",
+    "elo": 1821.2,
+    "pontos_ultimos_5": 12,
+    "sequencia": "DVVVV"
+  },
+  {
+    "posicao": 24,
+    "selecao": "Algeria",
+    "elo": 1820.4,
+    "pontos_ultimos_5": 8,
+    "sequencia": "EDVEV"
+  },
+  {
+    "posicao": 25,
+    "selecao": "Turkey",
+    "elo": 1804.7,
+    "pontos_ultimos_5": 3,
+    "sequencia": "VDDDD"
+  },
+  {
+    "posicao": 26,
+    "selecao": "Senegal",
+    "elo": 1803.7,
+    "pontos_ultimos_5": 10,
+    "sequencia": "VDEVV"
+  },
+  {
+    "posicao": 27,
+    "selecao": "Canada",
+    "elo": 1796.8,
+    "pontos_ultimos_5": 9,
+    "sequencia": "VDVVD"
+  },
+  {
+    "posicao": 28,
+    "selecao": "South Korea",
+    "elo": 1796.7,
+    "pontos_ultimos_5": 7,
+    "sequencia": "DVDEV"
+  },
+  {
+    "posicao": 29,
+    "selecao": "Iran",
+    "elo": 1793.8,
+    "pontos_ultimos_5": 3,
+    "sequencia": "EEEDD"
+  },
+  {
+    "posicao": 30,
+    "selecao": "Australia",
+    "elo": 1793.6,
+    "pontos_ultimos_5": 3,
+    "sequencia": "DEEED"
+  },
+  {
+    "posicao": 31,
+    "selecao": "Russia",
+    "elo": 1789.6,
+    "pontos_ultimos_5": 13,
+    "sequencia": "VVVVE"
+  },
+  {
+    "posicao": 32,
+    "selecao": "Greece",
+    "elo": 1782.3,
+    "pontos_ultimos_5": 8,
+    "sequencia": "DVVEE"
+  },
+  {
+    "posicao": 33,
+    "selecao": "Sweden",
+    "elo": 1776.7,
+    "pontos_ultimos_5": 10,
+    "sequencia": "DVVEV"
+  },
+  {
+    "posicao": 34,
+    "selecao": "Basque Country",
+    "elo": 1772.5,
+    "pontos_ultimos_5": 11,
+    "sequencia": "VEVEV"
+  },
+  {
+    "posicao": 35,
+    "selecao": "Ukraine",
+    "elo": 1770.9,
+    "pontos_ultimos_5": 4,
+    "sequencia": "DVEDD"
+  },
+  {
+    "posicao": 36,
+    "selecao": "Ivory Coast",
+    "elo": 1760.7,
+    "pontos_ultimos_5": 9,
+    "sequencia": "VDVVD"
+  },
+  {
+    "posicao": 37,
+    "selecao": "Yugoslavia",
+    "elo": 1759.4,
+    "pontos_ultimos_5": 6,
+    "sequencia": "DVDVD"
+  },
+  {
+    "posicao": 38,
+    "selecao": "Chile",
+    "elo": 1758.2,
+    "pontos_ultimos_5": 6,
+    "sequencia": "DVDDV"
+  },
+  {
+    "posicao": 39,
+    "selecao": "Hungary",
+    "elo": 1754.6,
+    "pontos_ultimos_5": 10,
+    "sequencia": "VDEVV"
+  },
+  {
+    "posicao": 40,
+    "selecao": "Venezuela",
+    "elo": 1754.1,
+    "pontos_ultimos_5": 5,
+    "sequencia": "DVDEE"
+  },
+  {
+    "posicao": 41,
+    "selecao": "Nigeria",
+    "elo": 1751.0,
+    "pontos_ultimos_5": 5,
+    "sequencia": "EDVDE"
+  },
+  {
+    "posicao": 42,
+    "selecao": "Jersey",
+    "elo": 1750.5,
+    "pontos_ultimos_5": 10,
+    "sequencia": "VVVED"
+  },
+  {
+    "posicao": 43,
+    "selecao": "Egypt",
+    "elo": 1740.0,
+    "pontos_ultimos_5": 5,
+    "sequencia": "EDEVD"
+  },
+  {
+    "posicao": 44,
+    "selecao": "Slovenia",
+    "elo": 1734.7,
+    "pontos_ultimos_5": 7,
+    "sequencia": "DEVDV"
+  },
+  {
+    "posicao": 45,
+    "selecao": "Uzbekistan",
+    "elo": 1724.6,
+    "pontos_ultimos_5": 6,
+    "sequencia": "DDVVD"
+  },
+  {
+    "posicao": 46,
+    "selecao": "Czechoslovakia",
+    "elo": 1723.9,
+    "pontos_ultimos_5": 11,
+    "sequencia": "VVEVE"
+  },
+  {
+    "posicao": 47,
+    "selecao": "Scotland",
+    "elo": 1717.8,
+    "pontos_ultimos_5": 4,
+    "sequencia": "DEDVD"
+  },
+  {
+    "posicao": 48,
+    "selecao": "German DR",
+    "elo": 1715.3,
+    "pontos_ultimos_5": 13,
+    "sequencia": "VVVEV"
+  },
+  {
+    "posicao": 49,
+    "selecao": "Poland",
+    "elo": 1712.4,
+    "pontos_ultimos_5": 5,
+    "sequencia": "EEDVD"
+  },
+  {
+    "posicao": 50,
+    "selecao": "Serbia",
+    "elo": 1708.1,
+    "pontos_ultimos_5": 0,
+    "sequencia": "DDDDD"
+  },
+  {
+    "posicao": 51,
+    "selecao": "Republic of Ireland",
+    "elo": 1707.4,
+    "pontos_ultimos_5": 6,
+    "sequencia": "EDVEE"
+  },
+  {
+    "posicao": 52,
+    "selecao": "Czech Republic",
+    "elo": 1706.7,
+    "pontos_ultimos_5": 0,
+    "sequencia": "DDDDD"
+  },
+  {
+    "posicao": 53,
+    "selecao": "Panama",
+    "elo": 1697.8,
+    "pontos_ultimos_5": 3,
+    "sequencia": "DDEEE"
+  },
+  {
+    "posicao": 54,
+    "selecao": "Kosovo",
+    "elo": 1697.1,
+    "pontos_ultimos_5": 8,
+    "sequencia": "VVDEE"
+  },
+  {
+    "posicao": 55,
+    "selecao": "Mali",
+    "elo": 1690.4,
+    "pontos_ultimos_5": 8,
+    "sequencia": "EDVVE"
+  },
+  {
+    "posicao": 56,
+    "selecao": "Peru",
+    "elo": 1690.3,
+    "pontos_ultimos_5": 1,
+    "sequencia": "DDEDD"
+  },
+  {
+    "posicao": 57,
+    "selecao": "Saudi Arabia",
+    "elo": 1689.4,
+    "pontos_ultimos_5": 13,
+    "sequencia": "VVVEV"
+  },
+  {
+    "posicao": 58,
+    "selecao": "Cameroon",
+    "elo": 1685.5,
+    "pontos_ultimos_5": 10,
+    "sequencia": "DVVEV"
+  },
+  {
+    "posicao": 59,
+    "selecao": "DR Congo",
+    "elo": 1684.1,
+    "pontos_ultimos_5": 7,
+    "sequencia": "DVVDE"
+  },
+  {
+    "posicao": 60,
+    "selecao": "Slovakia",
+    "elo": 1683.9,
+    "pontos_ultimos_5": 11,
+    "sequencia": "EVVEV"
+  },
+  {
+    "posicao": 61,
+    "selecao": "Guernsey",
+    "elo": 1682.2,
+    "pontos_ultimos_5": 9,
+    "sequencia": "DVVDV"
+  },
+  {
+    "posicao": 62,
+    "selecao": "Bosnia and Herzegovina",
+    "elo": 1676.6,
+    "pontos_ultimos_5": 8,
+    "sequencia": "DEVEV"
+  },
+  {
+    "posicao": 63,
+    "selecao": "Wales",
+    "elo": 1676.4,
+    "pontos_ultimos_5": 3,
+    "sequencia": "DDDVD"
+  },
+  {
+    "posicao": 64,
+    "selecao": "South Africa",
+    "elo": 1673.7,
+    "pontos_ultimos_5": 12,
+    "sequencia": "VDVVV"
+  },
+  {
+    "posicao": 65,
+    "selecao": "Catalonia",
+    "elo": 1667.8,
+    "pontos_ultimos_5": 8,
+    "sequencia": "VEDEV"
+  },
+  {
+    "posicao": 66,
+    "selecao": "Northern Cyprus",
+    "elo": 1666.6,
+    "pontos_ultimos_5": 13,
+    "sequencia": "VEVVV"
+  },
+  {
+    "posicao": 67,
+    "selecao": "Iraq",
+    "elo": 1664.6,
+    "pontos_ultimos_5": 4,
+    "sequencia": "DDEVD"
+  },
+  {
+    "posicao": 68,
+    "selecao": "Northern Ireland",
+    "elo": 1662.2,
+    "pontos_ultimos_5": 8,
+    "sequencia": "DVEVE"
+  },
+  {
+    "posicao": 69,
+    "selecao": "Isle of Man",
+    "elo": 1654.6,
+    "pontos_ultimos_5": 12,
+    "sequencia": "VVVDV"
+  },
+  {
+    "posicao": 70,
+    "selecao": "Jordan",
+    "elo": 1654.2,
+    "pontos_ultimos_5": 2,
+    "sequencia": "DDDEE"
+  },
+  {
+    "posicao": 71,
+    "selecao": "Costa Rica",
+    "elo": 1649.4,
+    "pontos_ultimos_5": 6,
+    "sequencia": "DDDVV"
+  },
+  {
+    "posicao": 72,
+    "selecao": "Ynys Môn",
+    "elo": 1648.9,
+    "pontos_ultimos_5": 12,
+    "sequencia": "VVDVV"
+  },
+  {
+    "posicao": 73,
+    "selecao": "Tunisia",
+    "elo": 1645.9,
+    "pontos_ultimos_5": 2,
+    "sequencia": "DDDEE"
+  },
+  {
+    "posicao": 74,
+    "selecao": "Israel",
+    "elo": 1645.0,
+    "pontos_ultimos_5": 5,
+    "sequencia": "VDDEE"
+  },
+  {
+    "posicao": 75,
+    "selecao": "United Arab Emirates",
+    "elo": 1635.8,
+    "pontos_ultimos_5": 10,
+    "sequencia": "VVEVD"
+  },
+  {
+    "posicao": 76,
+    "selecao": "Haiti",
+    "elo": 1635.3,
+    "pontos_ultimos_5": 9,
+    "sequencia": "DVVVD"
+  },
+  {
+    "posicao": 77,
+    "selecao": "Georgia",
+    "elo": 1635.1,
+    "pontos_ultimos_5": 5,
+    "sequencia": "VDEDE"
+  },
+  {
+    "posicao": 78,
+    "selecao": "Burkina Faso",
+    "elo": 1632.8,
+    "pontos_ultimos_5": 5,
+    "sequencia": "DEEVD"
+  },
+  {
+    "posicao": 79,
+    "selecao": "Occitania",
+    "elo": 1630.2,
+    "pontos_ultimos_5": 11,
+    "sequencia": "VEEVV"
+  },
+  {
+    "posicao": 80,
+    "selecao": "New Zealand",
+    "elo": 1627.9,
+    "pontos_ultimos_5": 5,
+    "sequencia": "DEVED"
+  },
+  {
+    "posicao": 81,
+    "selecao": "Bolivia",
+    "elo": 1622.0,
+    "pontos_ultimos_5": 0,
+    "sequencia": "DDDDD"
+  },
+  {
+    "posicao": 82,
+    "selecao": "Padania",
+    "elo": 1621.8,
+    "pontos_ultimos_5": 9,
+    "sequencia": "VDVVD"
+  },
+  {
+    "posicao": 83,
+    "selecao": "Jamaica",
+    "elo": 1620.8,
+    "pontos_ultimos_5": 7,
+    "sequencia": "DVDVE"
+  },
+  {
+    "posicao": 84,
+    "selecao": "Isle of Wight",
+    "elo": 1620.3,
+    "pontos_ultimos_5": 9,
+    "sequencia": "DVVVD"
+  },
+  {
+    "posicao": 85,
+    "selecao": "Iceland",
+    "elo": 1617.0,
+    "pontos_ultimos_5": 8,
+    "sequencia": "DEVVE"
+  },
+  {
+    "posicao": 86,
+    "selecao": "Cape Verde",
+    "elo": 1611.1,
+    "pontos_ultimos_5": 2,
+    "sequencia": "EEDDD"
+  },
+  {
+    "posicao": 87,
+    "selecao": "Andalusia",
+    "elo": 1608.6,
+    "pontos_ultimos_5": 13,
+    "sequencia": "VEVVV"
+  },
+  {
+    "posicao": 88,
+    "selecao": "Romania",
+    "elo": 1603.2,
+    "pontos_ultimos_5": 3,
+    "sequencia": "VDDDD"
+  },
+  {
+    "posicao": 89,
+    "selecao": "Honduras",
+    "elo": 1603.1,
+    "pontos_ultimos_5": 4,
+    "sequencia": "DDVDE"
+  },
+  {
+    "posicao": 90,
+    "selecao": "Albania",
+    "elo": 1601.5,
+    "pontos_ultimos_5": 9,
+    "sequencia": "DVVDV"
+  },
+  {
+    "posicao": 91,
+    "selecao": "Guatemala",
+    "elo": 1595.4,
+    "pontos_ultimos_5": 7,
+    "sequencia": "DDVEV"
+  },
+  {
+    "posicao": 92,
+    "selecao": "Iraqi Kurdistan",
+    "elo": 1592.2,
+    "pontos_ultimos_5": 9,
+    "sequencia": "VVEEE"
+  },
+  {
+    "posicao": 93,
+    "selecao": "Abkhazia",
+    "elo": 1590.5,
+    "pontos_ultimos_5": 9,
+    "sequencia": "VVEEE"
+  },
+  {
+    "posicao": 94,
+    "selecao": "Belarus",
+    "elo": 1590.4,
+    "pontos_ultimos_5": 8,
+    "sequencia": "EDEVV"
+  },
+  {
+    "posicao": 95,
+    "selecao": "Kernow",
+    "elo": 1589.5,
+    "pontos_ultimos_5": 13,
+    "sequencia": "VVEVV"
+  },
+  {
+    "posicao": 96,
+    "selecao": "Angola",
+    "elo": 1579.8,
+    "pontos_ultimos_5": 9,
+    "sequencia": "EEVEV"
+  },
+  {
+    "posicao": 97,
+    "selecao": "Palestine",
+    "elo": 1577.6,
+    "pontos_ultimos_5": 9,
+    "sequencia": "EEEVV"
+  },
+  {
+    "posicao": 98,
+    "selecao": "County of Nice",
+    "elo": 1574.8,
+    "pontos_ultimos_5": 10,
+    "sequencia": "EVVVD"
+  },
+  {
+    "posicao": 99,
+    "selecao": "Ghana",
+    "elo": 1573.1,
+    "pontos_ultimos_5": 1,
+    "sequencia": "EDDDD"
+  },
+  {
+    "posicao": 100,
+    "selecao": "North Macedonia",
+    "elo": 1572.1,
+    "pontos_ultimos_5": 0,
+    "sequencia": "DDDDD"
+  },
+  {
+    "posicao": 101,
+    "selecao": "Rhodes",
+    "elo": 1572.0,
+    "pontos_ultimos_5": 9,
+    "sequencia": "DVVVD"
+  },
+  {
+    "posicao": 102,
+    "selecao": "Qatar",
+    "elo": 1571.7,
+    "pontos_ultimos_5": 8,
+    "sequencia": "DVVEE"
+  },
+  {
+    "posicao": 103,
+    "selecao": "Kárpátalja",
+    "elo": 1571.0,
+    "pontos_ultimos_5": 13,
+    "sequencia": "VVVVE"
+  },
+  {
+    "posicao": 104,
+    "selecao": "Finland",
+    "elo": 1570.2,
+    "pontos_ultimos_5": 7,
+    "sequencia": "DVEVD"
+  },
+  {
+    "posicao": 105,
+    "selecao": "Curaçao",
+    "elo": 1568.6,
+    "pontos_ultimos_5": 10,
+    "sequencia": "DVVVE"
+  },
+  {
+    "posicao": 106,
+    "selecao": "Montenegro",
+    "elo": 1566.7,
+    "pontos_ultimos_5": 11,
+    "sequencia": "EVVVE"
+  },
+  {
+    "posicao": 107,
+    "selecao": "Oman",
+    "elo": 1564.4,
+    "pontos_ultimos_5": 4,
+    "sequencia": "DEDVD"
+  },
+  {
+    "posicao": 108,
+    "selecao": "Corsica",
+    "elo": 1559.9,
+    "pontos_ultimos_5": 9,
+    "sequencia": "EVVEE"
+  },
+  {
+    "posicao": 109,
+    "selecao": "Tamil Eelam",
+    "elo": 1558.4,
+    "pontos_ultimos_5": 15,
+    "sequencia": "VVVVV"
+  },
+  {
+    "posicao": 110,
+    "selecao": "Ellan Vannin",
+    "elo": 1557.8,
+    "pontos_ultimos_5": 10,
+    "sequencia": "EVVVD"
+  },
+  {
+    "posicao": 111,
+    "selecao": "Suriname",
+    "elo": 1557.8,
+    "pontos_ultimos_5": 7,
+    "sequencia": "DVVED"
+  },
+  {
+    "posicao": 112,
+    "selecao": "Réunion",
+    "elo": 1557.7,
+    "pontos_ultimos_5": 6,
+    "sequencia": "EEEVD"
+  },
+  {
+    "posicao": 113,
+    "selecao": "Uganda",
+    "elo": 1553.7,
+    "pontos_ultimos_5": 8,
+    "sequencia": "DEVVE"
+  },
+  {
+    "posicao": 114,
+    "selecao": "Kurdistan",
+    "elo": 1551.9,
+    "pontos_ultimos_5": 13,
+    "sequencia": "VEVVV"
+  },
+  {
+    "posicao": 115,
+    "selecao": "Yorkshire",
+    "elo": 1550.0,
+    "pontos_ultimos_5": 12,
+    "sequencia": "VDVVV"
+  },
+  {
+    "posicao": 116,
+    "selecao": "Syria",
+    "elo": 1549.3,
+    "pontos_ultimos_5": 2,
+    "sequencia": "EDDED"
+  },
+  {
+    "posicao": 117,
+    "selecao": "Benin",
+    "elo": 1543.2,
+    "pontos_ultimos_5": 5,
+    "sequencia": "EDEVD"
+  },
+  {
+    "posicao": 118,
+    "selecao": "Galicia",
+    "elo": 1540.0,
+    "pontos_ultimos_5": 7,
+    "sequencia": "VVDED"
+  },
+  {
+    "posicao": 119,
+    "selecao": "Panjab",
+    "elo": 1539.4,
+    "pontos_ultimos_5": 7,
+    "sequencia": "DVEDV"
+  },
+  {
+    "posicao": 120,
+    "selecao": "Arameans Suryoye",
+    "elo": 1538.2,
+    "pontos_ultimos_5": 10,
+    "sequencia": "VVEDV"
+  },
+  {
+    "posicao": 121,
+    "selecao": "Vietnam",
+    "elo": 1537.6,
+    "pontos_ultimos_5": 9,
+    "sequencia": "VVDVD"
+  },
+  {
+    "posicao": 122,
+    "selecao": "Gambia",
+    "elo": 1536.4,
+    "pontos_ultimos_5": 7,
+    "sequencia": "EDDVV"
+  },
+  {
+    "posicao": 123,
+    "selecao": "Artsakh",
+    "elo": 1536.1,
+    "pontos_ultimos_5": 10,
+    "sequencia": "VDEVV"
+  },
+  {
+    "posicao": 124,
+    "selecao": "Guinea",
+    "elo": 1535.1,
+    "pontos_ultimos_5": 4,
+    "sequencia": "EDDDV"
+  },
+  {
+    "posicao": 125,
+    "selecao": "Zambia",
+    "elo": 1532.1,
+    "pontos_ultimos_5": 4,
+    "sequencia": "EDDDV"
+  },
+  {
+    "posicao": 126,
+    "selecao": "Maule Sur",
+    "elo": 1530.5,
+    "pontos_ultimos_5": 6,
+    "sequencia": "VV"
+  },
+  {
+    "posicao": 127,
+    "selecao": "Cascadia",
+    "elo": 1530.3,
+    "pontos_ultimos_5": 10,
+    "sequencia": "VDVEV"
+  },
+  {
+    "posicao": 128,
+    "selecao": "Gabon",
+    "elo": 1527.8,
+    "pontos_ultimos_5": 4,
+    "sequencia": "DDEDV"
+  },
+  {
+    "posicao": 129,
+    "selecao": "Menorca",
+    "elo": 1526.4,
+    "pontos_ultimos_5": 3,
+    "sequencia": "DVDDD"
+  },
+  {
+    "posicao": 130,
+    "selecao": "Zanzibar",
+    "elo": 1522.4,
+    "pontos_ultimos_5": 10,
+    "sequencia": "EVDVV"
+  },
+  {
+    "posicao": 131,
+    "selecao": "Chameria",
+    "elo": 1520.6,
+    "pontos_ultimos_5": 8,
+    "sequencia": "VEEDV"
+  },
+  {
+    "posicao": 132,
+    "selecao": "Asturias",
+    "elo": 1520.5,
+    "pontos_ultimos_5": 3,
+    "sequencia": "V"
+  },
+  {
+    "posicao": 133,
+    "selecao": "Thailand",
+    "elo": 1520.0,
+    "pontos_ultimos_5": 8,
+    "sequencia": "EVVDE"
+  },
+  {
+    "posicao": 134,
+    "selecao": "Biafra",
+    "elo": 1517.5,
+    "pontos_ultimos_5": 6,
+    "sequencia": "DVV"
+  },
+  {
+    "posicao": 135,
+    "selecao": "Elba Island",
+    "elo": 1517.4,
+    "pontos_ultimos_5": 6,
+    "sequencia": "VV"
+  },
+  {
+    "posicao": 136,
+    "selecao": "Surrey",
+    "elo": 1517.1,
+    "pontos_ultimos_5": 3,
+    "sequencia": "V"
+  },
+  {
+    "posicao": 137,
+    "selecao": "Brittany",
+    "elo": 1515.9,
+    "pontos_ultimos_5": 9,
+    "sequencia": "VDVDV"
+  },
+  {
+    "posicao": 138,
+    "selecao": "Crimea",
+    "elo": 1515.2,
+    "pontos_ultimos_5": 9,
+    "sequencia": "DVVVD"
+  },
+  {
+    "posicao": 139,
+    "selecao": "Malaysia",
+    "elo": 1515.0,
+    "pontos_ultimos_5": 10,
+    "sequencia": "DVEVV"
+  },
+  {
+    "posicao": 140,
+    "selecao": "Canary Islands",
+    "elo": 1513.2,
+    "pontos_ultimos_5": 9,
+    "sequencia": "VVDV"
+  },
+  {
+    "posicao": 141,
+    "selecao": "Donetsk PR",
+    "elo": 1513.2,
+    "pontos_ultimos_5": 8,
+    "sequencia": "DVEEV"
+  },
+  {
+    "posicao": 142,
+    "selecao": "Libya",
+    "elo": 1512.4,
+    "pontos_ultimos_5": 4,
+    "sequencia": "EEEED"
+  },
+  {
+    "posicao": 143,
+    "selecao": "Quebec",
+    "elo": 1512.0,
+    "pontos_ultimos_5": 6,
+    "sequencia": "VVD"
+  },
+  {
+    "posicao": 144,
+    "selecao": "Parishes of Jersey",
+    "elo": 1511.7,
+    "pontos_ultimos_5": 6,
+    "sequencia": "VDV"
+  },
+  {
+    "posicao": 145,
+    "selecao": "Bulgaria",
+    "elo": 1510.6,
+    "pontos_ultimos_5": 5,
+    "sequencia": "EDEDV"
+  },
+  {
+    "posicao": 146,
+    "selecao": "Felvidék",
+    "elo": 1509.2,
+    "pontos_ultimos_5": 9,
+    "sequencia": "VVDDV"
+  },
+  {
+    "posicao": 147,
+    "selecao": "Franconia",
+    "elo": 1508.0,
+    "pontos_ultimos_5": 6,
+    "sequencia": "VDV"
+  },
+  {
+    "posicao": 148,
+    "selecao": "North Korea",
+    "elo": 1504.4,
+    "pontos_ultimos_5": 2,
+    "sequencia": "EDDED"
+  },
+  {
+    "posicao": 149,
+    "selecao": "Sealand",
+    "elo": 1503.6,
+    "pontos_ultimos_5": 11,
+    "sequencia": "VEEVV"
+  },
+  {
+    "posicao": 150,
+    "selecao": "Central Spain",
+    "elo": 1501.1,
+    "pontos_ultimos_5": 3,
+    "sequencia": "DV"
+  },
+  {
+    "posicao": 151,
+    "selecao": "Mapuche",
+    "elo": 1500.7,
+    "pontos_ultimos_5": 3,
+    "sequencia": "DV"
+  },
+  {
+    "posicao": 152,
+    "selecao": "Matabeleland",
+    "elo": 1499.7,
+    "pontos_ultimos_5": 8,
+    "sequencia": "EVEVD"
+  },
+  {
+    "posicao": 153,
+    "selecao": "Guyana",
+    "elo": 1499.0,
+    "pontos_ultimos_5": 15,
+    "sequencia": "VVVVV"
+  },
+  {
+    "posicao": 154,
+    "selecao": "Mozambique",
+    "elo": 1496.7,
+    "pontos_ultimos_5": 4,
+    "sequencia": "DDDEV"
+  },
+  {
+    "posicao": 155,
+    "selecao": "Silesia",
+    "elo": 1496.5,
+    "pontos_ultimos_5": 8,
+    "sequencia": "VDEVE"
+  },
+  {
+    "posicao": 156,
+    "selecao": "Délvidék",
+    "elo": 1495.9,
+    "pontos_ultimos_5": 3,
+    "sequencia": "VD"
+  },
+  {
+    "posicao": 157,
+    "selecao": "New Caledonia",
+    "elo": 1495.5,
+    "pontos_ultimos_5": 3,
+    "sequencia": "DDVDD"
+  },
+  {
+    "posicao": 158,
+    "selecao": "Saugeais",
+    "elo": 1495.0,
+    "pontos_ultimos_5": 1,
+    "sequencia": "E"
+  },
+  {
+    "posicao": 159,
+    "selecao": "United Koreans in Japan",
+    "elo": 1494.9,
+    "pontos_ultimos_5": 6,
+    "sequencia": "EEVDE"
+  },
+  {
+    "posicao": 160,
+    "selecao": "Luhansk PR",
+    "elo": 1490.8,
+    "pontos_ultimos_5": 7,
+    "sequencia": "VDEDV"
+  },
+  {
+    "posicao": 161,
+    "selecao": "Tahiti",
+    "elo": 1488.2,
+    "pontos_ultimos_5": 9,
+    "sequencia": "VVDVD"
+  },
+  {
+    "posicao": 162,
+    "selecao": "Togo",
+    "elo": 1488.0,
+    "pontos_ultimos_5": 10,
+    "sequencia": "VEVVD"
+  },
+  {
+    "posicao": 163,
+    "selecao": "Estonia",
+    "elo": 1487.9,
+    "pontos_ultimos_5": 9,
+    "sequencia": "VEEVE"
+  },
+  {
+    "posicao": 164,
+    "selecao": "Cilento",
+    "elo": 1487.6,
+    "pontos_ultimos_5": 0,
+    "sequencia": "D"
+  },
+  {
+    "posicao": 165,
+    "selecao": "Dominican Republic",
+    "elo": 1487.4,
+    "pontos_ultimos_5": 9,
+    "sequencia": "DVVDV"
+  },
+  {
+    "posicao": 166,
+    "selecao": "Western Armenia",
+    "elo": 1486.5,
+    "pontos_ultimos_5": 5,
+    "sequencia": "DVEED"
+  },
+  {
+    "posicao": 167,
+    "selecao": "Rwanda",
+    "elo": 1485.8,
+    "pontos_ultimos_5": 13,
+    "sequencia": "VVVVE"
+  },
+  {
+    "posicao": 168,
+    "selecao": "Comoros",
+    "elo": 1485.5,
+    "pontos_ultimos_5": 6,
+    "sequencia": "DVDVD"
+  },
+  {
+    "posicao": 169,
+    "selecao": "Monaco",
+    "elo": 1485.3,
+    "pontos_ultimos_5": 7,
+    "sequencia": "DVDVE"
+  },
+  {
+    "posicao": 170,
+    "selecao": "Madrid",
+    "elo": 1485.1,
+    "pontos_ultimos_5": 0,
+    "sequencia": "D"
+  },
+  {
+    "posicao": 171,
+    "selecao": "Somaliland",
+    "elo": 1484.7,
+    "pontos_ultimos_5": 6,
+    "sequencia": "DDVVD"
+  },
+  {
+    "posicao": 172,
+    "selecao": "Ryūkyū",
+    "elo": 1483.6,
+    "pontos_ultimos_5": 0,
+    "sequencia": "D"
+  },
+  {
+    "posicao": 173,
+    "selecao": "Yoruba Nation",
+    "elo": 1483.3,
+    "pontos_ultimos_5": 1,
+    "sequencia": "ED"
+  },
+  {
+    "posicao": 174,
+    "selecao": "South Ossetia",
+    "elo": 1483.2,
+    "pontos_ultimos_5": 8,
+    "sequencia": "EEVVD"
+  },
+  {
+    "posicao": 175,
+    "selecao": "Shetland",
+    "elo": 1482.8,
+    "pontos_ultimos_5": 8,
+    "sequencia": "VVEED"
+  },
+  {
+    "posicao": 176,
+    "selecao": "Greenland",
+    "elo": 1480.2,
+    "pontos_ultimos_5": 6,
+    "sequencia": "DDDVV"
+  },
+  {
+    "posicao": 177,
+    "selecao": "Madagascar",
+    "elo": 1480.1,
+    "pontos_ultimos_5": 5,
+    "sequencia": "VEDDE"
+  },
+  {
+    "posicao": 178,
+    "selecao": "Seborga",
+    "elo": 1480.1,
+    "pontos_ultimos_5": 0,
+    "sequencia": "D"
+  },
+  {
+    "posicao": 179,
+    "selecao": "Åland Islands",
+    "elo": 1479.8,
+    "pontos_ultimos_5": 4,
+    "sequencia": "VDDDE"
+  },
+  {
+    "posicao": 180,
+    "selecao": "West Papua",
+    "elo": 1478.8,
+    "pontos_ultimos_5": 1,
+    "sequencia": "DE"
+  },
+  {
+    "posicao": 181,
+    "selecao": "East Turkestan",
+    "elo": 1478.7,
+    "pontos_ultimos_5": 6,
+    "sequencia": "VDDVD"
+  },
+  {
+    "posicao": 182,
+    "selecao": "Hmong",
+    "elo": 1478.1,
+    "pontos_ultimos_5": 3,
+    "sequencia": "DVD"
+  },
+  {
+    "posicao": 183,
+    "selecao": "Indonesia",
+    "elo": 1476.1,
+    "pontos_ultimos_5": 9,
+    "sequencia": "EVEVE"
+  },
+  {
+    "posicao": 184,
+    "selecao": "China",
+    "elo": 1475.3,
+    "pontos_ultimos_5": 4,
+    "sequencia": "EVDDD"
+  },
+  {
+    "posicao": 185,
+    "selecao": "Niue",
+    "elo": 1475.1,
+    "pontos_ultimos_5": 0,
+    "sequencia": "DD"
+  },
+  {
+    "posicao": 186,
+    "selecao": "Sudan",
+    "elo": 1475.0,
+    "pontos_ultimos_5": 6,
+    "sequencia": "VDDVD"
+  },
+  {
+    "posicao": 187,
+    "selecao": "Zimbabwe",
+    "elo": 1474.7,
+    "pontos_ultimos_5": 9,
+    "sequencia": "VDVVD"
+  },
+  {
+    "posicao": 188,
+    "selecao": "El Salvador",
+    "elo": 1474.5,
+    "pontos_ultimos_5": 5,
+    "sequencia": "EVDDE"
+  },
+  {
+    "posicao": 189,
+    "selecao": "South Yemen",
+    "elo": 1474.1,
+    "pontos_ultimos_5": 0,
+    "sequencia": "DDD"
+  },
+  {
+    "posicao": 190,
+    "selecao": "Chechnya",
+    "elo": 1472.8,
+    "pontos_ultimos_5": 1,
+    "sequencia": "DED"
+  },
+  {
+    "posicao": 191,
+    "selecao": "Kabylia",
+    "elo": 1470.6,
+    "pontos_ultimos_5": 5,
+    "sequencia": "EDEVD"
+  },
+  {
+    "posicao": 192,
+    "selecao": "Mauritania",
+    "elo": 1470.5,
+    "pontos_ultimos_5": 7,
+    "sequencia": "DEVVD"
+  },
+  {
+    "posicao": 193,
+    "selecao": "Romani people",
+    "elo": 1470.3,
+    "pontos_ultimos_5": 3,
+    "sequencia": "DDVDD"
+  },
+  {
+    "posicao": 194,
+    "selecao": "Gozo",
+    "elo": 1470.2,
+    "pontos_ultimos_5": 5,
+    "sequencia": "VDEDE"
+  },
+  {
+    "posicao": 195,
+    "selecao": "Rouet-Provence",
+    "elo": 1469.3,
+    "pontos_ultimos_5": 1,
+    "sequencia": "DDE"
+  },
+  {
+    "posicao": 196,
+    "selecao": "Aymara",
+    "elo": 1468.8,
+    "pontos_ultimos_5": 0,
+    "sequencia": "DD"
+  },
+  {
+    "posicao": 197,
+    "selecao": "Trinidad and Tobago",
+    "elo": 1467.8,
+    "pontos_ultimos_5": 1,
+    "sequencia": "DDDDE"
+  },
+  {
+    "posicao": 198,
+    "selecao": "Republic of St. Pauli",
+    "elo": 1467.5,
+    "pontos_ultimos_5": 4,
+    "sequencia": "EVDD"
+  },
+  {
+    "posicao": 199,
+    "selecao": "Székely Land",
+    "elo": 1466.1,
+    "pontos_ultimos_5": 7,
+    "sequencia": "EDDVV"
+  },
+  {
+    "posicao": 200,
+    "selecao": "North Vietnam",
+    "elo": 1465.7,
+    "pontos_ultimos_5": 7,
+    "sequencia": "VEDDV"
+  },
+  {
+    "posicao": 201,
+    "selecao": "Kenya",
+    "elo": 1463.9,
+    "pontos_ultimos_5": 6,
+    "sequencia": "VEEDE"
+  },
+  {
+    "posicao": 202,
+    "selecao": "Bahrain",
+    "elo": 1463.0,
+    "pontos_ultimos_5": 3,
+    "sequencia": "VDDDD"
+  },
+  {
+    "posicao": 203,
+    "selecao": "Equatorial Guinea",
+    "elo": 1458.8,
+    "pontos_ultimos_5": 7,
+    "sequencia": "VEDDV"
+  },
+  {
+    "posicao": 204,
+    "selecao": "Martinique",
+    "elo": 1457.5,
+    "pontos_ultimos_5": 4,
+    "sequencia": "DDDVE"
+  },
+  {
+    "posicao": 205,
+    "selecao": "Western Isles",
+    "elo": 1457.5,
+    "pontos_ultimos_5": 7,
+    "sequencia": "DVVDE"
+  },
+  {
+    "posicao": 206,
+    "selecao": "Kuwait",
+    "elo": 1456.2,
+    "pontos_ultimos_5": 1,
+    "sequencia": "DEDDD"
+  },
+  {
+    "posicao": 207,
+    "selecao": "Kyrgyzstan",
+    "elo": 1456.0,
+    "pontos_ultimos_5": 8,
+    "sequencia": "DEEVV"
+  },
+  {
+    "posicao": 208,
+    "selecao": "Găgăuzia",
+    "elo": 1454.8,
+    "pontos_ultimos_5": 1,
+    "sequencia": "DDE"
+  },
+  {
+    "posicao": 209,
+    "selecao": "Kazakhstan",
+    "elo": 1454.7,
+    "pontos_ultimos_5": 2,
+    "sequencia": "DEDDE"
+  },
+  {
+    "posicao": 210,
+    "selecao": "Palau",
+    "elo": 1453.1,
+    "pontos_ultimos_5": 0,
+    "sequencia": "DD"
+  },
+  {
+    "posicao": 211,
+    "selecao": "Niger",
+    "elo": 1452.8,
+    "pontos_ultimos_5": 4,
+    "sequencia": "EDVDD"
+  },
+  {
+    "posicao": 212,
+    "selecao": "Canton Ticino",
+    "elo": 1451.6,
+    "pontos_ultimos_5": 3,
+    "sequencia": "DDVDD"
+  },
+  {
+    "posicao": 213,
+    "selecao": "Fiji",
+    "elo": 1451.4,
+    "pontos_ultimos_5": 10,
+    "sequencia": "EDVVV"
+  },
+  {
+    "posicao": 214,
+    "selecao": "Western Sahara",
+    "elo": 1451.3,
+    "pontos_ultimos_5": 6,
+    "sequencia": "VVDDD"
+  },
+  {
+    "posicao": 215,
+    "selecao": "Faroe Islands",
+    "elo": 1449.2,
+    "pontos_ultimos_5": 7,
+    "sequencia": "VEEEE"
+  },
+  {
+    "posicao": 216,
+    "selecao": "Sápmi",
+    "elo": 1448.8,
+    "pontos_ultimos_5": 3,
+    "sequencia": "DDDVD"
+  },
+  {
+    "posicao": 217,
+    "selecao": "Manchukuo",
+    "elo": 1448.3,
+    "pontos_ultimos_5": 0,
+    "sequencia": "DDD"
+  },
+  {
+    "posicao": 218,
+    "selecao": "Vanuatu",
+    "elo": 1446.0,
+    "pontos_ultimos_5": 7,
+    "sequencia": "DVEVD"
+  },
+  {
+    "posicao": 219,
+    "selecao": "Luxembourg",
+    "elo": 1445.8,
+    "pontos_ultimos_5": 6,
+    "sequencia": "VVDDD"
+  },
+  {
+    "posicao": 220,
+    "selecao": "Two Sicilies",
+    "elo": 1445.5,
+    "pontos_ultimos_5": 3,
+    "sequencia": "VDDDD"
+  },
+  {
+    "posicao": 221,
+    "selecao": "Provence",
+    "elo": 1445.4,
+    "pontos_ultimos_5": 6,
+    "sequencia": "DVVDD"
+  },
+  {
+    "posicao": 222,
+    "selecao": "Saint Vincent and the Grenadines",
+    "elo": 1445.3,
+    "pontos_ultimos_5": 15,
+    "sequencia": "VVVVV"
+  },
+  {
+    "posicao": 223,
+    "selecao": "Papua New Guinea",
+    "elo": 1444.1,
+    "pontos_ultimos_5": 5,
+    "sequencia": "EVDDE"
+  },
+  {
+    "posicao": 224,
+    "selecao": "Guadeloupe",
+    "elo": 1443.6,
+    "pontos_ultimos_5": 4,
+    "sequencia": "DVEDD"
+  },
+  {
+    "posicao": 225,
+    "selecao": "Marshall Islands",
+    "elo": 1443.2,
+    "pontos_ultimos_5": 0,
+    "sequencia": "DD"
+  },
+  {
+    "posicao": 226,
+    "selecao": "Botswana",
+    "elo": 1441.5,
+    "pontos_ultimos_5": 5,
+    "sequencia": "DDVEE"
+  },
+  {
+    "posicao": 227,
+    "selecao": "Saarland",
+    "elo": 1440.6,
+    "pontos_ultimos_5": 1,
+    "sequencia": "DDDED"
+  },
+  {
+    "posicao": 228,
+    "selecao": "French Guiana",
+    "elo": 1440.2,
+    "pontos_ultimos_5": 10,
+    "sequencia": "EDVVV"
+  },
+  {
+    "posicao": 229,
+    "selecao": "Mayotte",
+    "elo": 1438.5,
+    "pontos_ultimos_5": 8,
+    "sequencia": "VDVEE"
+  },
+  {
+    "posicao": 230,
+    "selecao": "Burundi",
+    "elo": 1438.2,
+    "pontos_ultimos_5": 7,
+    "sequencia": "VVDDE"
+  },
+  {
+    "posicao": 231,
+    "selecao": "Sark",
+    "elo": 1437.3,
+    "pontos_ultimos_5": 0,
+    "sequencia": "DDDD"
+  },
+  {
+    "posicao": 232,
+    "selecao": "Tajikistan",
+    "elo": 1437.3,
+    "pontos_ultimos_5": 7,
+    "sequencia": "VEDDV"
+  },
+  {
+    "posicao": 233,
+    "selecao": "Lebanon",
+    "elo": 1435.9,
+    "pontos_ultimos_5": 9,
+    "sequencia": "VVDVD"
+  },
+  {
+    "posicao": 234,
+    "selecao": "Namibia",
+    "elo": 1432.7,
+    "pontos_ultimos_5": 4,
+    "sequencia": "DEVDD"
+  },
+  {
+    "posicao": 235,
+    "selecao": "Cyprus",
+    "elo": 1430.7,
+    "pontos_ultimos_5": 10,
+    "sequencia": "VDEVV"
+  },
+  {
+    "posicao": 236,
+    "selecao": "Cuba",
+    "elo": 1430.0,
+    "pontos_ultimos_5": 9,
+    "sequencia": "EVVEE"
+  },
+  {
+    "posicao": 237,
+    "selecao": "Armenia",
+    "elo": 1428.7,
+    "pontos_ultimos_5": 5,
+    "sequencia": "EVDDE"
+  },
+  {
+    "posicao": 238,
+    "selecao": "Azerbaijan",
+    "elo": 1426.7,
+    "pontos_ultimos_5": 11,
+    "sequencia": "VVEEV"
+  },
+  {
+    "posicao": 239,
+    "selecao": "Malawi",
+    "elo": 1425.4,
+    "pontos_ultimos_5": 4,
+    "sequencia": "DDEVD"
+  },
+  {
+    "posicao": 240,
+    "selecao": "Guinea-Bissau",
+    "elo": 1424.8,
+    "pontos_ultimos_5": 7,
+    "sequencia": "DDEVV"
+  },
+  {
+    "posicao": 241,
+    "selecao": "Sierra Leone",
+    "elo": 1423.3,
+    "pontos_ultimos_5": 4,
+    "sequencia": "EVDDD"
+  },
+  {
+    "posicao": 242,
+    "selecao": "Ambazonia",
+    "elo": 1423.2,
+    "pontos_ultimos_5": 0,
+    "sequencia": "DDDDD"
+  },
+  {
+    "posicao": 243,
+    "selecao": "Orkney",
+    "elo": 1423.1,
+    "pontos_ultimos_5": 9,
+    "sequencia": "DVVDV"
+  },
+  {
+    "posicao": 244,
+    "selecao": "Gotland",
+    "elo": 1421.2,
+    "pontos_ultimos_5": 6,
+    "sequencia": "DVVDD"
+  },
+  {
+    "posicao": 245,
+    "selecao": "Solomon Islands",
+    "elo": 1416.0,
+    "pontos_ultimos_5": 6,
+    "sequencia": "DEVEE"
+  },
+  {
+    "posicao": 246,
+    "selecao": "Nicaragua",
+    "elo": 1415.4,
+    "pontos_ultimos_5": 0,
+    "sequencia": "DDDDD"
+  },
+  {
+    "posicao": 247,
+    "selecao": "Vatican City",
+    "elo": 1415.0,
+    "pontos_ultimos_5": 2,
+    "sequencia": "DDEED"
+  },
+  {
+    "posicao": 248,
+    "selecao": "Saint Barthélemy",
+    "elo": 1414.9,
+    "pontos_ultimos_5": 7,
+    "sequencia": "DEVVD"
+  },
+  {
+    "posicao": 249,
+    "selecao": "Micronesia",
+    "elo": 1414.6,
+    "pontos_ultimos_5": 3,
+    "sequencia": "VDDDD"
+  },
+  {
+    "posicao": 250,
+    "selecao": "Ethiopia",
+    "elo": 1411.6,
+    "pontos_ultimos_5": 7,
+    "sequencia": "VVEDD"
+  },
+  {
+    "posicao": 251,
+    "selecao": "Western Australia",
+    "elo": 1411.0,
+    "pontos_ultimos_5": 5,
+    "sequencia": "DEDVE"
+  },
+  {
+    "posicao": 252,
+    "selecao": "Yemen DPR",
+    "elo": 1408.2,
+    "pontos_ultimos_5": 4,
+    "sequencia": "EDDDV"
+  },
+  {
+    "posicao": 253,
+    "selecao": "Malta",
+    "elo": 1406.7,
+    "pontos_ultimos_5": 13,
+    "sequencia": "VVVEV"
+  },
+  {
+    "posicao": 254,
+    "selecao": "Barawa",
+    "elo": 1404.0,
+    "pontos_ultimos_5": 3,
+    "sequencia": "VDDDD"
+  },
+  {
+    "posicao": 255,
+    "selecao": "Darfur",
+    "elo": 1402.1,
+    "pontos_ultimos_5": 0,
+    "sequencia": "DDDDD"
+  },
+  {
+    "posicao": 256,
+    "selecao": "Chagos Islands",
+    "elo": 1401.4,
+    "pontos_ultimos_5": 0,
+    "sequencia": "DDDDD"
+  },
+  {
+    "posicao": 257,
+    "selecao": "Raetia",
+    "elo": 1397.7,
+    "pontos_ultimos_5": 7,
+    "sequencia": "VVDDE"
+  },
+  {
+    "posicao": 258,
+    "selecao": "Vietnam Republic",
+    "elo": 1396.3,
+    "pontos_ultimos_5": 0,
+    "sequencia": "DDDDD"
+  },
+  {
+    "posicao": 259,
+    "selecao": "Turkmenistan",
+    "elo": 1396.2,
+    "pontos_ultimos_5": 12,
+    "sequencia": "VVDVV"
+  },
+  {
+    "posicao": 260,
+    "selecao": "Saint Helena",
+    "elo": 1394.8,
+    "pontos_ultimos_5": 0,
+    "sequencia": "DDDDD"
+  },
+  {
+    "posicao": 261,
+    "selecao": "Saint Pierre and Miquelon",
+    "elo": 1393.4,
+    "pontos_ultimos_5": 0,
+    "sequencia": "DDDDD"
+  },
+  {
+    "posicao": 262,
+    "selecao": "Hitra",
+    "elo": 1391.0,
+    "pontos_ultimos_5": 6,
+    "sequencia": "DDDVV"
+  },
+  {
+    "posicao": 263,
+    "selecao": "Liberia",
+    "elo": 1388.2,
+    "pontos_ultimos_5": 4,
+    "sequencia": "EDVDD"
+  },
+  {
+    "posicao": 264,
+    "selecao": "Lesotho",
+    "elo": 1388.1,
+    "pontos_ultimos_5": 5,
+    "sequencia": "EVEDD"
+  },
+  {
+    "posicao": 265,
+    "selecao": "Tanzania",
+    "elo": 1387.5,
+    "pontos_ultimos_5": 4,
+    "sequencia": "DDVDE"
+  },
+  {
+    "posicao": 266,
+    "selecao": "Puerto Rico",
+    "elo": 1381.2,
+    "pontos_ultimos_5": 9,
+    "sequencia": "DDVVV"
+  },
+  {
+    "posicao": 267,
+    "selecao": "Central African Republic",
+    "elo": 1375.7,
+    "pontos_ultimos_5": 4,
+    "sequencia": "VEDDD"
+  },
+  {
+    "posicao": 268,
+    "selecao": "Moldova",
+    "elo": 1375.1,
+    "pontos_ultimos_5": 5,
+    "sequencia": "EDEVD"
+  },
+  {
+    "posicao": 269,
+    "selecao": "Kiribati",
+    "elo": 1363.8,
+    "pontos_ultimos_5": 0,
+    "sequencia": "DDDDD"
+  },
+  {
+    "posicao": 270,
+    "selecao": "Lithuania",
+    "elo": 1363.2,
+    "pontos_ultimos_5": 7,
+    "sequencia": "DVEVD"
+  },
+  {
+    "posicao": 271,
+    "selecao": "Saare County",
+    "elo": 1360.9,
+    "pontos_ultimos_5": 8,
+    "sequencia": "VDEEV"
+  },
+  {
+    "posicao": 272,
+    "selecao": "Singapore",
+    "elo": 1359.0,
+    "pontos_ultimos_5": 6,
+    "sequencia": "DVDVD"
+  },
+  {
+    "posicao": 273,
+    "selecao": "Congo",
+    "elo": 1353.7,
+    "pontos_ultimos_5": 2,
+    "sequencia": "EDDDE"
+  },
+  {
+    "posicao": 274,
+    "selecao": "Saint Kitts and Nevis",
+    "elo": 1353.2,
+    "pontos_ultimos_5": 11,
+    "sequencia": "VVVEE"
+  },
+  {
+    "posicao": 275,
+    "selecao": "Wallis Islands and Futuna",
+    "elo": 1350.3,
+    "pontos_ultimos_5": 3,
+    "sequencia": "VDDDD"
+  },
+  {
+    "posicao": 276,
+    "selecao": "Montserrat",
+    "elo": 1348.0,
+    "pontos_ultimos_5": 12,
+    "sequencia": "DVVVV"
+  },
+  {
+    "posicao": 277,
+    "selecao": "Yemen",
+    "elo": 1339.8,
+    "pontos_ultimos_5": 7,
+    "sequencia": "VEDDV"
+  },
+  {
+    "posicao": 278,
+    "selecao": "Saint Lucia",
+    "elo": 1338.7,
+    "pontos_ultimos_5": 9,
+    "sequencia": "DDVVV"
+  },
+  {
+    "posicao": 279,
+    "selecao": "Philippines",
+    "elo": 1338.6,
+    "pontos_ultimos_5": 4,
+    "sequencia": "DDDEV"
+  },
+  {
+    "posicao": 280,
+    "selecao": "Hong Kong",
+    "elo": 1336.5,
+    "pontos_ultimos_5": 12,
+    "sequencia": "VDVVV"
+  },
+  {
+    "posicao": 281,
+    "selecao": "Latvia",
+    "elo": 1330.6,
+    "pontos_ultimos_5": 1,
+    "sequencia": "DDEDD"
+  },
+  {
+    "posicao": 282,
+    "selecao": "Saint Martin",
+    "elo": 1328.3,
+    "pontos_ultimos_5": 12,
+    "sequencia": "VVDVV"
+  },
+  {
+    "posicao": 283,
+    "selecao": "Bermuda",
+    "elo": 1318.4,
+    "pontos_ultimos_5": 3,
+    "sequencia": "VDDDD"
+  },
+  {
+    "posicao": 284,
+    "selecao": "Tibet",
+    "elo": 1317.9,
+    "pontos_ultimos_5": 1,
+    "sequencia": "EDDDD"
+  },
+  {
+    "posicao": 285,
+    "selecao": "Samoa",
+    "elo": 1308.4,
+    "pontos_ultimos_5": 6,
+    "sequencia": "VVDDD"
+  },
+  {
+    "posicao": 286,
+    "selecao": "Tuvalu",
+    "elo": 1307.9,
+    "pontos_ultimos_5": 6,
+    "sequencia": "DDDVV"
+  },
+  {
+    "posicao": 287,
+    "selecao": "Eswatini",
+    "elo": 1307.5,
+    "pontos_ultimos_5": 1,
+    "sequencia": "DEDDD"
+  },
+  {
+    "posicao": 288,
+    "selecao": "India",
+    "elo": 1306.6,
+    "pontos_ultimos_5": 2,
+    "sequencia": "DEEDD"
+  },
+  {
+    "posicao": 289,
+    "selecao": "Sint Maarten",
+    "elo": 1306.2,
+    "pontos_ultimos_5": 1,
+    "sequencia": "EDDDD"
+  },
+  {
+    "posicao": 290,
+    "selecao": "Eritrea",
+    "elo": 1298.6,
+    "pontos_ultimos_5": 7,
+    "sequencia": "DVVED"
+  },
+  {
+    "posicao": 291,
+    "selecao": "Falkland Islands",
+    "elo": 1294.8,
+    "pontos_ultimos_5": 1,
+    "sequencia": "DDDDE"
+  },
+  {
+    "posicao": 292,
+    "selecao": "Belize",
+    "elo": 1292.6,
+    "pontos_ultimos_5": 3,
+    "sequencia": "DVDDD"
+  },
+  {
+    "posicao": 293,
+    "selecao": "Grenada",
+    "elo": 1283.1,
+    "pontos_ultimos_5": 3,
+    "sequencia": "DDDVD"
+  },
+  {
+    "posicao": 294,
+    "selecao": "Cook Islands",
+    "elo": 1280.0,
+    "pontos_ultimos_5": 6,
+    "sequencia": "DVDDV"
+  },
+  {
+    "posicao": 295,
+    "selecao": "Frøya",
+    "elo": 1279.9,
+    "pontos_ultimos_5": 3,
+    "sequencia": "VDDDD"
+  },
+  {
+    "posicao": 296,
+    "selecao": "Barbados",
+    "elo": 1279.1,
+    "pontos_ultimos_5": 10,
+    "sequencia": "DVEVV"
+  },
+  {
+    "posicao": 297,
+    "selecao": "South Sudan",
+    "elo": 1277.6,
+    "pontos_ultimos_5": 3,
+    "sequencia": "DVDDD"
+  },
+  {
+    "posicao": 298,
+    "selecao": "Aruba",
+    "elo": 1271.2,
+    "pontos_ultimos_5": 9,
+    "sequencia": "DVVVD"
+  },
+  {
+    "posicao": 299,
+    "selecao": "Chad",
+    "elo": 1267.7,
+    "pontos_ultimos_5": 1,
+    "sequencia": "DDEDD"
+  },
+  {
+    "posicao": 300,
+    "selecao": "Gibraltar",
+    "elo": 1240.7,
+    "pontos_ultimos_5": 9,
+    "sequencia": "VEEEV"
+  },
+  {
+    "posicao": 301,
+    "selecao": "Afghanistan",
+    "elo": 1231.9,
+    "pontos_ultimos_5": 5,
+    "sequencia": "EEVDD"
+  },
+  {
+    "posicao": 302,
+    "selecao": "Antigua and Barbuda",
+    "elo": 1225.6,
+    "pontos_ultimos_5": 9,
+    "sequencia": "DDVVV"
+  },
+  {
+    "posicao": 303,
+    "selecao": "Bonaire",
+    "elo": 1225.1,
+    "pontos_ultimos_5": 3,
+    "sequencia": "DDDDV"
+  },
+  {
+    "posicao": 304,
+    "selecao": "São Tomé and Príncipe",
+    "elo": 1223.9,
+    "pontos_ultimos_5": 4,
+    "sequencia": "DVDDE"
+  },
+  {
+    "posicao": 305,
+    "selecao": "Mauritius",
+    "elo": 1220.9,
+    "pontos_ultimos_5": 6,
+    "sequencia": "EEEVD"
+  },
+  {
+    "posicao": 306,
+    "selecao": "Dominica",
+    "elo": 1212.6,
+    "pontos_ultimos_5": 4,
+    "sequencia": "VEDDD"
+  },
+  {
+    "posicao": 307,
+    "selecao": "Myanmar",
+    "elo": 1211.6,
+    "pontos_ultimos_5": 6,
+    "sequencia": "VDDVD"
+  },
+  {
+    "posicao": 308,
+    "selecao": "Nepal",
+    "elo": 1197.4,
+    "pontos_ultimos_5": 2,
+    "sequencia": "EDDED"
+  },
+  {
+    "posicao": 309,
+    "selecao": "Bangladesh",
+    "elo": 1188.1,
+    "pontos_ultimos_5": 3,
+    "sequencia": "DVDDD"
+  },
+  {
+    "posicao": 310,
+    "selecao": "Tonga",
+    "elo": 1186.6,
+    "pontos_ultimos_5": 6,
+    "sequencia": "VDDVD"
+  },
+  {
+    "posicao": 311,
+    "selecao": "Turks and Caicos Islands",
+    "elo": 1186.4,
+    "pontos_ultimos_5": 9,
+    "sequencia": "VDVVD"
+  },
+  {
+    "posicao": 312,
+    "selecao": "Andorra",
+    "elo": 1184.2,
+    "pontos_ultimos_5": 1,
+    "sequencia": "DDEDD"
+  },
+  {
+    "posicao": 313,
+    "selecao": "Taiwan",
+    "elo": 1180.0,
+    "pontos_ultimos_5": 0,
+    "sequencia": "DDDDD"
+  },
+  {
+    "posicao": 314,
+    "selecao": "Pakistan",
+    "elo": 1164.1,
+    "pontos_ultimos_5": 7,
+    "sequencia": "VVDED"
+  },
+  {
+    "posicao": 315,
+    "selecao": "Djibouti",
+    "elo": 1161.9,
+    "pontos_ultimos_5": 3,
+    "sequencia": "DDDDV"
+  },
+  {
+    "posicao": 316,
+    "selecao": "Cayman Islands",
+    "elo": 1159.4,
+    "pontos_ultimos_5": 1,
+    "sequencia": "DEDDD"
+  },
+  {
+    "posicao": 317,
+    "selecao": "Sri Lanka",
+    "elo": 1153.8,
+    "pontos_ultimos_5": 9,
+    "sequencia": "DVVDV"
+  },
+  {
+    "posicao": 318,
+    "selecao": "Somalia",
+    "elo": 1150.5,
+    "pontos_ultimos_5": 3,
+    "sequencia": "EEEDD"
+  },
+  {
+    "posicao": 319,
+    "selecao": "Cambodia",
+    "elo": 1145.2,
+    "pontos_ultimos_5": 7,
+    "sequencia": "VDVED"
+  },
+  {
+    "posicao": 320,
+    "selecao": "Alderney",
+    "elo": 1144.8,
+    "pontos_ultimos_5": 3,
+    "sequencia": "DDVDD"
+  },
+  {
+    "posicao": 321,
+    "selecao": "Northern Mariana Islands",
+    "elo": 1143.8,
+    "pontos_ultimos_5": 7,
+    "sequencia": "DVDEV"
+  },
+  {
+    "posicao": 322,
+    "selecao": "United States Virgin Islands",
+    "elo": 1137.3,
+    "pontos_ultimos_5": 9,
+    "sequencia": "VDVVD"
+  },
+  {
+    "posicao": 323,
+    "selecao": "American Samoa",
+    "elo": 1120.5,
+    "pontos_ultimos_5": 0,
+    "sequencia": "DDDDD"
+  },
+  {
+    "posicao": 324,
+    "selecao": "British Virgin Islands",
+    "elo": 1117.4,
+    "pontos_ultimos_5": 3,
+    "sequencia": "VDDDD"
+  },
+  {
+    "posicao": 325,
+    "selecao": "Guam",
+    "elo": 1094.4,
+    "pontos_ultimos_5": 3,
+    "sequencia": "DDVDD"
+  },
+  {
+    "posicao": 326,
+    "selecao": "Mongolia",
+    "elo": 1092.0,
+    "pontos_ultimos_5": 3,
+    "sequencia": "VDDDD"
+  },
+  {
+    "posicao": 327,
+    "selecao": "Maldives",
+    "elo": 1089.9,
+    "pontos_ultimos_5": 0,
+    "sequencia": "DDDDD"
+  },
+  {
+    "posicao": 328,
+    "selecao": "Bahamas",
+    "elo": 1089.8,
+    "pontos_ultimos_5": 0,
+    "sequencia": "DDDDD"
+  },
+  {
+    "posicao": 329,
+    "selecao": "Liechtenstein",
+    "elo": 1088.0,
+    "pontos_ultimos_5": 1,
+    "sequencia": "DDDED"
+  },
+  {
+    "posicao": 330,
+    "selecao": "Seychelles",
+    "elo": 1065.0,
+    "pontos_ultimos_5": 1,
+    "sequencia": "DEDDD"
+  },
+  {
+    "posicao": 331,
+    "selecao": "Laos",
+    "elo": 1041.1,
+    "pontos_ultimos_5": 3,
+    "sequencia": "DDDVD"
+  },
+  {
+    "posicao": 332,
+    "selecao": "Anguilla",
+    "elo": 1027.3,
+    "pontos_ultimos_5": 0,
+    "sequencia": "DDDDD"
+  },
+  {
+    "posicao": 333,
+    "selecao": "Brunei",
+    "elo": 1005.3,
+    "pontos_ultimos_5": 0,
+    "sequencia": "DDDDD"
+  },
+  {
+    "posicao": 334,
+    "selecao": "Timor-Leste",
+    "elo": 1001.6,
+    "pontos_ultimos_5": 1,
+    "sequencia": "DDDDE"
+  },
+  {
+    "posicao": 335,
+    "selecao": "San Marino",
+    "elo": 993.4,
+    "pontos_ultimos_5": 0,
+    "sequencia": "DDDDD"
+  },
+  {
+    "posicao": 336,
+    "selecao": "Macau",
+    "elo": 977.7,
+    "pontos_ultimos_5": 0,
+    "sequencia": "DDDDD"
+  },
+  {
+    "posicao": 337,
+    "selecao": "Bhutan",
+    "elo": 975.3,
+    "pontos_ultimos_5": 0,
+    "sequencia": "DDDDD"
+  }
+]
